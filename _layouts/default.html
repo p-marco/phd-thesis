@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %} {{ site.title }}{% endif %}</title>
         <meta name="viewport" content="width=device-width">
-        
+
         <link rel="stylesheet" href="assets/style.css">
     </head>
 
@@ -23,7 +23,7 @@
 
             <div class="post-content p-1em" lang="en">
 
-                {% content %}
+                {{ content }}
 
             </div>
 
