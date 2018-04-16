@@ -1,1 +1,59 @@
-theme: jekyll-theme-minimal
+title : marcopetolicchio.com/phd-thesis
+baseurl: "http://marcopetolicchio.com/phd-thesis"
+description: "Linguist & tech enthusiast"
+feed-description: "RSS Feeds for the website"
+copyright: "2018"
+markdown: kramdown
+
+greeting: "Hello, I am Marco."
+headline: "Linguist & tech enthusiast."
+
+
+image: /assets/img/og-image.png
+
+author :
+  name : Marco Petolicchio
+  headline: Linguist & tech enthusiast
+  image: assets/img/pic-72.jpg
+  avatar: 
+    src : assets/img/avatar.jpg
+    srcset : 
+      - assets/img/avatar-1x.jpg
+      - assets/img/avatar-2x.jpg
+      - assets/img/avatar-3x.jpg
+      - assets/img/avatar-4x.jpg
+
+
+# Sass settings
+sass:
+  sass_dir: assets/css
+  style: compressed
+
+# Set collections
+collections:
+  activity:
+    output : true
+    title : News & Events 
+  research:
+    output : true
+    title : Research activity 
+    layout: default
+  projects :
+    output : true
+    title : Projects 
+  teaching :
+    output : true
+    title : Course materials 
+plugins:
+  - jekyll-sitemap
+
+lang: en
+
+
+# Manifest settings (Used to make manifest.json)
+# Edit manifest.json directly with icon information
+manifest_name: marcopetolicchio.com
+manifest_short_name: "marcopetolicchio.com" # Appears in "Add to home screen" dialogues
+manifest_lang: en
+manifest_background_color: white
+manifest_display: standalone
