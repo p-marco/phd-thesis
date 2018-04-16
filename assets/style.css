@@ -231,7 +231,10 @@ main {
     margin:0 auto;
     max-width: 1366px;
 }
-
+.post-content{
+  padding-left:1rem;
+  padding-right:1rem;
+}
 .post-content p {
     font-family: 'IBM Plex Serif', serif;
     font-size: 1.25rem;
