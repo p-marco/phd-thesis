@@ -51,5 +51,4 @@ manifest_display: standalone
 
 
 layout_defaults:
-  -
-  layout: default.html
+  - layout: default.html
