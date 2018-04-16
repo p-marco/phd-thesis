@@ -262,3 +262,10 @@ html, body{
   text-decoration: none;
   color: inherit;
 }
+
+header, 
+main,
+aside {
+  padding-top: 3rem;
+  padding-bottom: 3rem
+}
