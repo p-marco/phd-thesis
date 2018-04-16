@@ -51,4 +51,4 @@ manifest_display: standalone
 
 
 layout_defaults:
-    *: default
+  * : default
