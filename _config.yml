@@ -31,19 +31,9 @@ sass:
 
 # Set collections
 collections:
-  activity:
+  partials:
     output : true
-    title : News & Events 
-  research:
-    output : true
-    title : Research activity 
-    layout: default
-  projects :
-    output : true
-    title : Projects 
-  teaching :
-    output : true
-    title : Course materials 
+    title : Table of Contents 
 plugins:
   - jekyll-sitemap
 

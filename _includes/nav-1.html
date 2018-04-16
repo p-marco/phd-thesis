@@ -1,12 +1,6 @@
 <div class="social p-1em">
     <h3>Table of Contents</h3>
-    <p>Abstract </p>
-    <p>Chapter 1</p>
-    <p>Chapter 2</p>
-    <p>Chapter 3</p>
-    <p>Chapter 4</p>
-    <p>Chapter 5</p>
-    <p>Conclusion</p>
-    <p>References</p>
-    <p>Akwnoledges</p>
+    {% for item in site.partials %}
+        <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+    {% endfor %}
 </div> 
