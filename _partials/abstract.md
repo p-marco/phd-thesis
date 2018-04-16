@@ -1,5 +1,6 @@
 ---
 title: Abstract
+layout: default
 ---
 # Abstract
 
