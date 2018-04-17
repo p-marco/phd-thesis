@@ -271,3 +271,9 @@ aside {
   padding-left:1rem;
   padding-right:1rem;
 }
+
+.no-listItems{
+  margin:0;
+  padding:0;
+  list-style-type: none;
+}
