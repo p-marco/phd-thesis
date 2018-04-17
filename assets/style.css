@@ -315,5 +315,8 @@ aside {
 }
 
 .post-content h2:before , .no-listItems ul > li:before {
+  counter-increment: subsection;
   content:  counter(section) ". "  counter(subsection) " ";
 }
+
+
