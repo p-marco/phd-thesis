@@ -278,11 +278,11 @@ aside {
   list-style-type: none;
 }
 
-ul  ul {
+.no-listItems li ul {
   padding-left: 1rem;
 }
 
 
-ul  ul  ul  {
+.no-listItems li ul  li ul  {
   padding-left: 2rem;
 }
