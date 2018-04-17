@@ -298,18 +298,6 @@ aside {
 }
 
 
-.no-listItems {
-    counter-reset: item
-}
-.no-listItems li {
-    display: block
-}
-.no-listItems li:before {
-    content: counters(item, ".")" ";
-    counter-increment: item
-}
-
-
 
 
 
