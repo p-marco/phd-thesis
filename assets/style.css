@@ -231,10 +231,7 @@ main {
     margin:0 auto;
     max-width: 1366px;
 }
-.page{
-  padding-left:1rem;
-  padding-right:1rem;
-}
+
 .post-content p {
     font-family: 'IBM Plex Serif', serif;
     font-size: 1.25rem;
@@ -268,4 +265,9 @@ main,
 aside {
   padding-top: 3rem;
   padding-bottom: 3rem
+}
+
+.content-wrapper{
+  padding-left:1rem;
+  padding-right:1rem;
 }
