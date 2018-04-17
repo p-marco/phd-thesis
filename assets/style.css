@@ -278,11 +278,12 @@ aside {
   list-style-type: none;
 }
 
-.no-listItems li ul {
-  padding-left: 1rem;
+
+.no-listItems > li {
+  font-variant: small-caps
 }
 
-
-.no-listItems li ul  li ul  {
-  padding-left: 2rem;
+.no-listItems a {
+  color: inherit;
+  text-decoration:none;
 }
