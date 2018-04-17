@@ -3,5 +3,6 @@
     <p><a href="{{ site.baseurl }}">Homepage</a></p>
     {% for item in site.partials %}
         <p><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></p>
+        {% include toc.html html=content %}
     {% endfor %}
 </div> 
