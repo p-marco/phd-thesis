@@ -308,3 +308,24 @@ aside {
     content: counters(item, ".")" ";
     counter-increment: item
 }
+
+
+
+
+
+.post-content, .no-listItems {
+  counter-reset: section;
+}
+
+.post-content h1, .no-listItems ul > li {
+  counter-reset: subsection;
+}
+
+.post-content h1:before , .no-listItems ul > li:before {
+  counter-increment: section;
+  content: "Chapter"  counter(section) ". ";
+}
+
+.post-content h2:before , .no-listItems ul > li > ul li:before {
+  content:  counter(section) ". "  counter(subsection) " ";
+}
