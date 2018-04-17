@@ -279,9 +279,18 @@ aside {
 }
 
 
-.no-listItems > li {
-  font-variant: small-caps
+.no-listItems > li > a {
+  font-variant: small-caps;
+  font-weight: 700;
+  line-height: 3;
 }
+
+.no-listItems > li > ul > li > a {
+  font-weight: 700;
+  
+}
+
+
 
 .no-listItems a {
   color: inherit;
