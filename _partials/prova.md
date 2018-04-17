@@ -1,7 +1,7 @@
 ---
 title: Prova
 layout: default
-date: 2018-04-17T09:00:00Z
+date: 2018-04-17
 ---
 
 # Prova 1
