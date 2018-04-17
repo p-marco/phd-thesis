@@ -305,15 +305,15 @@ aside {
   counter-reset: section;
 }
 
-.post-content h1, .no-listItems ul > li {
+.post-content h1, .no-listItems ul  {
   counter-reset: subsection;
 }
 
-.post-content h1:before , .no-listItems ul > li:before {
+.post-content h1:before , .no-listItems ul:before {
   counter-increment: section;
-  content: "Chapter"  counter(section) ". ";
+  content: "Chapter "  counter(section) ". ";
 }
 
-.post-content h2:before , .no-listItems ul > li > ul li:before {
+.post-content h2:before , .no-listItems ul > li:before {
   content:  counter(section) ". "  counter(subsection) " ";
 }
