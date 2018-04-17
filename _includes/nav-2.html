@@ -1,6 +1,8 @@
 <div class="summary p-1em">
     <div class="content-wrapper">
-        <h3>Table of Contents </h3>
-        {% include toc.html class="no-listItems" html=content %}
+        {% if page.toc != "false" %}
+            <h3>Table of Contents </h3>
+            {% include toc.html class="no-listItems" html=content %}
+        {% endif %}
     </div>
 </div>

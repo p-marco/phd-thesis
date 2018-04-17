@@ -1,3 +1,8 @@
+---
+title: Homepage
+toc: false
+---
+
 # Welcome to my Ph.D. Thesis
 
 This page is a web-visual outcome of the markdown written files for the thesis which will be processed with LaTeX engine.
