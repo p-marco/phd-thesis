@@ -301,22 +301,57 @@ aside {
 
 
 
-.post-content, .no-listItems {
+
+
+.post-content {
   counter-reset: section;
 }
-
-.post-content h1, .no-listItems ul  {
+.post-content h1 {
   counter-reset: subsection;
 }
 
-.post-content h1:before , .no-listItems ul:before {
+.post-content h2 {
+  counter-reset: subsubsection;
+}
+
+.post-content h3 {
+  counter-reset: subsubsubsection;
+}
+
+.post-content h4 {
+  counter-reset: subsubsubsubsection;
+}
+.post-content h5 {
+  counter-reset: subsubsubsubsubsection;
+}
+
+
+
+.post-content h1:before{
   counter-increment: section;
   content: "Chapter "  counter(section) ". ";
 }
 
-.post-content h2:before , .no-listItems ul > li:before {
+.post-content h2:before  {
   counter-increment: subsection;
-  content:  counter(section) ". "  counter(subsection) " ";
+  content:  counter(section) "."  counter(subsection) " ";
 }
 
+.post-content h3:before  {
+  counter-increment: subsubsection;
+  content:  counter(section) "."  counter(subsection) "." counter(subsubsection) " ";
+}
 
+.post-content h4:before  {
+  counter-increment: subsubsubsection;
+  content:  counter(section) "."  counter(subsection) "." counter(subsubsection) "." counter(subsubsubsection) " ";
+}
+
+.post-content h5:before  {
+  counter-increment: subsubsubsubsection;
+  content:  counter(section) "."  counter(subsection) "." counter(subsubsection) "." counter(subsubsubsection) "." counter(subsubsubsubsection) " ";
+}
+.post-content h6:before  {
+  counter-increment: subsubsubsubsubsection;
+  content:  counter(section) "."  counter(subsection) "." counter(subsubsection) "." counter(subsubsubsection) "." counter(subsubsubsubsection) "." counter(subsubsubsubsubsection) ".";
+}
