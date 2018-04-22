@@ -1,0 +1,34 @@
+--- 
+title: "Second Language Acquisition: a corpus-based approach for a theoretical investigation"
+author: "Marco Petolicchio"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: scrbook
+classoption: [a4paper,twoside,11pt,chapterprefix=true,listof=totocnumbered, bibliography=totocnumbered]
+bibliography: [bibliography.bib]
+biblio-style: apa
+link-citations: yes
+github-repo: p-marco.github.io/phd-thesis
+description: "My PhD thesis"
+always_allow_html: yes
+---
+
+# Frontmatter {-}
+
+## Abstract {-}
+
+The aim of the present PhD research is to analyse in a coherent way the learning path displayed by Czech learners acquiring the Italian Language, basing on the evidences which result from the independent linguistic corpus [Czech-IT!](http://czech-it.github.io).
+This study grows up from the researches in Second Language Acquisition and wishes to retrieve data from applied fields turning them into theoretic and formal questions in general linguistics.
+
+### Keywords {-}
+
+* Computational Linguistics
+* Syntax
+* Second Language Acquisition
+* Italian L2
+* Corpus Linguistics
+
+
+## Roadmap {-}
+

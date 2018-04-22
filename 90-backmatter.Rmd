@@ -1,0 +1,41 @@
+# Backmatter {-}
+
+  
+  \listoffigures
+ 
+  \listoftables
+
+  \lstlistoflistings
+
+## Credits {-}
+
+
+
+This project is constituted by files written in Markdown syntax and exported either as a standalone website both as printer-ready product.
+This is due to the awesome work of the people behind different libraries:
+
+* [Pandoc](https://bookdown.org)
+* [Bookdown](https://bookdown.org) 
+* [RMarkdown](https://bookdown.org) and [R](https://bookdown.org) environment.
+
+As well, for the computational infrastructure, a lot of open source tools have been used:
+
+* [NLTK](https://bookdown.org)
+
+For the typographic setting, the print-ready file is composed on LaTeX with the usage of SCRBOOK class and some custom component. I am aware I can't thank everyone on the web about that. By the way, thank you!
+
+
+
+
+## About the author {-}
+
+I am a Graduate Researcher involved in a Ph.D. Program in Italian Linguistics at the Department of Romance Studies in the Faculty of Phylosophy at Palacky University in Olomouc, Czech Republic.
+
+My interests span across digital humanities, syntax theories and computational linguistics.
+
+Feel free to write me at marco.petolicchio@gmail.com or visit marcopetolicchio.com for the detailed contact list.
+
+
+
+# References {-}
+
