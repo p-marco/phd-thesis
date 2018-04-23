@@ -1,5 +1,7 @@
 bookdown::gitbook:
+  split_by: chapter
   includes:
+    in_header: hypothesis.html
     after_body: disqus.html
   css: style.css
   config:
@@ -7,12 +9,14 @@ bookdown::gitbook:
       before: |
         <li><a href="./">SLA: a corpus-based approach for a theoretical investigation</a></li>
       after: 
-    edit: https://github.com/p-marco/phd-thesis/%s
-    download: ["pdf", "epub"]
+    edit: https://github.com/p-marco/phd-thesis/edit/master/%s
+    download: ["pdf", "docx", "epub", "tex" ]
 bookdown::pdf_book:
   template: null
   includes: 
     in_header: preamble.tex
+    before_body: titlepage.tex
+    after_body: lists.tex
   latex_engine: xelatex
   citation_package: natbib
   keep_tex: yes

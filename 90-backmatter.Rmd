@@ -1,13 +1,7 @@
-# Backmatter {-}
+# Backmatter 
 
-  
-  \listoffigures
- 
-  \listoftables
 
-  \lstlistoflistings
-
-## Credits {-}
+## Credits
 
 
 
@@ -27,7 +21,7 @@ For the typographic setting, the print-ready file is composed on LaTeX with the 
 
 
 
-## About the author {-}
+## About the author
 
 I am a Graduate Researcher involved in a Ph.D. Program in Italian Linguistics at the Department of Romance Studies in the Faculty of Phylosophy at Palacky University in Olomouc, Czech Republic.
 
@@ -36,6 +30,4 @@ My interests span across digital humanities, syntax theories and computational l
 Feel free to write me at marco.petolicchio@gmail.com or visit marcopetolicchio.com for the detailed contact list.
 
 
-
-# References {-}
 

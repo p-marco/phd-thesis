@@ -182,6 +182,10 @@ footskip=11mm, vmarginratio=1:1]{geometry}
 }
 
 
+
+\let\oldmaketitle\maketitle
+\AtBeginDocument{\let\maketitle\relax}
+
 \usepackage[autostyle]{csquotes}  
 \usepackage{enumerate}
 \usepackage{gb4e}

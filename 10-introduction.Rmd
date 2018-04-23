@@ -2,7 +2,6 @@
 
 
 
-## Motivations 
 
 The main idea under this PhD proposal moves across the idea of an empirically-grounded research to investigate the strategies of the learners during the acquisition of the second languages. My task is twofold: on one side this provide for the developing of a  theoretically-grounded framework to research in the fields of Second Language Acquisition (SLA), while on the other this necessitate to realize a linguistic corpus which collect in a coherent fashion a wide set of data and facts in order to give a transparent documentation of the learning path. At the current date, the corpus is actively mantained online under the name "Czech-IT!" and counts 220 items by more than 50 learners [@czech-it].
 In this order of ideas, the project is focused around the analysis of Czech and Slovak learners which acquire the Italian language as L2.
@@ -16,25 +15,14 @@ This kind of research is intimately twofold in nature and embraces differences a
 
 
 
-## Roadmap 
-
-
-
-The first year is dedicated to the setting-up of the corpus, with the starting operations to acquire the data and elaborate a coherent way to annotate the texts with a standard schema. During the second year the corpus is planned to grow up in order to reach a significance level of >15000 words in order to provide quantitative analyses.
-Third and fourth year will be spent in developing the theoretical analyses and refining the informatic architecture of the project, evolving in a user-friendly and interrogable way to dispense the data.  The theoretical outcome constitues the main topic of the research.
 
 
 
 
 
+## The empirical ground
 
 
-
-## The corpus
-
-
-
-### Learner corpus as dataset
 
 
 
@@ -74,7 +62,7 @@ At the present date, there are 220 entries in the corpus, which reveal a large r
 
 
 
-## The theory 
+## The theoretical framework 
 
 
 ### Variation in grammar
@@ -92,7 +80,11 @@ During the last 20 years, a considerable part of linguistic literature is involv
 Studies on SLA is a fertile field, which relies on comparative and contrastive analyses of linguistic phenomena, either both from an applied view [@ellis_study_101] than by theoretically grounded perspective focused on Generative framework (GenSLA) [@guasti2002, @rothman_slabakova_2017, @hawkins2001, @sorace2011pinning]. 
 In this sense appears that the adoption of a coherent model to analyze the variation in gramar in parametric model can be suitable for long-standing researches on SLA and interlanguage, also based on independent data-mining initiatives as in the case of the present purposes, which disentangles the data in a form of a linguistic corpus and the linguistic analysis.
 
-## Conclusion
+
+
+## Models and methods
+
+[compLing]
 
 A similar project aims to show an affordable platform for linguistic  data-based researches.
 
@@ -104,3 +96,13 @@ The theoretical model established relies on generative studies to language, appl
 
 
 
+## Structure of the project
+
+### Roadmap
+
+
+The first year is dedicated to the setting-up of the corpus, with the starting operations to acquire the data and elaborate a coherent way to annotate the texts with a standard schema. During the second year the corpus is planned to grow up for reach a significance level of >15000 words in order to provide quantitative analyses.
+Third and fourth year will be spent in developing the theoretical analyses and refining the informatic architecture of the project, evolving in a user-friendly and interrogable way to dispense the data.  The theoretical outcome constitues the main topic of the research.
+
+### Thesis structure
+here at last.
