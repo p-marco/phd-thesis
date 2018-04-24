@@ -15,8 +15,7 @@ bookdown::pdf_book:
   template: null
   includes: 
     in_header: preamble.tex
-    before_body: titlepage.tex
-    after_body: lists.tex
+    before_body: frontmatter.tex
   latex_engine: xelatex
   citation_package: natbib
   keep_tex: yes

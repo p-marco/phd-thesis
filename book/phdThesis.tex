@@ -1,4 +1,4 @@
-\documentclass[a4paper,twoside,11pt,chapterprefix=true,listof=totocnumbered,bibliography=totocnumbered]{scrbook}
+\documentclass[a4paper,twoside,11pt,chapterprefix=false,bibliography=totocnumbered]{scrbook}
 \usepackage{lmodern}
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
@@ -84,11 +84,17 @@ footskip=11mm, vmarginratio=1:1]{geometry}
 \definecolor{upol-brandBlue}{rgb}{0,0.43529411764,0.67843137254}
 
 
-
-
+\usepackage{xcolor}
 \usepackage{graphicx}
+\definecolor{titlepagecolor}{cmyk}{1,.38,0,.15} %C100 M38 Y0 K15
+\definecolor{namecolor}{cmyk}{0, 0, 0, .0980} 
+\usepackage{textcase}
+
 
 \usepackage{setspace}
+
+\makeatletter\let\Title\@title\makeatother
+\makeatletter\let\Author\@author\makeatother
 
 
 
@@ -242,7 +248,7 @@ footskip=11mm, vmarginratio=1:1]{geometry}
 	xleftmargin=3em,framexleftmargin=3em, numberstyle=\ttfamily,
 }
 
-
+\usepackage{datetime}
 
 \let\oldmaketitle\maketitle
 \AtBeginDocument{\let\maketitle\relax}
@@ -274,12 +280,49 @@ investigation}
 \begin{document}
 \maketitle
 
-\includepdf{frontmatter.pdf}
+\begin{titlepage}
+\pagecolor{titlepagecolor}
+\noindent
+\color{white}
+\makebox[0pt][l]{\rule{1.4\textwidth}{1pt}}
+\par
+\noindent
+\textbf{\sffamily{Palacký University}} \textcolor{namecolor}{\sffamily{ Olomouc}}\par \vskip\baselineskip 
+\noindent\sffamily{Ph.D. Thesis in Italian Linguistics} \\
+\noindent\sffamily{Dept. of Romance Languages, Faculty of Arts} \par
+
+\vfill
+
+\noindent
+{\Huge \sffamily{Second Language Acquisition: \\ 
+a corpus based approach \\ 
+for a theoretical investigation
+
+}} \par
+\vskip\baselineskip
+\noindent
+\MakeTextUppercase{\large\sffamily{Marco Petolicchio}} \par \vskip\baselineskip
+\noindent
+\vfill
+\noindent
+{\Large \sffamily{Supervisors}}\par \vskip\baselineskip
+\noindent
+\sffamily{\MakeTextUppercase{Dr. Lorem Ipsum} \\ Palacký University \\ \textcolor{namecolor}{Dept. of Romance Languages, Faculty of Arts} }\par \vskip\baselineskip
+\noindent
+\sffamily{\MakeTextUppercase{Prof. Dolorem Sit Amet} \\ University of Lorem\\ \textcolor{namecolor}{Dept. of Lorem Ipsum, Faculty of Humanities} }\par \vskip\baselineskip
+\vfill
+ {\footnotesize   \ttfamily{draft : : \today   : :  \currenttime} \par}
+
+\end{titlepage}
+\nopagecolor% Use this to restore the color pages to white
+\pagecolor{white}
 
 {
 \setcounter{tocdepth}{1}
 \tableofcontents
 }
+\listoftables
+\listoffigures
 \chapter{Preface}\label{preface}
 
 \section{Abstract}\label{abstract}
@@ -310,10 +353,11 @@ and formal questions in general linguistics.
 
 \chapter{Introduction}\label{introduction}
 
-The main idea under this PhD proposal moves across the idea of an
+The main idea under this PhD proposal moves across the motivation of an
 empirically-grounded research to investigate the strategies of the
-learners during the acquisition of the second languages. My task is
-twofold: on one side this provide for the developing of a
+learners during the acquisition of the second languages.
+
+My task is twofold: on one side this provide for the developing of a
 theoretically-grounded framework to research in the fields of Second
 Language Acquisition (SLA), while on the other this necessitate to
 realize a linguistic corpus which collect in a coherent fashion a wide
@@ -553,18 +597,5 @@ Feel free to write me at
 or visit marcopetolicchio.com for the detailed contact list.
 
 \bibliography{bibliography.bib}
-
-\listoftables
-\listoffigures
-
-
-\clearpage
-\chapter*{Timestamp}
-\vfill
-\begin{center}
-
-Printed on: \today
-
-\end{center}
 
 \end{document}

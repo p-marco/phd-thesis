@@ -5,7 +5,7 @@ This is the repository of my ongoing Ph.D. thesis, which focuses on the analysis
 You can browse the project in different ways: 
 
 * By an online interface [HERE](http://marcopetolicchio.com/phd-thesis/book/)
-* Using the LaTeX generated pdf [HERE](http://marcopetolicchio.com/phd-thesis/book/phdThesis.pdf)
+* Using the PDF generated file [HERE](http://marcopetolicchio.com/phd-thesis/book/phdThesis.pdf)
 * Using the LaTeX source code [HERE](http://marcopetolicchio.com/phd-thesis/book/phdThesis.tex)
 * Using the MS Word DOCX file [HERE](http://marcopetolicchio.com/phd-thesis/book/phdThesis.docx)
 * By the EPUB output format [HERE](http://marcopetolicchio.com/phd-thesis/book/phdThesis.epub)

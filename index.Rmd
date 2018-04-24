@@ -5,7 +5,9 @@ date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: scrbook
-classoption: [a4paper,twoside,11pt,chapterprefix=true,listof=totocnumbered, bibliography=totocnumbered]
+lot: yes
+lof: yes
+classoption: [a4paper,twoside,11pt,chapterprefix=false, bibliography=totocnumbered]
 bibliography: [bibliography.bib]
 biblio-style: apa
 link-citations: yes

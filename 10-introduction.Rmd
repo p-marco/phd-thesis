@@ -3,7 +3,9 @@
 
 
 
-The main idea under this PhD proposal moves across the idea of an empirically-grounded research to investigate the strategies of the learners during the acquisition of the second languages. My task is twofold: on one side this provide for the developing of a  theoretically-grounded framework to research in the fields of Second Language Acquisition (SLA), while on the other this necessitate to realize a linguistic corpus which collect in a coherent fashion a wide set of data and facts in order to give a transparent documentation of the learning path. At the current date, the corpus is actively mantained online under the name "Czech-IT!" and counts 220 items by more than 50 learners [@czech-it].
+The main idea under this PhD proposal moves across the motivation of an empirically-grounded research to investigate the strategies of the learners during the acquisition of the second languages. 
+
+My task is twofold: on one side this provide for the developing of a  theoretically-grounded framework to research in the fields of Second Language Acquisition (SLA), while on the other this necessitate to realize a linguistic corpus which collect in a coherent fashion a wide set of data and facts in order to give a transparent documentation of the learning path. At the current date, the corpus is actively mantained online under the name "Czech-IT!" and counts 220 items by more than 50 learners [@czech-it].
 In this order of ideas, the project is focused around the analysis of Czech and Slovak learners which acquire the Italian language as L2.
 
 Czech (CZ) is a West Slavic language of the Indoeuropean (IE) family [@beekes_comparative_2011, @glottolog], widespreadly known for its morphological complexity with a very rich inflectional and derivational system in the word formation. Italian (IT) is a Romance language of the IE family, strictly related to Latin^[For the sake of clarity: I am going to refer to Italian in its standard variety. Cfr. [@berruto2012sociolinguistica, @d_achille-italiano] for a general overview of the contemporary IT.]

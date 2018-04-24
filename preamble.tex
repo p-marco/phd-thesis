@@ -23,11 +23,17 @@ footskip=11mm, vmarginratio=1:1]{geometry}
 \definecolor{upol-brandBlue}{rgb}{0,0.43529411764,0.67843137254}
 
 
-
-
+\usepackage{xcolor}
 \usepackage{graphicx}
+\definecolor{titlepagecolor}{cmyk}{1,.38,0,.15} %C100 M38 Y0 K15
+\definecolor{namecolor}{cmyk}{0, 0, 0, .0980} 
+\usepackage{textcase}
+
 
 \usepackage{setspace}
+
+\makeatletter\let\Title\@title\makeatother
+\makeatletter\let\Author\@author\makeatother
 
 
 
@@ -181,7 +187,7 @@ footskip=11mm, vmarginratio=1:1]{geometry}
 	xleftmargin=3em,framexleftmargin=3em, numberstyle=\ttfamily,
 }
 
-
+\usepackage{datetime}
 
 \let\oldmaketitle\maketitle
 \AtBeginDocument{\let\maketitle\relax}
@@ -190,8 +196,5 @@ footskip=11mm, vmarginratio=1:1]{geometry}
 \usepackage{enumerate}
 \usepackage{gb4e}
 \noautomath
-
-
-
 
 
