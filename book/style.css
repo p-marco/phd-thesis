@@ -20,7 +20,15 @@ pre code {
 	font-family: "IBM Plex Sans", sans-serif !important;
 }
 
-i, .fa {font-family: "FontAwesome" !important;}
+i, .fa,
+.font-family-0 i,
+.font-family-0 .fa,
+.font-family-1 i,
+.font-family-1 i {
+	font-family: "FontAwesome" !important;
+}
+
+
 h1,
 h1 *,
 h2,
@@ -34,6 +42,10 @@ h5 *,
 h6,
 h6 *{
 	font-family: "IBM Plex Sans", sans-serif !important;
+}
+
+.font-family-0  *{
+	font-family: "IBM Plex Serif", serif !important;
 }
 
 
@@ -54,3 +66,6 @@ h6 *{
 
 #header * {font-style: normal;font-weight: 300}
 #header{ font-size:150%; padding-bottom:3rem;}
+
+section{
+  scroll-behavior: smooth; overflow: scroll;}

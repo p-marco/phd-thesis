@@ -1,24 +1,14 @@
 # Introduction
 
+The main question of this thesis yields a twofold mindset that is not a corollary of the research but which represents the process in which the work was conducted: how could I investigate a particular area of the language faculty as language acquisition in a way which can gain from the usage of the digital instruments in order to ground the theoretical analysis on actual data?
 
 
+The idea under this research moves across the motivation to investigate over an empirically-grounded path the strategies shown by the learners during the acquisition of second languages, using an established coherent digital architecture. 
+My task is twofold: on one side this provides for the developing of a  theoretically-grounded framework to research in the fields of Second Language Acquisition (SLA), while on the other this necessitates to develop a linguistic corpus which collect in a coherent fashion a wide set of data that represent some spotted linguistic facts in order to give a transparent documentation of the learning path.
+The usage of the modern tools in developing a linguistic corpus yields for a fully documentable research path, in which is possible to reconstruct the steps and the choices which underlie its development, the methods used in the analysis, the correctness of the outcomes.
+This kind of research is intimately multidisciplinar in nature, embracing different approaches and areas of interest: the developing of a linguistic corpus (digital humanities, corpus and computational linguistics) and a theoretically-oriented analysis (general and theoretical linguistics, studies on SLA and interlanguage). 
 
-The main idea under this PhD proposal moves across the motivation of an empirically-grounded research to investigate the strategies of the learners during the acquisition of the second languages. 
-
-My task is twofold: on one side this provide for the developing of a  theoretically-grounded framework to research in the fields of Second Language Acquisition (SLA), while on the other this necessitate to realize a linguistic corpus which collect in a coherent fashion a wide set of data and facts in order to give a transparent documentation of the learning path. At the current date, the corpus is actively mantained online under the name "Czech-IT!" and counts 220 items by more than 50 learners [@czech-it].
-In this order of ideas, the project is focused around the analysis of Czech and Slovak learners which acquire the Italian language as L2.
-
-Czech (CZ) is a West Slavic language of the Indoeuropean (IE) family [@beekes_comparative_2011, @glottolog], widespreadly known for its morphological complexity with a very rich inflectional and derivational system in the word formation. Italian (IT) is a Romance language of the IE family, strictly related to Latin^[For the sake of clarity: I am going to refer to Italian in its standard variety. Cfr. [@berruto2012sociolinguistica, @d_achille-italiano] for a general overview of the contemporary IT.]
-, which exhibits a wide range of variation in dialects, regional languages and specialistic styles. Commercial and cultural links between the Czech Republic and Italy are effective and deep, and the studying of Italian language amongst native Czech learners is a remarkable fact.
-This kind of research is intimately twofold in nature and embraces differences approaches and discipline: the developing of a linguistic corpus (digital humanities, corpus and computational linguistics) and a theoretically-oriented analysis (general and theoretical linguistics, studies on SLA and interlanguage). 
-
-
-
-
-
-
-
-
+This introductive chapter collects a preliminary way to represent the main areas of the research, the methods involved in the analysis and the possible outcomes of such a way to conduct the work.
 
 
 
@@ -28,9 +18,9 @@ This kind of research is intimately twofold in nature and embraces differences a
 
 
 
-By a strictly linguistic analysis, CZ and IT know a set of phenomena which diverges a while and permits to afford for a comparative investigation, focused in the errors displayed during the acquisitional path: the absence of the Determiner phrase (DP) and the rich morphological declension in the CZ noun syntax, where IT does not exhibit this kind of morphological complexity and does not permit the delection of the Determiners in such contexts [@bianchi-1992, @longobardi-n_movement], which gives examples of omission  or ipercorrected forms  or examples due to the L1 habits.
+By a strictly linguistic analysis, CZ and IT know a set of phenomena which diverges a while and permits to afford for a comparative investigation, focused in the errors displayed during the acquisitional path: the absence of the Determiner phrase (DP) and the rich morphological declension in the CZ noun syntax, where IT does not exhibit this kind of morphological complexity and does not permit the delection of the Determiners in such contexts [@bianchi1992, @longobardi-n_movement], which gives examples of omission  or ipercorrected forms  or examples due to the L1 habits.
 As a framework-free corpus with no theoretical issues, Czech-IT! aims to be a resource either for speculative, data-based studies, as well than for empirically based L2 acquisition teaching processes. 
-The project and the datasets are licensed under a Creative Commons Attribution 4.0 International License, for which it represents an open source and an open data project, in the universe of the *open knowledge* works. This represent also a tempt to gain indipendence from data to the analysis of the data itself, creating a linguistic corpus threated in a computational manner [@abney1997, @kuebler-corpus_linguistics, @schmid-treetagger, @bird-nltk, @kurdi_natural_2016-2, @clark_handbook_2010-1], in line with other wll established learner corpora on Italian L2 [@valico, @lips].
+The project and the datasets are licensed under a Creative Commons Attribution 4.0 International License, for which it represents an open source and an open data project, in the universe of the *open knowledge* works. This represent also a tempt to gain indipendence from data to the analysis of the data itself, creating a linguistic corpus threated in a computational manner [@abney1997, @kuebler-corpus_linguistics, @schmid-treetagger, @bird2009, @kurdi_natural_2016-2, @clark_handbook_2010-1], in line with other wll established learner corpora on Italian L2 [@valico, @lips].
 
 
 

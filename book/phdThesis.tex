@@ -261,7 +261,7 @@ footskip=11mm, vmarginratio=1:1]{geometry}
 \title{Second Language Acquisition: a corpus-based approach for a theoretical
 investigation}
 \author{Marco Petolicchio}
-\date{2018-04-24}
+\date{2018-05-25}
 
 \usepackage{amsthm}
 \newtheorem{theorem}{Theorem}[chapter]
@@ -323,19 +323,41 @@ for a theoretical investigation
 }
 \listoftables
 \listoffigures
-\chapter{Preface}\label{preface}
+\chapter*{Preface}\label{preface}
+\addcontentsline{toc}{chapter}{Preface}
 
-\section{Abstract}\label{abstract}
+\section*{Abstract}\label{abstract}
+\addcontentsline{toc}{section}{Abstract}
 
-The aim of the present PhD research is to analyse in a coherent way the
-learning path displayed by Czech learners acquiring the Italian
-Language, basing on the evidences which result from the independent
-linguistic corpus \href{http://czech-it.github.io}{Czech-IT!}. This
-study grows up from the researches in Second Language Acquisition and
-wishes to retrieve data from applied fields turning them into theoretic
-and formal questions in general linguistics.
+The main topic of this doctoral dissertation is on the analysis of
+syntactic structures in language acquisition, specifically in the domain
+of Czech and Slovak learners which acquire the Italian language. In
+particular, I will focus on the complex noun phrase subdomain, showing
+the compositionality of the phrase structure and the hierarchical
+fashion of this component. The analysis is casted in the
+Minimalist-oriented framework of the Generative Grammar
+\citep{chomsky1995, chomsky1998, chomsky2013, hcf2002} and its
+application in the field of the second language acquisition
+\citep{rothman_slabakova_2017, doi:10.1093/applin/amu027}.
 
-\section{Keywords}\label{keywords}
+The usage of an established computational ground to conduct the work,
+where the data retrieved by fieldwork is stored in a coherent corpus
+which easily permits to be queried and interpolated for the research
+purposes, represents a standpoint for this research in its totality,
+yielding for a data-based approach to the whole process. The annotation
+schema of the data is standardized in order to adhere to the major point
+of discussion into the discipline
+\citep{kurdi_natural_2016-2, clark_handbook_2010-1, kuebler-corpus_linguistics},
+representing the plus to furnish a data source which is independent to
+the merely contingent purposes.
+
+This research aims to offer a way to investigate how second language
+acquisition can be seen grounding on a coherent set of data in terms of
+annotation schema: it does insist either on the speculative questions
+both on computational models involved.
+
+\section*{Keywords}\label{keywords}
+\addcontentsline{toc}{section}{Keywords}
 
 \begin{itemize}
 \tightlist
@@ -353,39 +375,35 @@ and formal questions in general linguistics.
 
 \chapter{Introduction}\label{introduction}
 
-The main idea under this PhD proposal moves across the motivation of an
-empirically-grounded research to investigate the strategies of the
-learners during the acquisition of the second languages.
+The main question of this thesis yields a twofold mindset that is not a
+corollary of the research but which represents the process in which the
+work was conducted: how could I investigate a particular area of the
+language faculty as language acquisition in a way which can gain from
+the usage of the digital instruments in order to ground the theoretical
+analysis on actual data?
 
-My task is twofold: on one side this provide for the developing of a
-theoretically-grounded framework to research in the fields of Second
-Language Acquisition (SLA), while on the other this necessitate to
-realize a linguistic corpus which collect in a coherent fashion a wide
-set of data and facts in order to give a transparent documentation of
-the learning path. At the current date, the corpus is actively mantained
-online under the name \enquote{Czech-IT!} and counts 220 items by more
-than 50 learners \citep{czech-it}. In this order of ideas, the project
-is focused around the analysis of Czech and Slovak learners which
-acquire the Italian language as L2.
+The idea under this research moves across the motivation to investigate
+over an empirically-grounded path the strategies shown by the learners
+during the acquisition of second languages, using an established
+coherent digital architecture. My task is twofold: on one side this
+provides for the developing of a theoretically-grounded framework to
+research in the fields of Second Language Acquisition (SLA), while on
+the other this necessitates to develop a linguistic corpus which collect
+in a coherent fashion a wide set of data that represent some spotted
+linguistic facts in order to give a transparent documentation of the
+learning path. The usage of the modern tools in developing a linguistic
+corpus yields for a fully documentable research path, in which is
+possible to reconstruct the steps and the choices which underlie its
+development, the methods used in the analysis, the correctness of the
+outcomes. This kind of research is intimately multidisciplinar in
+nature, embracing different approaches and areas of interest: the
+developing of a linguistic corpus (digital humanities, corpus and
+computational linguistics) and a theoretically-oriented analysis
+(general and theoretical linguistics, studies on SLA and interlanguage).
 
-Czech (CZ) is a West Slavic language of the Indoeuropean (IE) family
-\citep[\citet{glottolog}]{beekes_comparative_2011}, widespreadly known
-for its morphological complexity with a very rich inflectional and
-derivational system in the word formation. Italian (IT) is a Romance
-language of the IE family, strictly related to Latin\footnote{For the
-  sake of clarity: I am going to refer to Italian in its standard
-  variety. Cfr.
-  \citep[\citet{d_achille-italiano}]{berruto2012sociolinguistica} for a
-  general overview of the contemporary IT.} , which exhibits a wide
-range of variation in dialects, regional languages and specialistic
-styles. Commercial and cultural links between the Czech Republic and
-Italy are effective and deep, and the studying of Italian language
-amongst native Czech learners is a remarkable fact. This kind of
-research is intimately twofold in nature and embraces differences
-approaches and discipline: the developing of a linguistic corpus
-(digital humanities, corpus and computational linguistics) and a
-theoretically-oriented analysis (general and theoretical linguistics,
-studies on SLA and interlanguage).
+This introductive chapter collects a preliminary way to represent the
+main areas of the research, the methods involved in the analysis and the
+possible outcomes of such a way to conduct the work.
 
 \section{The empirical ground}\label{the-empirical-ground}
 
@@ -396,21 +414,21 @@ path: the absence of the Determiner phrase (DP) and the rich
 morphological declension in the CZ noun syntax, where IT does not
 exhibit this kind of morphological complexity and does not permit the
 delection of the Determiners in such contexts
-\citep[\citet{longobardi-n_movement}]{bianchi-1992}, which gives
-examples of omission or ipercorrected forms or examples due to the L1
-habits. As a framework-free corpus with no theoretical issues, Czech-IT!
-aims to be a resource either for speculative, data-based studies, as
-well than for empirically based L2 acquisition teaching processes. The
-project and the datasets are licensed under a Creative Commons
-Attribution 4.0 International License, for which it represents an open
-source and an open data project, in the universe of the \emph{open
-knowledge} works. This represent also a tempt to gain indipendence from
-data to the analysis of the data itself, creating a linguistic corpus
-threated in a computational manner
-\citep[\citet{kuebler-corpus_linguistics}, \citet{schmid-treetagger},
-\citet{bird-nltk}, \citet{kurdi_natural_2016-2},
-\citet{clark_handbook_2010-1}]{abney1997}, in line with other wll
-established learner corpora on Italian L2 \citep[\citet{lips}]{valico}.
+\citep[\citet{longobardi-n_movement}]{bianchi1992}, which gives examples
+of omission or ipercorrected forms or examples due to the L1 habits. As
+a framework-free corpus with no theoretical issues, Czech-IT! aims to be
+a resource either for speculative, data-based studies, as well than for
+empirically based L2 acquisition teaching processes. The project and the
+datasets are licensed under a Creative Commons Attribution 4.0
+International License, for which it represents an open source and an
+open data project, in the universe of the \emph{open knowledge} works.
+This represent also a tempt to gain indipendence from data to the
+analysis of the data itself, creating a linguistic corpus threated in a
+computational manner \citep[\citet{kuebler-corpus_linguistics},
+\citet{schmid-treetagger}, \citet{bird2009},
+\citet{kurdi_natural_2016-2}, \citet{clark_handbook_2010-1}]{abney1997},
+in line with other wll established learner corpora on Italian L2
+\citep[\citet{lips}]{valico}.
 
 \subsection{Data}\label{data}
 
@@ -550,9 +568,11 @@ The theoretical outcome constitues the main topic of the research.
 
 here at last.
 
-\chapter{Backmatter}\label{backmatter}
+\chapter*{Backmatter}\label{backmatter}
+\addcontentsline{toc}{chapter}{Backmatter}
 
-\section{Credits}\label{credits}
+\section*{Credits}\label{credits}
+\addcontentsline{toc}{section}{Credits}
 
 This project is constituted by files written in Markdown syntax and
 exported either as a standalone website both as printer-ready product.
@@ -583,7 +603,8 @@ For the typographic setting, the print-ready file is composed on LaTeX
 with the usage of SCRBOOK class and some custom component. I am aware I
 can't thank everyone on the web about that. By the way, thank you!
 
-\section{About the author}\label{about-the-author}
+\section*{About the author}\label{about-the-author}
+\addcontentsline{toc}{section}{About the author}
 
 I am a Graduate Researcher involved in a Ph.D.~Program in Italian
 Linguistics at the Department of Romance Studies in the Faculty of

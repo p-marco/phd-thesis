@@ -5,7 +5,11 @@ bookdown::gitbook:
     after_body: disqus.html
   css: style.css
   config:
+    sharing: no
     toc:
+      toc_float:
+      collapsed: false
+      smooth_scroll: true
       before: |
         <li><a href="./">SLA: a corpus-based approach for a theoretical investigation</a></li>
       after: 

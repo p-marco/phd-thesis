@@ -16,13 +16,23 @@ description: "My PhD thesis"
 always_allow_html: yes
 ---
 
-# Preface
-## Abstract
+# Preface {-}
+## Abstract {-}
 
-The aim of the present PhD research is to analyse in a coherent way the learning path displayed by Czech learners acquiring the Italian Language, basing on the evidences which result from the independent linguistic corpus [Czech-IT!](http://czech-it.github.io).
-This study grows up from the researches in Second Language Acquisition and wishes to retrieve data from applied fields turning them into theoretic and formal questions in general linguistics.
 
-## Keywords
+The main topic of this doctoral dissertation is on the analysis of syntactic structures in language acquisition,  specifically in the domain of Czech and Slovak learners which acquire the Italian language. In particular, I will focus on the complex noun phrase subdomain, showing the compositionality of the phrase structure and the hierarchical fashion of this component. 
+The analysis is casted in the Minimalist-oriented framework of the Generative Grammar [@chomsky1995; @chomsky1998; @chomsky2013; @hcf2002] and its application in the field of the second language acquisition [@rothman_slabakova_2017;  @doi:10.1093/applin/amu027].
+
+The usage of an established computational ground to conduct the work, where the data retrieved by fieldwork is stored in a coherent corpus which easily permits to be queried and interpolated for the research purposes, represents a standpoint for this research in its totality, yielding for a data-based approach to the whole process. 
+The annotation schema of the data is standardized in order to adhere to the major point of discussion into the discipline [@kurdi_natural_2016-2; @clark_handbook_2010-1; @kuebler-corpus_linguistics], representing the plus to furnish a data source which is independent to the merely contingent purposes.
+
+This research aims to offer a way to investigate how second language acquisition can be seen grounding on a coherent set of data in terms of annotation schema: it does insist either on the speculative questions both on computational models involved.
+
+
+
+
+
+## Keywords {-}
 
 * Computational Linguistics
 * Syntax
