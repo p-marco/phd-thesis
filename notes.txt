@@ -1,0 +1,87 @@
+
+
+
+## The empirical ground
+
+
+
+
+
+By a strictly linguistic analysis, CZ and IT know a set of phenomena which diverges a while and permits to afford for a comparative investigation, focused in the errors displayed during the acquisitional path: the absence of the Determiner phrase (DP) and the rich morphological declension in the CZ noun syntax, where IT does not exhibit this kind of morphological complexity and does not permit the delection of the Determiners in such contexts [@bianchi1992, @longobardi-n_movement], which gives examples of omission  or ipercorrected forms  or examples due to the L1 habits.
+As a framework-free corpus with no theoretical issues, Czech-IT! aims to be a resource either for speculative, data-based studies, as well than for empirically based L2 acquisition teaching processes. 
+The project and the datasets are licensed under a Creative Commons Attribution 4.0 International License, for which it represents an open source and an open data project, in the universe of the *open knowledge* works. This represent also a tempt to gain indipendence from data to the analysis of the data itself, creating a linguistic corpus threated in a computational manner [@abney1997, @kuebler-corpus_linguistics, @schmid-treetagger, @bird2009, @kurdi_natural_2016-2, @clark_handbook_2010-1], in line with other wll established learner corpora on Italian L2 [@valico, @lips].
+
+
+
+
+### Data
+
+
+In order to define a wider range of linguistic situations, there are different kind of linguistic productions in the corpus:
+
+* an email subcorpus for the (quasi-) bureaucratic and academic language; 
+* SMS and other direct platforms for textual messaging for informal situations;
+* spoken discourse analysis for spontaneous modality;
+* some online surveys created for obtaining auto valutation by learners about their acquisition: the tests are made by a certain amount of questions and tiny writing samples.
+
+The data are inserted at first in textual forms, where are stored the relevant informations about the learner, the date and notes of the revisor, while the textual content of each relevant example is processed towards the usage of automatic machinery, which yields syntactical, morphological and part of speech tagging annotations, relevant for quantitative and statistical outcomes. Currently, a primary dataset which contains the items is linked to other two datasheets, one relative to learners and the other for manual categorization of linguistic phenomena and automatic treatment of the texts, as for tokenization, lemmatization and POS-tagging procedures. 
+Separating the raw data from the annotation scheme seems to be a feasible way to retain data in a wide output directions, e.g. for data-visualization outcomes, and can be effectively implemented towards the successive implementation without the necessity to rethink the overall platform. Also, it permits to data to be independent from contingent purposes and easily accessible and used by the whole community of scholars, researchers, and interested users.
+It could be usable for data-driven approaches to learning second language and for theoretically-oriented researches on interlanguage, syntactic variation and computational linguistics. 
+
+
+
+#### The learners
+
+Currently, the number of the learners inserted in the dataset is 51: they are in the most part native-Czech learners but a small part of Slovak is represented. 
+The level of education testimoniates a representative range of different kinds of acquisition paths, as well than the different ages of the learners.
+
+
+
+#### The texts
+
+At the present date, there are 220 entries in the corpus, which reveal a large range of different communicative situations, from spontaneous messages as chat, spoken conversations, and email towards written homeworks for retrieve targeted hypotheses on the learning way. 
+
+
+
+## The theoretical framework 
+
+
+### Variation in grammar
+
+
+From a theoretical viewpoint, the research is inserted in the current theories which rely on the hierarchical functioning of the language faculty, for which the variation among languages are reconducted to a parametrizing of choice among the structures of languages [@chomsky1995, @chomsky1998, @chomsky2013, @chomsky2015, @adger2011, @rizzi2013]. 
+This view permits on one side to compare the syntactic structures in a coherent and schematic way, while on the other it concentrates moreover on the hierarchical fashion of the language faculty than on the linear order displayed by the utterances. 
+
+
+
+### Comparative analyses and the role of the interlanguage
+
+The role of the native language (L1) can conditionates deeply the way in which the target language (L2) is acquired during the learning path: an emblematic case is the *transfer* of the knowledge about the structures of the L1 to the target, revealing the interlanguage.
+During the last 20 years, a considerable part of linguistic literature is involved in developing some sort of models to think how the faculty of language can work, in its biological [@hcf2002], computational [@fodor2001] and cognitive components in a highly interdisciplinary environment.
+Studies on SLA is a fertile field, which relies on comparative and contrastive analyses of linguistic phenomena, either both from an applied view [@ellis_study_101] than by theoretically grounded perspective focused on Generative framework (GenSLA) [@guasti2002, @rothman_slabakova_2017, @hawkins2001, @sorace2011pinning]. 
+In this sense appears that the adoption of a coherent model to analyze the variation in gramar in parametric model can be suitable for long-standing researches on SLA and interlanguage, also based on independent data-mining initiatives as in the case of the present purposes, which disentangles the data in a form of a linguistic corpus and the linguistic analysis.
+
+
+
+## Models and methods
+
+[compLing]
+
+A similar project aims to show an affordable platform for linguistic  data-based researches.
+
+The advantage of a such type of way to proceed is twofold: on one side it permits a clear separation between the data and the investigations of the data itself, while it offers a theoretically-agnostic way to collect the data which can be used in a widespread linguistic researches and model, not confined to some theoretically-oriented approaches.
+Along this path, such a kind of corpora can be suited either in academic enterprises than for private and corporate initiatives, as well in teaching models in the SLA field, oriented towards an empirically-grounded perspective on error and interlanguage analyses.
+The usage of computational and digital architecture [@clark_handbook_2010-1, @kurdi_natural_2016-2, @kuebler-corpus_linguistics]  represents a standpoint in the current path of linguistic studies, resulting in a highly interdisciplinary model to researching.
+The theoretical model established relies on generative studies to language, applied to a new and insightful field of research as the SLA studies. It permits to obtain an empirically-grounded and theoretically coherent perspective on some pattern displayed during the learning path.
+
+
+
+
+## Structure of the project
+
+### Roadmap
+
+
+
+### Thesis structure
+here at last.

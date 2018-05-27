@@ -1,4 +1,4 @@
-\documentclass[a4paper,twoside,11pt,chapterprefix=false,bibliography=totocnumbered]{scrbook}
+\documentclass[a4paper,twoside,12pt,chapterprefix=false,bibliography=totocnumbered]{scrbook}
 \usepackage{lmodern}
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
@@ -255,13 +255,15 @@ footskip=11mm, vmarginratio=1:1]{geometry}
 
 \usepackage[autostyle]{csquotes}  
 \usepackage{enumerate}
-\usepackage{gb4e}
+\usepackage{gb4e,cgloss}
 \noautomath
+
+\frontmatter
 
 \title{Second Language Acquisition: a corpus-based approach for a theoretical
 investigation}
 \author{Marco Petolicchio}
-\date{2018-05-25}
+\date{2018-05-27}
 
 \usepackage{amsthm}
 \newtheorem{theorem}{Theorem}[chapter]
@@ -338,7 +340,7 @@ fashion of this component. The analysis is casted in the
 Minimalist-oriented framework of the Generative Grammar
 \citep{chomsky1995, chomsky1998, chomsky2013, hcf2002} and its
 application in the field of the second language acquisition
-\citep{rothman_slabakova_2017, doi:10.1093/applin/amu027}.
+\citep{rothmanSlabakova2017, doi:10.1093/applin/amu027}.
 
 The usage of an established computational ground to conduct the work,
 where the data retrieved by fieldwork is stored in a coherent corpus
@@ -373,6 +375,8 @@ both on computational models involved.
   Corpus Linguistics
 \end{itemize}
 
+\mainmatter
+
 \chapter{Introduction}\label{introduction}
 
 The main question of this thesis yields a twofold mindset that is not a
@@ -396,163 +400,106 @@ corpus yields for a fully documentable research path, in which is
 possible to reconstruct the steps and the choices which underlie its
 development, the methods used in the analysis, the correctness of the
 outcomes. This kind of research is intimately multidisciplinar in
-nature, embracing different approaches and areas of interest: the
-developing of a linguistic corpus (digital humanities, corpus and
-computational linguistics) and a theoretically-oriented analysis
-(general and theoretical linguistics, studies on SLA and interlanguage).
+nature, embracing different approaches and areas of interest: digital
+humanities, corpus and computational linguistics for the development of
+the linguistic corpus, general and theoretical linguistics, studies on
+SLA and interlanguage for the theoretical analysis.
 
 This introductive chapter collects a preliminary way to represent the
 main areas of the research, the methods involved in the analysis and the
 possible outcomes of such a way to conduct the work.
 
-\section{The empirical ground}\label{the-empirical-ground}
+The idea under this research moves across the motivation to investigate
+over an empirically-grounded path the strategies shown by the learners
+during the acquisition of second languages, using an established
+coherent digital architecture. My task is twofold: on one side this
+provides for the developing of a theoretically-grounded framework to
+research in the fields of Second Language Acquisition (SLA), while on
+the other this necessitates to develop a linguistic corpus which collect
+in a coherent fashion a wide set of data that represent some spotted
+linguistic facts in order to give a transparent documentation of the
+learning path. The usage of the modern tools in developing a linguistic
+corpus yields for a fully documentable research path, in which is
+possible to reconstruct the steps and the choices which underlie its
+development, the methods used in the analysis, the correctness of the
+outcomes. This kind of research is intimately multidisciplinar in
+nature, embracing different approaches and areas of interest: digital
+humanities, corpus and computational linguistics for the development of
+the linguistic corpus, general and theoretical linguistics, studies on
+SLA and interlanguage for the theoretical analysis.
 
-By a strictly linguistic analysis, CZ and IT know a set of phenomena
-which diverges a while and permits to afford for a comparative
-investigation, focused in the errors displayed during the acquisitional
-path: the absence of the Determiner phrase (DP) and the rich
-morphological declension in the CZ noun syntax, where IT does not
-exhibit this kind of morphological complexity and does not permit the
-delection of the Determiners in such contexts
-\citep[\citet{longobardi-n_movement}]{bianchi1992}, which gives examples
-of omission or ipercorrected forms or examples due to the L1 habits. As
-a framework-free corpus with no theoretical issues, Czech-IT! aims to be
-a resource either for speculative, data-based studies, as well than for
-empirically based L2 acquisition teaching processes. The project and the
-datasets are licensed under a Creative Commons Attribution 4.0
-International License, for which it represents an open source and an
-open data project, in the universe of the \emph{open knowledge} works.
-This represent also a tempt to gain indipendence from data to the
-analysis of the data itself, creating a linguistic corpus threated in a
-computational manner \citep[\citet{kuebler-corpus_linguistics},
-\citet{schmid-treetagger}, \citet{bird2009},
-\citet{kurdi_natural_2016-2}, \citet{clark_handbook_2010-1}]{abney1997},
-in line with other wll established learner corpora on Italian L2
-\citep[\citet{lips}]{valico}.
+\section{Background for the thesis}\label{background-for-the-thesis}
 
-\subsection{Data}\label{data}
+\subsection{Data-based research:
+definition}\label{data-based-research-definition}
 
-In order to define a wider range of linguistic situations, there are
-different kind of linguistic productions in the corpus:
+\subsection{Data-based research: motivations for the
+thesis}\label{data-based-research-motivations-for-the-thesis}
 
-\begin{itemize}
+\section{Objectives of the thesis}\label{objectives-of-the-thesis}
+
+The three main objectives of this thesis are methodological, empirical
+and theoretical.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  an email subcorpus for the (quasi-) bureaucratic and academic
-  language;
+  \textbf{Methodological objectives}\\
+  To address the decision and the methods raised by the compilation, the
+  storage and the design of a learner based corpus, exploring the
+  effective procedures for retrieving the relevant features for the
+  analysis;
 \item
-  SMS and other direct platforms for textual messaging for informal
-  situations;
+  \textbf{Empirical objectives}\\
+  To explore the previous generalizations of the acquisitional path in
+  SLA literature comparing with the amount of linguistic productions
+  given by different learners;
 \item
-  spoken discourse analysis for spontaneous modality;
-\item
-  some online surveys created for obtaining auto valutation by learners
-  about their acquisition: the tests are made by a certain amount of
-  questions and tiny writing samples.
-\end{itemize}
+  \textbf{Theoretical objectives}\\
+  To describe the features which are relevant for characterise the
+  language variety effect and the place of interlanguage.
+\end{enumerate}
 
-The data are inserted at first in textual forms, where are stored the
-relevant informations about the learner, the date and notes of the
-revisor, while the textual content of each relevant example is processed
-towards the usage of automatic machinery, which yields syntactical,
-morphological and part of speech tagging annotations, relevant for
-quantitative and statistical outcomes. Currently, a primary dataset
-which contains the items is linked to other two datasheets, one relative
-to learners and the other for manual categorization of linguistic
-phenomena and automatic treatment of the texts, as for tokenization,
-lemmatization and POS-tagging procedures. Separating the raw data from
-the annotation scheme seems to be a feasible way to retain data in a
-wide output directions, e.g.~for data-visualization outcomes, and can be
-effectively implemented towards the successive implementation without
-the necessity to rethink the overall platform. Also, it permits to data
-to be independent from contingent purposes and easily accessible and
-used by the whole community of scholars, researchers, and interested
-users. It could be usable for data-driven approaches to learning second
-language and for theoretically-oriented researches on interlanguage,
-syntactic variation and computational linguistics.
+\subsection{Methodological objectives}\label{methodological-objectives}
 
-\subsubsection{The learners}\label{the-learners}
+\subsection{Empirical objectives}\label{empirical-objectives}
 
-Currently, the number of the learners inserted in the dataset is 51:
-they are in the most part native-Czech learners but a small part of
-Slovak is represented. The level of education testimoniates a
-representative range of different kinds of acquisition paths, as well
-than the different ages of the learners.
+The role of the native language (L1) can conditionates deeply the way in
+which the target language (L2) is acquired during the learning path: an
+emblematic case is the \emph{transfer} of the knowledge about the
+structures of the L1 to the target, revealing the interlanguage.
 
-\subsubsection{The texts}\label{the-texts}
+During the last 20 years, a considerable part of linguistic literature
+is involved in developing some sort of models to think how the faculty
+of language can work, in its biological \citep{hcf2002}, computational
+\citep{fodor2001} and cognitive components in a highly interdisciplinary
+environment. Studies on SLA is a fertile field, which relies on
+comparative and contrastive analyses of linguistic phenomena, either
+both from an applied view \citep{ellis1994} than by theoretically
+grounded perspective focused on Generative framework (GenSLA)
+\citep[\citet{rothmanSlabakova2017}, \citet{hawkins2001},
+\citet{sorace2011}]{guasti2002}. In this sense appears that the adoption
+of a coherent model to analyze the variation in grammar into a
+parametric model can be suitable for long-standing researches on SLA and
+interlanguage, also based on independent data-mining initiatives as in
+the case of the present purposes, which disentangles the data in a form
+of a linguistic corpus and the linguistic analysis.
 
-At the present date, there are 220 entries in the corpus, which reveal a
-large range of different communicative situations, from spontaneous
-messages as chat, spoken conversations, and email towards written
-homeworks for retrieve targeted hypotheses on the learning way.
-
-\section{The theoretical framework}\label{the-theoretical-framework}
-
-\subsection{Variation in grammar}\label{variation-in-grammar}
+\subsection{Theoretical objectives}\label{theoretical-objectives}
 
 From a theoretical viewpoint, the research is inserted in the current
 theories which rely on the hierarchical functioning of the language
 faculty, for which the variation among languages are reconducted to a
 parametrizing of choice among the structures of languages
 \citep[\citet{chomsky1998}, \citet{chomsky2013}, \citet{chomsky2015},
-\citet{adger2011}, \citet{rizzi2013}]{chomsky1995}. This view permits on
+\citet{adger2013}, \citet{rizzi2013}]{chomsky1995}. This view permits on
 one side to compare the syntactic structures in a coherent and schematic
 way, while on the other it concentrates moreover on the hierarchical
 fashion of the language faculty than on the linear order displayed by
 the utterances.
 
-\subsection{Comparative analyses and the role of the
-interlanguage}\label{comparative-analyses-and-the-role-of-the-interlanguage}
-
-The role of the native language (L1) can conditionates deeply the way in
-which the target language (L2) is acquired during the learning path: an
-emblematic case is the \emph{transfer} of the knowledge about the
-structures of the L1 to the target, revealing the interlanguage. During
-the last 20 years, a considerable part of linguistic literature is
-involved in developing some sort of models to think how the faculty of
-language can work, in its biological \citep{hcf2002}, computational
-\citep{fodor2001} and cognitive components in a highly interdisciplinary
-environment. Studies on SLA is a fertile field, which relies on
-comparative and contrastive analyses of linguistic phenomena, either
-both from an applied view \citep{ellis_study_101} than by theoretically
-grounded perspective focused on Generative framework (GenSLA)
-\citep[\citet{rothman_slabakova_2017}, \citet{hawkins2001},
-\citet{sorace2011pinning}]{guasti2002}. In this sense appears that the
-adoption of a coherent model to analyze the variation in gramar in
-parametric model can be suitable for long-standing researches on SLA and
-interlanguage, also based on independent data-mining initiatives as in
-the case of the present purposes, which disentangles the data in a form
-of a linguistic corpus and the linguistic analysis.
-
-\section{Models and methods}\label{models-and-methods}
-
-{[}compLing{]}
-
-A similar project aims to show an affordable platform for linguistic
-data-based researches.
-
-The advantage of a such type of way to proceed is twofold: on one side
-it permits a clear separation between the data and the investigations of
-the data itself, while it offers a theoretically-agnostic way to collect
-the data which can be used in a widespread linguistic researches and
-model, not confined to some theoretically-oriented approaches. Along
-this path, such a kind of corpora can be suited either in academic
-enterprises than for private and corporate initiatives, as well in
-teaching models in the SLA field, oriented towards an
-empirically-grounded perspective on error and interlanguage analyses.
-The usage of computational and digital architecture
-\citep[\citet{kurdi_natural_2016-2},
-\citet{kuebler-corpus_linguistics}]{clark_handbook_2010-1} represents a
-standpoint in the current path of linguistic studies, resulting in a
-highly interdisciplinary model to researching. The theoretical model
-established relies on generative studies to language, applied to a new
-and insightful field of research as the SLA studies. It permits to
-obtain an empirically-grounded and theoretically coherent perspective on
-some pattern displayed during the learning path.
-
-\section{Structure of the project}\label{structure-of-the-project}
-
-\subsection{Roadmap}\label{roadmap}
+\section{Outline of the thesis}\label{outline-of-the-thesis}
 
 The first year is dedicated to the setting-up of the corpus, with the
 starting operations to acquire the data and elaborate a coherent way to
@@ -564,9 +511,15 @@ analyses and refining the informatic architecture of the project,
 evolving in a user-friendly and interrogable way to dispense the data.
 The theoretical outcome constitues the main topic of the research.
 
-\subsection{Thesis structure}\label{thesis-structure}
+\textbf{Chapter 2} introduces \ldots{}
 
-here at last.
+\textbf{Chapter 3} introduces \ldots{}
+
+\textbf{Chapter 4} introduces \ldots{}
+
+\textbf{Chapter 5} introduces \ldots{}
+
+\backmatter
 
 \chapter*{Backmatter}\label{backmatter}
 \addcontentsline{toc}{chapter}{Backmatter}
