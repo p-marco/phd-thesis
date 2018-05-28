@@ -54,22 +54,28 @@ To describe the features which are relevant for characterise the language variet
 ### Empirical objectives
 
 
-The role of the native language (L1) can conditionates deeply the way in which the target language (L2) is acquired during the learning path: an emblematic case is the *transfer* of the knowledge about the structures of the L1 to the target, revealing the interlanguage.
+Amongst many scholar the role of the native language (L1) has been raised as a factor of possible conditionation in the way which the target language (L2) is acquired during the learning path: an emblematic case is the *transfer* of the knowledge about the structures of the L1 to the target, revealing the intermediate steps of the acquisitional path defined with the term *interlanguage* [@selinker1972], that we can refer as to **Interlanguage Hypothesis** (IlH). Different from this hypothesis --which recognizes a central place to the native language in the acquisitional path-- is the **Monitor Model** [@krashen1981], a multi-focal perspective on language acquisition where different factors are described as involved in the process and where the L1 could not represent that conditionation.   
 
 During the last 20 years, a considerable part of linguistic literature is involved in developing some sort of models to think how the faculty of language can work, in its biological [@hcf2002], computational [@fodor2001] and cognitive components in a highly interdisciplinary environment.
-Studies on SLA is a fertile field, which relies on comparative and contrastive analyses of linguistic phenomena, either both from an applied view [@ellis1994] than by theoretically grounded perspective focused on Generative framework (GenSLA) [@guasti2002, @rothmanSlabakova2017, @hawkins2001, @sorace2011]. 
-In this sense appears that the adoption of a coherent model to analyze the variation in grammar into a parametric model can be suitable for long-standing researches on SLA and interlanguage, also based on independent data-mining initiatives as in the case of the present purposes, which disentangles the data in a form of a linguistic corpus and the linguistic analysis.
-
+Studies on SLA is a fertile field, which relies on comparative and contrastive analyses of linguistic phenomena, either both from an applied view [@ellis1994] than by theoretically grounded perspective focused on Generative framework (GenSLA) [@guasti2002; @hawkins2001; @rothmanSlabakova2017; @sorace2011]. 
+In this sense appears that the adoption of a coherent framework to analyze the variation in grammar into a *parametric* model [@chomsky1995] can be suitable for long-standing researches on SLA and interlanguage, also based on independent data-mining initiatives as in the case of the present purposes, which disentangles the data in a form of a linguistic corpus and the linguistic analysis.
+ 
+The dataset used in this thesis aims to display either the different linguistic outcomes in a wide range of communicative situations by the same learner, both than a sociolinguistic grained analysis where the variety of educational or age range can show different linguistic behaviors.  
 
 
 ### Theoretical objectives
 
 
-From a theoretical viewpoint, the research is inserted in the current theories which rely on the hierarchical functioning of the language faculty, for which the variation among languages are reconducted to a parametrizing of choice among the structures of languages [@chomsky1995, @chomsky1998, @chomsky2013, @chomsky2015, @adger2013, @rizzi2013]. 
-This view permits on one side to compare the syntactic structures in a coherent and schematic way, while on the other it concentrates moreover on the hierarchical fashion of the language faculty than on the linear order displayed by the utterances. 
+From a theoretical viewpoint, the research is inserted in the current theories that rely on the hierarchical functioning of the language faculty, for which the variation among languages are reconducted to a parametrizing of choice among the structures of languages [@adger2013; @chomsky1995; @chomsky1998; @chomsky2013; @chomsky2015; @rizzi2013], which are constant between the language structures, despite of the wideness of the variation amongst the languages: 
 
+>We are concerned, then, with states of the language faculty, which we understand to be some array of cognitive traits and capacities, a particular component of the human mind/brain. The language faculty has an initial state, genetically determined; in the normal course of development it passes through a series of states in early childhood, reaching a relatively stable steady state that undergoes little subsequent change, apart from the lexicon. To a good first approximation, the initial state appears to be uniform for the species. 
+>[@chomsky1995]
 
+This view permits on one side to compare the syntactic structures in a coherent and schematic way, while on the other it concentrates moreover on the hierarchical fashion of the language faculty than on the linear order displayed by the utterances [@kayne1994; @moro2000]. In this perspective is generally assumed that the hierarchical phrase structure plays a central role in syntactic computation, while the *flattering* of such structures into a mono-dimensional workspace is a matter of externalization constraints and interface conditions (e.g. the need to give an ordered array where every item of the sentence is present at one time in order to be spelled out). I will summarize this in a representational way with the usual tree-diagram in Fig.\@ref(fig:tree1). 
 
+![(\#fig:tree1) Representation of syntactic structures](./assets/img/png-tree1.png)
+
+Given this way to proceed, that assure a coherent framework to compare languages in a parametric way, the main theoretical question addressed here concerns the relevance and the potential usage of this perspective in the analysis of a dynamic system as during the acquisitional path and the strategies raised up by learners during the various steps in the interlanguage.
 
 
 

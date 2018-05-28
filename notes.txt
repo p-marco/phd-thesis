@@ -49,17 +49,10 @@ At the present date, there are 220 entries in the corpus, which reveal a large r
 ### Variation in grammar
 
 
-From a theoretical viewpoint, the research is inserted in the current theories which rely on the hierarchical functioning of the language faculty, for which the variation among languages are reconducted to a parametrizing of choice among the structures of languages [@chomsky1995, @chomsky1998, @chomsky2013, @chomsky2015, @adger2011, @rizzi2013]. 
-This view permits on one side to compare the syntactic structures in a coherent and schematic way, while on the other it concentrates moreover on the hierarchical fashion of the language faculty than on the linear order displayed by the utterances. 
-
 
 
 ### Comparative analyses and the role of the interlanguage
 
-The role of the native language (L1) can conditionates deeply the way in which the target language (L2) is acquired during the learning path: an emblematic case is the *transfer* of the knowledge about the structures of the L1 to the target, revealing the interlanguage.
-During the last 20 years, a considerable part of linguistic literature is involved in developing some sort of models to think how the faculty of language can work, in its biological [@hcf2002], computational [@fodor2001] and cognitive components in a highly interdisciplinary environment.
-Studies on SLA is a fertile field, which relies on comparative and contrastive analyses of linguistic phenomena, either both from an applied view [@ellis_study_101] than by theoretically grounded perspective focused on Generative framework (GenSLA) [@guasti2002, @rothman_slabakova_2017, @hawkins2001, @sorace2011pinning]. 
-In this sense appears that the adoption of a coherent model to analyze the variation in gramar in parametric model can be suitable for long-standing researches on SLA and interlanguage, also based on independent data-mining initiatives as in the case of the present purposes, which disentangles the data in a form of a linguistic corpus and the linguistic analysis.
 
 
 

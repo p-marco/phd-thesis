@@ -4,9 +4,9 @@ bookdown::gitbook:
     - pangloss
   split_by: chapter
   includes:
-    in_header: hypothesis.html
-    after_body: disqus.html
-  css: style.css
+    in_header: html/hypothesis.html
+    after_body: html/disqus.html
+  css: html/style.css
   config:
     sharing: no
     toc:
@@ -24,8 +24,8 @@ bookdown::pdf_book:
     - --filter
     - pangloss
   includes: 
-    in_header: preamble.tex
-    before_body: frontmatter.tex
+    in_header: latex/preamble.tex
+    before_body: latex/frontmatter.tex
   latex_engine: xelatex
   citation_package: natbib
   keep_tex: yes

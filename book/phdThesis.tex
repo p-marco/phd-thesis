@@ -34,6 +34,15 @@
 \usepackage{longtable,booktabs}
 % Fix footnotes in tables (requires footnote package)
 \IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{long table}}{}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
 \IfFileExists{parskip.sty}{%
 \usepackage{parskip}
 }{% else
@@ -255,6 +264,13 @@ footskip=11mm, vmarginratio=1:1]{geometry}
 
 \usepackage[autostyle]{csquotes}  
 \usepackage{enumerate}
+
+
+
+\usepackage{tikz}
+\usepackage{pgfplots}
+
+
 \usepackage{gb4e,cgloss}
 \noautomath
 
@@ -263,7 +279,7 @@ footskip=11mm, vmarginratio=1:1]{geometry}
 \title{Second Language Acquisition: a corpus-based approach for a theoretical
 investigation}
 \author{Marco Petolicchio}
-\date{2018-05-27}
+\date{2018-05-29}
 
 \usepackage{amsthm}
 \newtheorem{theorem}{Theorem}[chapter]
@@ -340,7 +356,7 @@ fashion of this component. The analysis is casted in the
 Minimalist-oriented framework of the Generative Grammar
 \citep{chomsky1995, chomsky1998, chomsky2013, hcf2002} and its
 application in the field of the second language acquisition
-\citep{rothmanSlabakova2017, doi:10.1093/applin/amu027}.
+\citep{rothmanSlabakova2017, slabakovaLealLiskin2014}.
 
 The usage of an established computational ground to conduct the work,
 where the data retrieved by fieldwork is stored in a coherent corpus
@@ -349,9 +365,9 @@ purposes, represents a standpoint for this research in its totality,
 yielding for a data-based approach to the whole process. The annotation
 schema of the data is standardized in order to adhere to the major point
 of discussion into the discipline
-\citep{kurdi_natural_2016-2, clark_handbook_2010-1, kuebler-corpus_linguistics},
-representing the plus to furnish a data source which is independent to
-the merely contingent purposes.
+\citep{clark2010, kueblerZinsmeinster2015, kurdi2016}, representing the
+plus to furnish a data source which is independent to the merely
+contingent purposes.
 
 This research aims to offer a way to investigate how second language
 acquisition can be seen grounding on a coherent set of data in terms of
@@ -409,25 +425,6 @@ This introductive chapter collects a preliminary way to represent the
 main areas of the research, the methods involved in the analysis and the
 possible outcomes of such a way to conduct the work.
 
-The idea under this research moves across the motivation to investigate
-over an empirically-grounded path the strategies shown by the learners
-during the acquisition of second languages, using an established
-coherent digital architecture. My task is twofold: on one side this
-provides for the developing of a theoretically-grounded framework to
-research in the fields of Second Language Acquisition (SLA), while on
-the other this necessitates to develop a linguistic corpus which collect
-in a coherent fashion a wide set of data that represent some spotted
-linguistic facts in order to give a transparent documentation of the
-learning path. The usage of the modern tools in developing a linguistic
-corpus yields for a fully documentable research path, in which is
-possible to reconstruct the steps and the choices which underlie its
-development, the methods used in the analysis, the correctness of the
-outcomes. This kind of research is intimately multidisciplinar in
-nature, embracing different approaches and areas of interest: digital
-humanities, corpus and computational linguistics for the development of
-the linguistic corpus, general and theoretical linguistics, studies on
-SLA and interlanguage for the theoretical analysis.
-
 \section{Background for the thesis}\label{background-for-the-thesis}
 
 \subsection{Data-based research:
@@ -465,10 +462,18 @@ and theoretical.
 
 \subsection{Empirical objectives}\label{empirical-objectives}
 
-The role of the native language (L1) can conditionates deeply the way in
-which the target language (L2) is acquired during the learning path: an
-emblematic case is the \emph{transfer} of the knowledge about the
-structures of the L1 to the target, revealing the interlanguage.
+Amongst many scholar the role of the native language (L1) has been
+raised as a factor of possible conditionation in the way which the
+target language (L2) is acquired during the learning path: an emblematic
+case is the \emph{transfer} of the knowledge about the structures of the
+L1 to the target, revealing the intermediate steps of the acquisitional
+path defined with the term \emph{interlanguage} \citep{selinker1972},
+that we can refer as to \textbf{Interlanguage Hypothesis} (IlH).
+Different from this hypothesis --which recognizes a central place to the
+native language in the acquisitional path-- is the \textbf{Monitor
+Model} \citep{krashen1981}, a multi-focal perspective on language
+acquisition where different factors are described as involved in the
+process and where the L1 could not represent that conditionation.
 
 During the last 20 years, a considerable part of linguistic literature
 is involved in developing some sort of models to think how the faculty
@@ -478,26 +483,67 @@ environment. Studies on SLA is a fertile field, which relies on
 comparative and contrastive analyses of linguistic phenomena, either
 both from an applied view \citep{ellis1994} than by theoretically
 grounded perspective focused on Generative framework (GenSLA)
-\citep[\citet{rothmanSlabakova2017}, \citet{hawkins2001},
-\citet{sorace2011}]{guasti2002}. In this sense appears that the adoption
-of a coherent model to analyze the variation in grammar into a
-parametric model can be suitable for long-standing researches on SLA and
-interlanguage, also based on independent data-mining initiatives as in
-the case of the present purposes, which disentangles the data in a form
-of a linguistic corpus and the linguistic analysis.
+\citep{guasti2002, hawkins2001, rothmanSlabakova2017, sorace2011}. In
+this sense appears that the adoption of a coherent framework to analyze
+the variation in grammar into a \emph{parametric} model
+\citep{chomsky1995} can be suitable for long-standing researches on SLA
+and interlanguage, also based on independent data-mining initiatives as
+in the case of the present purposes, which disentangles the data in a
+form of a linguistic corpus and the linguistic analysis.
+
+The dataset used in this thesis aims to display either the different
+linguistic outcomes in a wide range of communicative situations by the
+same learner, both than a sociolinguistic grained analysis where the
+variety of educational or age range can show different linguistic
+behaviors.
 
 \subsection{Theoretical objectives}\label{theoretical-objectives}
 
 From a theoretical viewpoint, the research is inserted in the current
-theories which rely on the hierarchical functioning of the language
+theories that rely on the hierarchical functioning of the language
 faculty, for which the variation among languages are reconducted to a
 parametrizing of choice among the structures of languages
-\citep[\citet{chomsky1998}, \citet{chomsky2013}, \citet{chomsky2015},
-\citet{adger2013}, \citet{rizzi2013}]{chomsky1995}. This view permits on
-one side to compare the syntactic structures in a coherent and schematic
-way, while on the other it concentrates moreover on the hierarchical
-fashion of the language faculty than on the linear order displayed by
-the utterances.
+\citep{adger2013, chomsky1995, chomsky1998, chomsky2013, chomsky2015, rizzi2013},
+which are constant between the language structures, despite of the
+wideness of the variation amongst the languages:
+
+\begin{quote}
+We are concerned, then, with states of the language faculty, which we
+understand to be some array of cognitive traits and capacities, a
+particular component of the human mind/brain. The language faculty has
+an initial state, genetically determined; in the normal course of
+development it passes through a series of states in early childhood,
+reaching a relatively stable steady state that undergoes little
+subsequent change, apart from the lexicon. To a good first
+approximation, the initial state appears to be uniform for the species.
+\citep{chomsky1995}
+\end{quote}
+
+This view permits on one side to compare the syntactic structures in a
+coherent and schematic way, while on the other it concentrates moreover
+on the hierarchical fashion of the language faculty than on the linear
+order displayed by the utterances \citep{kayne1994, moro2000}. In this
+perspective is generally assumed that the hierarchical phrase structure
+plays a central role in syntactic computation, while the
+\emph{flattering} of such structures into a mono-dimensional workspace
+is a matter of externalization constraints and interface conditions
+(e.g.~the need to give an ordered array where every item of the sentence
+is present at one time in order to be spelled out). I will summarize
+this in a representational way with the usual tree-diagram in
+Fig.\ref{fig:tree1}.
+
+\begin{figure}
+\centering
+\includegraphics{./assets/img/png-tree1.png}
+\caption{\label{fig:tree1} Representation of syntactic structures}
+\end{figure}
+
+Given this way to proceed, that assure a coherent framework to compare
+languages in a parametric way, the main theoretical question addressed
+here concerns the relevance and the potential usage of this perspective
+in the analysis of a dynamic system as during the acquisitional path and
+the strategies raised up by learners during the various steps in the
+interlanguage.
 
 \section{Outline of the thesis}\label{outline-of-the-thesis}
 

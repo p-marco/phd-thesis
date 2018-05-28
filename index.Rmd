@@ -21,10 +21,10 @@ always_allow_html: yes
 
 
 The main topic of this doctoral dissertation is on the analysis of syntactic structures in language acquisition,  specifically in the domain of Czech and Slovak learners which acquire the Italian language. In particular, I will focus on the complex noun phrase subdomain, showing the compositionality of the phrase structure and the hierarchical fashion of this component. 
-The analysis is casted in the Minimalist-oriented framework of the Generative Grammar [@chomsky1995; @chomsky1998; @chomsky2013; @hcf2002] and its application in the field of the second language acquisition [@rothmanSlabakova2017;  @doi:10.1093/applin/amu027].
+The analysis is casted in the Minimalist-oriented framework of the Generative Grammar [@chomsky1995; @chomsky1998; @chomsky2013; @hcf2002] and its application in the field of the second language acquisition [@rothmanSlabakova2017;  @slabakovaLealLiskin2014].
 
 The usage of an established computational ground to conduct the work, where the data retrieved by fieldwork is stored in a coherent corpus which easily permits to be queried and interpolated for the research purposes, represents a standpoint for this research in its totality, yielding for a data-based approach to the whole process. 
-The annotation schema of the data is standardized in order to adhere to the major point of discussion into the discipline [@kurdi_natural_2016-2; @clark_handbook_2010-1; @kuebler-corpus_linguistics], representing the plus to furnish a data source which is independent to the merely contingent purposes.
+The annotation schema of the data is standardized in order to adhere to the major point of discussion into the discipline [@clark2010; @kueblerZinsmeinster2015; @kurdi2016], representing the plus to furnish a data source which is independent to the merely contingent purposes.
 
 This research aims to offer a way to investigate how second language acquisition can be seen grounding on a coherent set of data in terms of annotation schema: it does insist either on the speculative questions both on computational models involved.
 
