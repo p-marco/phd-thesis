@@ -71,14 +71,32 @@ From a theoretical viewpoint, the research is inserted in the current theories t
 >We are concerned, then, with states of the language faculty, which we understand to be some array of cognitive traits and capacities, a particular component of the human mind/brain. The language faculty has an initial state, genetically determined; in the normal course of development it passes through a series of states in early childhood, reaching a relatively stable steady state that undergoes little subsequent change, apart from the lexicon. To a good first approximation, the initial state appears to be uniform for the species. 
 >[@chomsky1995]
 
-This view permits on one side to compare the syntactic structures in a coherent and schematic way, while on the other it concentrates moreover on the hierarchical fashion of the language faculty than on the linear order displayed by the utterances [@kayne1994; @moro2000]. In this perspective is generally assumed that the hierarchical phrase structure plays a central role in syntactic computation, while the *flattering* of such structures into a mono-dimensional workspace is a matter of externalization constraints and interface conditions (e.g. the need to give an ordered array where every item of the sentence is present at one time in order to be spelled out). I will summarize this in a representational way with the usual tree-diagram in Fig.\@ref(fig:tree1). 
+This view permits on one side to compare the syntactic structures in a coherent and schematic way, while on the other it concentrates moreover on the hierarchical fashion of the language faculty than on the linear order displayed by the utterances [@kayne1994; @moro2000]. In this perspective is generally assumed that the hierarchical phrase structure plays a central role in syntactic computation, while the *flattering* of such structures into a mono-dimensional workspace is a matter of externalization constraints and interface conditions (e.g. the need to give an ordered array where every item of the sentence is present at one time in order to be spelled out). I will summarize this in a representational way with the usual tree-diagram in Fig.\@ref(fig:unnamed-chunk-1). 
 
-![(\#fig:tree1) Representation of syntactic structures](./assets/img/png-tree1.png)
+
+```{r, echo=FALSE, engine='tikz', out.width='70%', fig.ext=if (knitr:::is_latex_output()) 'pdf' else 'svg', fig.cap='Representation of syntactic structures', engine.opts = list(template = "latex/tikz2pdf.tex"), fig.align='center'}
+
+\begin{tikzpicture}[scale=0.6]
+\tikzset{every tree node/.style={align=center,anchor=north}}
+\Tree 
+[ .CP \node(C){C};
+[ .TP [.DP\textsubscript{i} \edge[roof]; \node(subj){The girl\\$[${\sc P:3}$]$\\$[${\sc N:sg}$]$}; ]  
+[ .T' [ .T \node(t0){eats\\$[${\sc P:3}$]$\\$[${\sc N:sg}$]$};  ]
+[ .vP [ .DP\textsubscript{i} \node(ti){$t$}; ] 
+[ .v' [.DP\textsubscript{j} \edge[roof]; \node(obj){the apple}; ]  
+[ .v' [ .v \node(v){eat}; ]
+[ .VP [ .V \node(tV){$\sqrt{eat}$}; ]
+[ .DP\textsubscript{j} \node(tj){$t$}; ] ] ] ] ] ] ] ]
+\draw[thin,<-] (subj.south) to [bend right=60] (ti.south);
+\draw[thin,<-] (obj.south) to [bend right=60] (tj.south);
+\end{tikzpicture}
+```
 
 Given this way to proceed, that assure a coherent framework to compare languages in a parametric way, the main theoretical question addressed here concerns the relevance and the potential usage of this perspective in the analysis of a dynamic system as during the acquisitional path and the strategies raised up by learners during the various steps in the interlanguage.
 
+Given this way to proceed, that assure a coherent framework to compare languages in a parametric way, the main theoretical question addressed here concerns the relevance and the potential usage of this perspective in the analysis of a dynamic system as during the acquisitional path and the strategies raised up by learners during the various steps in the interlanguage.
 
-
+Given this way to proceed, that assure a coherent framework to compare languages in a parametric way, the main theoretical question addressed here concerns the relevance and the potential usage of this perspective in the analysis of a dynamic system as during the acquisitional path and the strategies raised up by learners during the various steps in the interlanguage.
 
 ## Outline of the thesis
 

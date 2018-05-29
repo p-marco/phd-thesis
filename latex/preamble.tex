@@ -1,5 +1,16 @@
 \usepackage[a4paper,left=4cm, top=3cm, bottom=3cm, right=4cm, heightrounded, headsep=2em,
 footskip=11mm, vmarginratio=1:1]{geometry}
+\makeatletter
+\DeclareOldFontCommand{\rm}{\normalfont\rmfamily}{\mathrm}
+\DeclareOldFontCommand{\sf}{\normalfont\sffamily}{\mathsf}
+\DeclareOldFontCommand{\tt}{\normalfont\ttfamily}{\mathtt}
+\DeclareOldFontCommand{\bf}{\normalfont\bfseries}{\mathbf}
+\DeclareOldFontCommand{\it}{\normalfont\itshape}{\mathit}
+\DeclareOldFontCommand{\sl}{\normalfont\slshape}{\@nomath\sl}
+\DeclareOldFontCommand{\sc}{\normalfont\scshape}{\@nomath\sc}
+\makeatother
+
+
 
 
 \usepackage{fontspec}
@@ -15,6 +26,7 @@ footskip=11mm, vmarginratio=1:1]{geometry}
 
 
 \usepackage[english]{babel}
+
 
 
 \usepackage[usenames, dvipsnames]{color}
@@ -191,6 +203,9 @@ footskip=11mm, vmarginratio=1:1]{geometry}
 
 \let\oldmaketitle\maketitle
 \AtBeginDocument{\let\maketitle\relax}
+
+
+\usepackage{catchfilebetweentags}
 
 \usepackage[autostyle]{csquotes}  
 \usepackage{enumerate}

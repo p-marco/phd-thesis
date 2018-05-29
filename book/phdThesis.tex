@@ -34,15 +34,6 @@
 \usepackage{longtable,booktabs}
 % Fix footnotes in tables (requires footnote package)
 \IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{long table}}{}
-\usepackage{graphicx,grffile}
-\makeatletter
-\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
-\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
-\makeatother
-% Scale images if necessary, so that they will not overflow the page
-% margins by default, and it is still possible to overwrite the defaults
-% using explicit options in \includegraphics[width, height, ...]{}
-\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
 \IfFileExists{parskip.sty}{%
 \usepackage{parskip}
 }{% else
@@ -70,6 +61,17 @@
 
 \usepackage[a4paper,left=4cm, top=3cm, bottom=3cm, right=4cm, heightrounded, headsep=2em,
 footskip=11mm, vmarginratio=1:1]{geometry}
+\makeatletter
+\DeclareOldFontCommand{\rm}{\normalfont\rmfamily}{\mathrm}
+\DeclareOldFontCommand{\sf}{\normalfont\sffamily}{\mathsf}
+\DeclareOldFontCommand{\tt}{\normalfont\ttfamily}{\mathtt}
+\DeclareOldFontCommand{\bf}{\normalfont\bfseries}{\mathbf}
+\DeclareOldFontCommand{\it}{\normalfont\itshape}{\mathit}
+\DeclareOldFontCommand{\sl}{\normalfont\slshape}{\@nomath\sl}
+\DeclareOldFontCommand{\sc}{\normalfont\scshape}{\@nomath\sc}
+\makeatother
+
+
 
 
 \usepackage{fontspec}
@@ -85,6 +87,7 @@ footskip=11mm, vmarginratio=1:1]{geometry}
 
 
 \usepackage[english]{babel}
+
 
 
 \usepackage[usenames, dvipsnames]{color}
@@ -261,6 +264,9 @@ footskip=11mm, vmarginratio=1:1]{geometry}
 
 \let\oldmaketitle\maketitle
 \AtBeginDocument{\let\maketitle\relax}
+
+
+\usepackage{catchfilebetweentags}
 
 \usepackage[autostyle]{csquotes}  
 \usepackage{enumerate}
@@ -530,13 +536,30 @@ is a matter of externalization constraints and interface conditions
 (e.g.~the need to give an ordered array where every item of the sentence
 is present at one time in order to be spelled out). I will summarize
 this in a representational way with the usual tree-diagram in
-Fig.\ref{fig:tree1}.
+Fig.\ref{fig:unnamed-chunk-1}.
 
 \begin{figure}
-\centering
-\includegraphics{./assets/img/png-tree1.png}
-\caption{\label{fig:tree1} Representation of syntactic structures}
+
+{\centering \includegraphics[width=0.7\linewidth]{phdThesis_files/figure-latex/unnamed-chunk-1-1} 
+
+}
+
+\caption{Representation of syntactic structures}\label{fig:unnamed-chunk-1}
 \end{figure}
+
+Given this way to proceed, that assure a coherent framework to compare
+languages in a parametric way, the main theoretical question addressed
+here concerns the relevance and the potential usage of this perspective
+in the analysis of a dynamic system as during the acquisitional path and
+the strategies raised up by learners during the various steps in the
+interlanguage.
+
+Given this way to proceed, that assure a coherent framework to compare
+languages in a parametric way, the main theoretical question addressed
+here concerns the relevance and the potential usage of this perspective
+in the analysis of a dynamic system as during the acquisitional path and
+the strategies raised up by learners during the various steps in the
+interlanguage.
 
 Given this way to proceed, that assure a coherent framework to compare
 languages in a parametric way, the main theoretical question addressed
@@ -575,6 +598,7 @@ The theoretical outcome constitues the main topic of the research.
 
 This project is constituted by files written in Markdown syntax and
 exported either as a standalone website both as printer-ready product.
+
 This is due to the awesome work of the people behind different
 libraries:
 
@@ -614,7 +638,8 @@ computational linguistics.
 
 Feel free to write me at
 \href{mailto:marco.petolicchio@gmail.com}{\nolinkurl{marco.petolicchio@gmail.com}}
-or visit marcopetolicchio.com for the detailed contact list.
+or visit \href{http://marcopetolicchio.com}{marcopetolicchio.com} for
+the detailed contact list.
 
 \bibliography{bibliography.bib}
 

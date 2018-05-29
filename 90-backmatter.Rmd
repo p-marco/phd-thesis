@@ -8,6 +8,10 @@
 
 
 This project is constituted by files written in Markdown syntax and exported either as a standalone website both as printer-ready product.
+
+
+
+
 This is due to the awesome work of the people behind different libraries:
 
 * [Pandoc](https://bookdown.org)
@@ -29,7 +33,7 @@ I am a Graduate Researcher involved in a Ph.D. Program in Italian Linguistics at
 
 My interests span across digital humanities, syntax theories and computational linguistics.
 
-Feel free to write me at marco.petolicchio@gmail.com or visit marcopetolicchio.com for the detailed contact list.
+Feel free to write me at [marco.petolicchio@gmail.com](mailto:marco.petolicchio@gmail.com) or visit [marcopetolicchio.com](http://marcopetolicchio.com) for the detailed contact list.
 
 
 
