@@ -71,6 +71,13 @@ section{
   scroll-behavior: smooth; overflow: scroll;}
 
 
+.color-theme-2 img{
+	filter: invert(100%) hue-rotate(180deg);
+}
+
+.color-theme-2 .section h1{
+	background: #1a1a1a;
+}
 
 /* LEIPZIG GLOSSES */
 

@@ -20,9 +20,9 @@ footskip=11mm, vmarginratio=1:1]{geometry}
 \usepackage{microtype}
 
 
-\setmainfont[Numbers=Lowercase]{IBMPlexSerif-Light}
-\setsansfont[Numbers=Lowercase]{IBMPlexSans-Light}
-\setmonofont[Numbers=Lowercase]{IBMPlexMono-Light}
+\setmainfont[Numbers=Lowercase]{IBMPlexSerif}
+\setsansfont[Numbers=Lowercase]{IBMPlexSans}
+\setmonofont[Numbers=Lowercase]{IBMPlexMono}
 
 
 \usepackage[english]{babel}
@@ -56,6 +56,12 @@ footskip=11mm, vmarginratio=1:1]{geometry}
 
 
 
+\usepackage{floatrow}
+\floatsetup[table]{font=sf}
+\floatsetup[figure]{font=sf}
+\floatsetup[tikzpicture]{font=sf}
+
+\usepackage[font={color=upol-dGrey}, labelfont={color=upol-dGrey}]{caption}
 
 
 
@@ -125,7 +131,7 @@ footskip=11mm, vmarginratio=1:1]{geometry}
 
 
 
-
+\usepackage{booktabs}
 
 \usepackage{pdfpages}
 
@@ -185,6 +191,9 @@ footskip=11mm, vmarginratio=1:1]{geometry}
 
 \usepackage{tikz,tikz-qtree}
 
+
+\tikzstyle{every picture}+=[font=\sffamily]
+
 \usepackage{listings}
 \lstset{ %Formatting for code in appendix
 	backgroundcolor = \color{gray},
@@ -203,6 +212,8 @@ footskip=11mm, vmarginratio=1:1]{geometry}
 
 \let\oldmaketitle\maketitle
 \AtBeginDocument{\let\maketitle\relax}
+
+
 
 
 \usepackage{catchfilebetweentags}

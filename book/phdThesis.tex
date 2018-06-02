@@ -81,9 +81,9 @@ footskip=11mm, vmarginratio=1:1]{geometry}
 \usepackage{microtype}
 
 
-\setmainfont[Numbers=Lowercase]{IBMPlexSerif-Light}
-\setsansfont[Numbers=Lowercase]{IBMPlexSans-Light}
-\setmonofont[Numbers=Lowercase]{IBMPlexMono-Light}
+\setmainfont[Numbers=Lowercase]{IBMPlexSerif}
+\setsansfont[Numbers=Lowercase]{IBMPlexSans}
+\setmonofont[Numbers=Lowercase]{IBMPlexMono}
 
 
 \usepackage[english]{babel}
@@ -117,6 +117,12 @@ footskip=11mm, vmarginratio=1:1]{geometry}
 
 
 
+\usepackage{floatrow}
+\floatsetup[table]{font=sf}
+\floatsetup[figure]{font=sf}
+\floatsetup[tikzpicture]{font=sf}
+
+\usepackage[font={color=upol-dGrey}, labelfont={color=upol-dGrey}]{caption}
 
 
 
@@ -186,7 +192,7 @@ footskip=11mm, vmarginratio=1:1]{geometry}
 
 
 
-
+\usepackage{booktabs}
 
 \usepackage{pdfpages}
 
@@ -246,6 +252,9 @@ footskip=11mm, vmarginratio=1:1]{geometry}
 
 \usepackage{tikz,tikz-qtree}
 
+
+\tikzstyle{every picture}+=[font=\sffamily]
+
 \usepackage{listings}
 \lstset{ %Formatting for code in appendix
 	backgroundcolor = \color{gray},
@@ -264,6 +273,8 @@ footskip=11mm, vmarginratio=1:1]{geometry}
 
 \let\oldmaketitle\maketitle
 \AtBeginDocument{\let\maketitle\relax}
+
+
 
 
 \usepackage{catchfilebetweentags}
@@ -285,7 +296,7 @@ footskip=11mm, vmarginratio=1:1]{geometry}
 \title{Second Language Acquisition: a corpus-based approach for a theoretical
 investigation}
 \author{Marco Petolicchio}
-\date{2018-05-29}
+\date{2018-06-02}
 
 \usepackage{amsthm}
 \newtheorem{theorem}{Theorem}[chapter]
@@ -362,7 +373,7 @@ fashion of this component. The analysis is casted in the
 Minimalist-oriented framework of the Generative Grammar
 \citep{chomsky1995, chomsky1998, chomsky2013, hcf2002} and its
 application in the field of the second language acquisition
-\citep{rothmanSlabakova2017, slabakovaLealLiskin2014}.
+\citep{rothmanslabakova2017, slabakovalealliskin2014}.
 
 The usage of an established computational ground to conduct the work,
 where the data retrieved by fieldwork is stored in a coherent corpus
@@ -371,7 +382,7 @@ purposes, represents a standpoint for this research in its totality,
 yielding for a data-based approach to the whole process. The annotation
 schema of the data is standardized in order to adhere to the major point
 of discussion into the discipline
-\citep{clark2010, kueblerZinsmeinster2015, kurdi2016}, representing the
+\citep{clark2010, kueblerzinsmeinster2015, kurdi2016}, representing the
 plus to furnish a data source which is independent to the merely
 contingent purposes.
 
@@ -433,11 +444,86 @@ possible outcomes of such a way to conduct the work.
 
 \section{Background for the thesis}\label{background-for-the-thesis}
 
-\subsection{Data-based research:
-definition}\label{data-based-research-definition}
+\subsection{Corpus-based approach: motivations for the
+thesis}\label{corpus-based-approach-motivations-for-the-thesis}
 
-\subsection{Data-based research: motivations for the
-thesis}\label{data-based-research-motivations-for-the-thesis}
+Corpus based \citep{biber2010}
+
+\subsection{Learner-based corpora of Italian L2: an
+overview}\label{learner-based-corpora-of-italian-l2-an-overview}
+
+Here I summarize the most representative Italian L2 learner corpora
+available online:
+
+\textbf{\href{http://www.valico.org/valico_b_CORPUS.html}{GranVALICO}}
+and \textbf{\href{http://www.valico.org/valico_CORPUS.html}{VALICO}}
+\citep{valico}\\
+Learner corpora provided by Turin University. They represent the most
+valuable sources of Italian L2 corpora. They are composed by written
+texts composed by the students which have the assignment to describe the
+vignettes provided by the teachers. The corpora are accessible online
+with an advanced search that permits to filter the data by different
+parameters (e.g.~learners' L1 and education, assignments etc.).
+
+\textbf{\href{http://merlin-platform.eu}{MERLIN}} \citep{merlin}\\
+The MERLIN Corpus represents a wide-range multilingual documented
+resource which collects 2.286 texts written by learners of Czech,
+Italian and German. Started in 2012, the main objective is to show the
+different levels of acquiring languages by the usage of written texts,
+relying on the CEFR level schema on L2 acquisition. The Italian-L2
+subcorpus contains 813 texts.
+
+\textbf{\href{http://parlaritaliano.it/index.php/en/data/653-corpus-lips}{LIPS}}
+\citep{lips}\\
+The corpus contains the transcription of more than 2000 audio files by
+CILS - Certificazione di Italiano come Lingua Straniera (CILS) at the
+Università per Stranieri of Siena between the years 1993--2006. With
+more than 700k of words divided in \emph{monologues} and
+\emph{dialogues} between the candidate and the examiner, it represents
+one of the biggest corpus of Italian L2. The corpus is POS annotated
+using the tool Treetagger \citep{schmid1994}.
+
+\textbf{\href{http://czech-it.github.io}{Czech-IT}} \citep{czech-it}\\
+The Czech-IT corpus contains chat messages, emails, coversations,
+surveys and assignments by \textgreater{}70 Czech and Slovak learners of
+Italian language\footnote{I am co-founder of the project.}. Started in
+2017, it is fully accessible online while the data acquisition
+continues. The whole dataset is fully interrogable by an interactive
+interface and released with a Creative Commons license; POS and
+automatic tagging are in tune.
+
+\textbf{\href{http://www.parlaritaliano.it/index.php/it/corpora-di-parlato/662-corpus-italiano-scritto-l2}{Corpus
+Italiano scritto L2}} \citep{vogheraturco2010}\\
+The corpus retains 227 written texts by undergraduate students of
+different native languages, which study Italian as a foreign language
+for their courses at the University of Greenwich. Learners' L1 are:
+albanian, bosniac, chinese, french, greek, english, norwegian,
+portuguese, spanish, tigrinya.\\
+The type of texts are: \emph{descriptive}, \emph{narrative} and
+\emph{argumental}. The texts are syntactically annotated and the tagset
+is available in xml format.
+
+\begin{longtable}[]{@{}llrrrr@{}}
+\caption{Statistics of Italian L2 Corpora}\tabularnewline
+\toprule
+Corpus & L1 & Texts & Tokens & Lemma & Years\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+Corpus & L1 & Texts & Tokens & Lemma & Years\tabularnewline
+\midrule
+\endhead
+GranVALICO & Various & 4.778 & 784.217 & 13.057 &
+2002--2007\tabularnewline
+VALICO & Various & 2.502 & 382.098 & 6.935 &\tabularnewline
+LIPS & Various & 2.198 & \textgreater{}700.000 & &
+1993--2006\tabularnewline
+MERLIN & Various & 813 & & & 2012--?\tabularnewline
+Czech-IT & cs,sk & 298 & 15.518 & & 2017--present\tabularnewline
+Corpus Italiano Scritto L2 & Various & 227 & 22.931 & &
+2010?\tabularnewline
+\bottomrule
+\end{longtable}
 
 \section{Objectives of the thesis}\label{objectives-of-the-thesis}
 
@@ -449,8 +535,8 @@ and theoretical.
 \tightlist
 \item
   \textbf{Methodological objectives}\\
-  To address the decision and the methods raised by the compilation, the
-  storage and the design of a learner based corpus, exploring the
+  To address the decisions and the methods raised by the compilation,
+  the storage and the design of a learner based corpus, exploring the
   effective procedures for retrieving the relevant features for the
   analysis;
 \item
@@ -489,29 +575,27 @@ environment. Studies on SLA is a fertile field, which relies on
 comparative and contrastive analyses of linguistic phenomena, either
 both from an applied view \citep{ellis1994} than by theoretically
 grounded perspective focused on Generative framework (GenSLA)
-\citep{guasti2002, hawkins2001, rothmanSlabakova2017, sorace2011}. In
-this sense appears that the adoption of a coherent framework to analyze
-the variation in grammar into a \emph{parametric} model
+\citep{guasti2002, hawkins2001, rothmanslabakova2017, sorace2011}. In
+this sense appears that the adoption of a general picture in which
+analyze the variation in grammar into a \emph{parametric} model
 \citep{chomsky1995} can be suitable for long-standing researches on SLA
-and interlanguage, also based on independent data-mining initiatives as
-in the case of the present purposes, which disentangles the data in a
-form of a linguistic corpus and the linguistic analysis.
+and interlanguage.
 
 The dataset used in this thesis aims to display either the different
 linguistic outcomes in a wide range of communicative situations by the
 same learner, both than a sociolinguistic grained analysis where the
 variety of educational or age range can show different linguistic
-behaviors.
+behaviors in the range of learners' variety.
 
 \subsection{Theoretical objectives}\label{theoretical-objectives}
 
 From a theoretical viewpoint, the research is inserted in the current
 theories that rely on the hierarchical functioning of the language
 faculty, for which the variation among languages are reconducted to a
-parametrizing of choice among the structures of languages
+parametrizing of choice amongst the languages
 \citep{adger2013, chomsky1995, chomsky1998, chomsky2013, chomsky2015, rizzi2013},
-which are constant between the language structures, despite of the
-wideness of the variation amongst the languages:
+which are structurally constant, despite of the wideness of the
+linguistic variation:
 
 \begin{quote}
 We are concerned, then, with states of the language faculty, which we
@@ -536,32 +620,18 @@ is a matter of externalization constraints and interface conditions
 (e.g.~the need to give an ordered array where every item of the sentence
 is present at one time in order to be spelled out). I will summarize
 this in a representational way with the usual tree-diagram in
-Fig.\ref{fig:unnamed-chunk-1}.
+Fig.\ref{fig:tree1}.
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.7\linewidth]{phdThesis_files/figure-latex/unnamed-chunk-1-1} 
+{\centering \includegraphics[width=0.7\linewidth]{phdThesis_files/figure-latex/tree1-1} 
 
 }
 
-\caption{Representation of syntactic structures}\label{fig:unnamed-chunk-1}
+\caption{Structural representation of a simple sentence}\label{fig:tree1}
 \end{figure}
 
-Given this way to proceed, that assure a coherent framework to compare
-languages in a parametric way, the main theoretical question addressed
-here concerns the relevance and the potential usage of this perspective
-in the analysis of a dynamic system as during the acquisitional path and
-the strategies raised up by learners during the various steps in the
-interlanguage.
-
-Given this way to proceed, that assure a coherent framework to compare
-languages in a parametric way, the main theoretical question addressed
-here concerns the relevance and the potential usage of this perspective
-in the analysis of a dynamic system as during the acquisitional path and
-the strategies raised up by learners during the various steps in the
-interlanguage.
-
-Given this way to proceed, that assure a coherent framework to compare
+Given this way to proceed, that assures a coherent framework to compare
 languages in a parametric way, the main theoretical question addressed
 here concerns the relevance and the potential usage of this perspective
 in the analysis of a dynamic system as during the acquisitional path and
