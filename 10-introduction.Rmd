@@ -2,7 +2,7 @@
 
 # Introduction
 
-The main question of this thesis yields a twofold mindset that is not a corollary of the research but which represents the process in which the work was conducted: how could I investigate a particular area of the language faculty as language acquisition in a way which can gain from the usage of the digital instruments in order to ground the theoretical analysis on actual data?
+The main question of this thesis yields a twofold mindset that is not a corollary of the research but represents the process in which the work was conducted: how could I investigate a particular area of the language faculty as language acquisition in a way which can gain from the usage of the digital instruments in order to ground the theoretical analysis on actual data?
 
 The idea under this research moves across the motivation to investigate over an empirically-grounded path the strategies shown by the learners during the acquisition of second languages, using an established coherent digital architecture. 
 My task is twofold: on one side this provides for the developing of a  theoretically-grounded framework to research in the fields of Second Language Acquisition (SLA), while on the other this necessitates to develop a linguistic corpus which collect in a coherent fashion a wide set of data that represent some spotted linguistic facts in order to give a transparent documentation of the learning path.
@@ -31,22 +31,22 @@ Corpus based [@biber2010]
 
 Here I summarize the most representative Italian L2 learner corpora available online: 
 
-**[GranVALICO](http://www.valico.org/valico_b_CORPUS.html)** and **[VALICO](http://www.valico.org/valico_CORPUS.html)** [@valico]  
+* **[GranVALICO](http://www.valico.org/valico_b_CORPUS.html)** and **[VALICO](http://www.valico.org/valico_CORPUS.html)** [@valico]  
 Learner corpora provided by Turin University. They represent the most valuable sources of Italian L2 corpora. They are composed by written texts composed by the students which have the assignment to describe the vignettes provided by the teachers. The corpora are accessible online with an advanced search that permits to filter the data by different parameters (e.g. learners' L1 and education, assignments etc.). 
 
-**[MERLIN](http://merlin-platform.eu)** [@merlin]  
+* **[MERLIN](http://merlin-platform.eu)** [@merlin]  
 The MERLIN Corpus represents a wide-range multilingual documented resource which collects 2.286 texts written by learners of Czech, Italian and German. 
 Started in 2012, the main objective is to show the different levels of acquiring languages by the usage of written texts, relying on the CEFR level schema on L2 acquisition.
 The Italian-L2 subcorpus contains 813 texts.
 
-**[LIPS](http://parlaritaliano.it/index.php/en/data/653-corpus-lips)** [@lips]    
+* **[LIPS](http://parlaritaliano.it/index.php/en/data/653-corpus-lips)** [@lips]    
 The corpus contains the transcription of more than 2000 audio files by CILS - Certificazione di Italiano come Lingua Straniera (CILS) at the Università per Stranieri of Siena between the years 1993--2006.
 With more than 700k of words divided in *monologues* and *dialogues* between the candidate and the examiner, it represents one of the biggest corpus of Italian L2. The corpus is POS annotated using the tool Treetagger [@schmid1994].  
 
-**[Czech-IT](http://czech-it.github.io)** [@czech-it]  
+* **[Czech-IT](http://czech-it.github.io)** [@czech-it]  
 The Czech-IT corpus contains chat messages, emails, coversations, surveys and assignments by >70 Czech and Slovak learners of Italian language^[I am co-founder of the project.]. Started in 2017, it is fully accessible online while the data acquisition continues. The whole dataset is fully interrogable by an interactive interface and released with a Creative Commons license; POS and automatic tagging are in tune. 
 
-**[Corpus Italiano scritto L2](http://www.parlaritaliano.it/index.php/it/corpora-di-parlato/662-corpus-italiano-scritto-l2)** [@vogheraturco2010]  
+* **[Corpus Italiano scritto L2](http://www.parlaritaliano.it/index.php/it/corpora-di-parlato/662-corpus-italiano-scritto-l2)** [@vogheraturco2010]  
 The corpus retains 227 written texts by undergraduate students of different native languages, which study Italian as a foreign language for their courses at the University of Greenwich. 
 Learners' L1 are: albanian, bosniac, chinese, french, greek, english, norwegian, portuguese, spanish, tigrinya.  
 The type of texts are: *descriptive*, *narrative* and *argumental*.
