@@ -78,3 +78,44 @@ The theoretical model established relies on generative studies to language, appl
 
 ### Thesis structure
 here at last.
+
+
+
+
+# Art 1
+
+
+(@)	Pjat’	mál'čikov 	prišli					RU
+    Five	Boy.PL		Come.PST.3PL
+   	'Five boys came'
+
+	
+a. Pjat’	mál'čikov 	prišli					RU
+a. Pięciu 	chłopców 	przyszło				PL
+a. Pět 	chlapů 		přišlo / * přišli		CS
+a. Päť 	chlapov 	prišlo					SK
+
+   	
+
+(@) Pięciu 	chłopców 	przyszło				PL
+
+
+(@) Pět 	chlapů 		přišlo / * přišli		CS
+
+
+(@) Päť 	chlapov 	prišlo					SK
+
+
+
+(@) Example	
+	(@) Pięciu 	chłopców 	przyszło				PL
+	a. Pět 	chlapů 		přišlo / * přišli		CS
+	a. Päť 	chlapov 	prišlo					SK
+	Five	Boy.PL		Come.PST.3SG
+	'Five boys came'
+
+(@) Chlapec / 	Pět 	chlapů 	jedl 	deset 	jablek
+	Chlapec / 	Pět 	chlapů 	jedl 			jablko
+	Chlapec / 	Pět 	chlapů 	jí 				jablko
+	Boy.SG / 	Five 	Boy.PL 	Eat.SG 	NUM		Apple
+	'The boy/ five boys eat the apple'
