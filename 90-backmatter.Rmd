@@ -29,7 +29,7 @@ For the typographic setting, the print-ready file is composed on LaTeX with the 
 
 ## About the author {-}
 
-I am a Graduate Researcher involved in a Ph.D. Program in Italian Linguistics at the Department of Romance Studies in the Faculty of Phylosophy at Palacky University in Olomouc, Czech Republic.
+I am a Graduate Researcher involved in a Ph.D. Program in Italian Linguistics at the Department of Romance Studies in the Faculty of Philosophy at Palacky University in Olomouc, Czech Republic.
 
 My interests span across digital humanities, syntax theories and computational linguistics.
 

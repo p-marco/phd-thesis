@@ -13,8 +13,7 @@ bookdown::gitbook:
       toc_float:
       collapsed: false
       smooth_scroll: true
-      before: |
-        <li><a href="./">SLA: a corpus-based approach for a theoretical investigation</a></li>
+      before: 
       after: 
     edit: https://github.com/p-marco/phd-thesis/edit/master/%s
     download: ["pdf", "docx", "epub", "tex" ]

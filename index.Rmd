@@ -1,5 +1,6 @@
 --- 
-title: "Second Language Acquisition: a corpus-based approach for a theoretical investigation"
+title: "Italian as Second Language in native Czechs and Slovaks"
+subtitle: "From the development of a learner corpus towards a theoretical investigation"
 author: "Marco Petolicchio"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site

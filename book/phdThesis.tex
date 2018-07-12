@@ -24,7 +24,7 @@
 \PassOptionsToPackage{hyphens}{url} % url is loaded by hyperref
 \usepackage[unicode=true]{hyperref}
 \hypersetup{
-            pdftitle={Second Language Acquisition: a corpus-based approach for a theoretical investigation},
+            pdftitle={Italian as Second Language in native Czechs and Slovaks},
             pdfauthor={Marco Petolicchio},
             pdfborder={0 0 0},
             breaklinks=true}
@@ -107,7 +107,7 @@ footskip=11mm, vmarginratio=1:1]{geometry}
 \usepackage{setspace}
 
 \makeatletter\let\Title\@title\makeatother
-\makeatletter\let\Author\@author\makeatother
+%\makeatletter\let\Author\@author\makeatother
 
 
 
@@ -295,10 +295,12 @@ footskip=11mm, vmarginratio=1:1]{geometry}
 
 \frontmatter
 
-\title{Second Language Acquisition: a corpus-based approach for a theoretical
+\title{Italian as Second Language in native Czechs and Slovaks}
+\providecommand{\subtitle}[1]{}
+\subtitle{From the development of a learner corpus towards a theoretical
 investigation}
 \author{Marco Petolicchio}
-\date{2018-06-19}
+\date{2018-07-13}
 
 \usepackage{amsthm}
 \newtheorem{theorem}{Theorem}[chapter]
@@ -317,28 +319,31 @@ investigation}
 \begin{document}
 \maketitle
 
+\makeatletter
 \begin{titlepage}
 \pagecolor{titlepagecolor}
+
 \noindent
 \color{white}
 \makebox[0pt][l]{\rule{1.4\textwidth}{1pt}}
 \par
+\begin{minipage}[t][.8\textheight][t]{.8\textwidth}
+
 \noindent
 \textbf{\sffamily{Palacký University}} \textcolor{namecolor}{\sffamily{ Olomouc}}\par \vskip\baselineskip 
 \noindent\sffamily{Ph.D. Thesis in Italian Linguistics} \\
-\noindent\sffamily{Dept. of Romance Languages, Faculty of Arts} \par
+\noindent\sffamily{Dept. of Romance Languages, Faculty of Arts} \par\vskip\baselineskip
 
 \vfill
 
 \noindent
-{\Huge \sffamily{Second Language Acquisition: \\ 
-a corpus based approach \\ 
-for a theoretical investigation
+{\Huge \sffamily{\@title }} \par\vskip\baselineskip
 
-}} \par
-\vskip\baselineskip
 \noindent
-\MakeTextUppercase{\large\sffamily{Marco Petolicchio}} \par \vskip\baselineskip
+{\large \sffamily{\@subtitle}} \par\vskip\baselineskip
+
+\noindent
+\MakeTextUppercase{\large\sffamily{\@author}} \par \vskip\baselineskip
 \noindent
 \vfill
 \noindent
@@ -350,7 +355,9 @@ for a theoretical investigation
 \vfill
  {\footnotesize   \ttfamily{draft : : \today   : :  \currenttime} \par}
 
+\end{minipage}
 \end{titlepage}
+\makeatother
 \nopagecolor% Use this to restore the color pages to white
 \pagecolor{white}
 
@@ -427,18 +434,19 @@ during the acquisition of second languages, using an established
 coherent digital architecture. My task is twofold: on one side this
 provides for the developing of a theoretically-grounded framework to
 research in the fields of Second Language Acquisition (SLA), while on
-the other this necessitates to develop a linguistic corpus which collect
-in a coherent fashion a wide set of data that represent some spotted
-linguistic facts in order to give a transparent documentation of the
-learning path. The usage of the modern tools in developing a linguistic
-corpus yields for a fully documentable research path, in which is
-possible to reconstruct the steps and the choices which underlie its
-development, the methods used in the analysis, the correctness of the
-outcomes. This kind of research is intimately multidisciplinar in
-nature, embracing different approaches and areas of interest: digital
-humanities, corpus and computational linguistics for the development of
-the linguistic corpus, general and theoretical linguistics, studies on
-SLA and interlanguage for the theoretical analysis.
+the other this necessitates to develop a linguistic corpus which
+collects into a coherent fashion a set of data that represent some
+spotted linguistic fact in order to give a transparent documentation of
+the learning path. The usage of the modern tools in developing a
+linguistic corpus yields for a fully documentable research path, in
+which is possible to reconstruct the steps and the choices which
+underlie its development, the methods used in the analysis, the
+correctness of the outcomes. This kind of research is intimately
+multidisciplinar in nature, embracing different approaches and areas of
+interest: digital humanities, corpus and computational linguistics for
+the development of the linguistic corpus, general and theoretical
+linguistics, studies on SLA and interlanguage for the theoretical
+analysis.
 
 This introductive chapter collects a preliminary way to represent the
 main areas of the research, the methods involved in the analysis and the
@@ -486,7 +494,63 @@ empirically based way.
 \subsection{Corpus-based approach: motivations for the
 thesis}\label{corpus-based-approach-motivations-for-the-thesis}
 
-Corpus based \citep{biber2010}
+While a strong opposition between the way to approach the corpora can be
+fairly molded during the actual analysis of the data in a softer manner,
+it can be useful to stand up and recognize those models to threat
+linguistic data as a two different standpoints to keep in mind for the
+different purposes they grown on:
+
+\begin{itemize}
+\item
+  \textbf{Corpus-based}\\
+  When a general theory on some linguistic fact is tested against a
+  corpus in order to verify the hypotheses. This kind of approach is
+  more \emph{deductive}, while it goes top-down, proceeding from a
+  general statement (the theory) towards a specific environment (the
+  corpus).
+\item
+  \textbf{Corpus-driven}\\
+  Corpus-driven approach tends to proceed from the analysis of the
+  partial specific pieces (the corpus), in order to result into a
+  general picture (the theory). This method is more \emph{inductive},
+  going bottom-up.
+\end{itemize}
+
+Different views were proposed to face or embrace the corpora in language
+studies amongst the scholars. The first one is a well-known citation by
+Noam Chomsky, which substantially regrets any importance to corpora for
+a theory-oriented language modeling:
+
+\begin{quote}
+Any natural corpus will be skewed. Some sentences won't occur because
+they are obvious, others because they are false, still others because
+they are impolite. The corpus, if natural, will be so wildly skewed that
+the description would be no more than a mere list.
+
+\citep[Chomsky 1962, \emph{A transformational approach to syntax}
+in][]{togninibonelli2001}
+\end{quote}
+
+On the other hand, John Fillmore recognizes a structural place to
+corpora usage into language reflection:
+
+\begin{quote}
+I have two main observations to make. The first is that I don't think
+there can be any corpora, however large, that contain information about
+all of the areas of English lexicon and grammar that I want to explore;
+all that I have seen are inadequate. The second observation is that
+every corpus that I've had a chance to examine, however small, has
+taught me facts that I couldn't imagine finding out about in any other
+way.
+
+\citep{fillmore1992}
+\end{quote}
+
+As in the Fillmore's quotation, it appears that the distinction between
+deductive and inductive method can be entangled in some part of the
+research planning: a simple scan of the data can yields for a purpose of
+a general theory which needs to be refined on the actual data in a more
+circular manner.
 
 \subsection{Learner-based corpora of Italian L2: an
 overview}\label{learner-based-corpora-of-italian-l2-an-overview}
@@ -595,6 +659,12 @@ and theoretical.
 
 \subsection{Methodological objectives}\label{methodological-objectives}
 
+While usually seen as a sussidary tool for linguistic investigations,
+corpus linguistics can be regarded with a certain degree of indipendence
+by such aims, and involves highly specialized sectors for what concerns
+the planning, the mantaining, the design and the scalarity in time of
+the corpora.
+
 \subsection{Empirical objectives}\label{empirical-objectives}
 
 Amongst many scholar the role of the native language (L1) has been
@@ -649,6 +719,7 @@ development it passes through a series of states in early childhood,
 reaching a relatively stable steady state that undergoes little
 subsequent change, apart from the lexicon. To a good first
 approximation, the initial state appears to be uniform for the species.
+
 \citep{chomsky1995}
 \end{quote}
 
@@ -775,7 +846,7 @@ can't thank everyone on the web about that. By the way, thank you!
 
 I am a Graduate Researcher involved in a Ph.D.~Program in Italian
 Linguistics at the Department of Romance Studies in the Faculty of
-Phylosophy at Palacky University in Olomouc, Czech Republic.
+Philosophy at Palacky University in Olomouc, Czech Republic.
 
 My interests span across digital humanities, syntax theories and
 computational linguistics.

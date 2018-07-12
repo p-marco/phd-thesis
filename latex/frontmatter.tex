@@ -1,25 +1,28 @@
+\makeatletter
 \begin{titlepage}
 \pagecolor{titlepagecolor}
+
 \noindent
 \color{white}
 \makebox[0pt][l]{\rule{1.4\textwidth}{1pt}}
 \par
+\begin{minipage}[t][.8\textheight][t]{.8\textwidth}
+
 \noindent
 \textbf{\sffamily{Palacký University}} \textcolor{namecolor}{\sffamily{ Olomouc}}\par \vskip\baselineskip 
 \noindent\sffamily{Ph.D. Thesis in Italian Linguistics} \\
-\noindent\sffamily{Dept. of Romance Languages, Faculty of Arts} \par
+\noindent\sffamily{Dept. of Romance Languages, Faculty of Arts} \par\vskip\baselineskip
 
 \vfill
 
 \noindent
-{\Huge \sffamily{Second Language Acquisition: \\ 
-a corpus based approach \\ 
-for a theoretical investigation
+{\Huge \sffamily{\@title }} \par\vskip\baselineskip
 
-}} \par
-\vskip\baselineskip
 \noindent
-\MakeTextUppercase{\large\sffamily{Marco Petolicchio}} \par \vskip\baselineskip
+{\large \sffamily{\@subtitle}} \par\vskip\baselineskip
+
+\noindent
+\MakeTextUppercase{\large\sffamily{\@author}} \par \vskip\baselineskip
 \noindent
 \vfill
 \noindent
@@ -31,6 +34,8 @@ for a theoretical investigation
 \vfill
  {\footnotesize   \ttfamily{draft : : \today   : :  \currenttime} \par}
 
+\end{minipage}
 \end{titlepage}
+\makeatother
 \nopagecolor% Use this to restore the color pages to white
 \pagecolor{white}

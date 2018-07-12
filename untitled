@@ -1,0 +1,29 @@
+
+
+
+
+
+
+
+(@)	Pjat’	mál'čikov 	prišli											RU
+    Five	Boy.PL		Come.PST.3PL
+   	'Five boys came'
+
+
+(@) SG Agreement	
+	a. Pięciu 	chłopców 	przyszło									PL
+	a. Pět 		chlapů 		přišlo / * přišli							CS
+	a. Päť 		chlapov 	prišlo										SK
+
+   
+
+(@) CS
+	a. 	Chlapec / 	Pět 	chlapů 	jedlo 	jablko / deset jablek
+	a. 	Chlapec / 	Pět 	chlapů 	jí 		jablko / deset jablek
+		Boy.SG / 	Five 	Boy.PL 	Eat.SG 	NUM		Apple
+		'The boy/ five boys eat the apple'
+
+(@) RULE
+	a. NP[+PL(<5)] ---> VP[+PL]
+	a. NP[+PL(>5)] ---> VP[-PL] 					=> + GEN.pl
+		a. NP([+PL(>5)],[+animate]) ---> VP[+PL]	=>   NOM.pl
