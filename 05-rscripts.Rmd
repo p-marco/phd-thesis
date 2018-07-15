@@ -1,0 +1,44 @@
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(RCurl)
+
+read.csv.orig = read.csv
+
+read.csv = function(file, ...) {
+  if (is.character(file)) {
+    if (grepl('^https://', file)) {
+      data = getURL(file, ssl.verifypeer=0L, followlocation=1L)
+      return (read.csv.orig(text=data, ...))  
+    } else if (grepl('^http://', file)) {
+      data = getURL(file)
+      return (read.csv.orig(text=data, ...)) 
+    } else {
+      return (read.csv.orig(file, ...))
+    }
+  } else {
+    return (read.csv.orig(file, ...))
+  }
+}
+```
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+
+# Load CSV data
+czechit_data <- read.csv('https://github.com/Czech-IT/Czech-IT.github.io/raw/master/_data/dataset.csv', header=TRUE, row.names=1) 
+
+# Create a dataframe
+czechit_dataset <- data.frame(x=czechit_data, check.names=TRUE)
+
+# Count items by accessing the row by its order
+# ! R has troubles with column named with a "-" as in "item-id" 
+czechit_datasetCountTokens <- rowSums(czechit_dataset[ ,8, drop = FALSE])
+
+czechit_datasetItems <- unique(czechit_dataset[ ,0, drop = FALSE])
+
+# Count unique values for learners
+# ! It could be done also for rows, passing the argument of relevant col into the expression. For now it doesn't run so item Count is done by counting rows (which works)
+
+library(data.table)
+
+czechit_datasetCountLearners <- setDT(czechit_dataset)[, .(count = uniqueN(czechit_dataset[ ,1, drop = FALSE]))]
+
+```

@@ -59,7 +59,7 @@
 \def\fps@figure{htbp}
 \makeatother
 
-\usepackage[a4paper,left=4cm, top=3cm, bottom=3cm, right=4cm, heightrounded, headsep=2em,
+\usepackage[a4paper,left=4.5cm, top=3.5cm, bottom=3.5cm, right=4.5cm, heightrounded, headsep=2em,
 footskip=11mm, vmarginratio=1:1]{geometry}
 \makeatletter
 \DeclareOldFontCommand{\rm}{\normalfont\rmfamily}{\mathrm}
@@ -300,7 +300,7 @@ footskip=11mm, vmarginratio=1:1]{geometry}
 \subtitle{From the development of a learner corpus towards a theoretical
 investigation}
 \author{Marco Petolicchio}
-\date{2018-07-13}
+\date{2018-07-15}
 
 \usepackage{amsthm}
 \newtheorem{theorem}{Theorem}[chapter]
@@ -477,9 +477,8 @@ approach:
   and interactive techniques;
 \item
   it depends on both quantitative and qualitative analytical techniques
+  \citep{biber1998}
 \end{itemize}
-
-\citep{biber1998}
 \end{quote}
 
 The main tenets of such a discipline still permit to obtain different
@@ -498,7 +497,7 @@ While a strong opposition between the way to approach the corpora can be
 fairly molded during the actual analysis of the data in a softer manner,
 it can be useful to stand up and recognize those models to threat
 linguistic data as a two different standpoints to keep in mind for the
-different purposes they grown on:
+different purposes they grow on:
 
 \begin{itemize}
 \item
@@ -518,21 +517,22 @@ different purposes they grown on:
 
 Different views were proposed to face or embrace the corpora in language
 studies amongst the scholars. The first one is a well-known citation by
-Noam Chomsky, which substantially regrets any importance to corpora for
-a theory-oriented language modeling:
+\href{https://en.wikipedia.org/wiki/Noam_Chomsky}{Noam Chomsky}, which
+substantially regrets any importance to corpora for a theory-oriented
+language modeling:
 
 \begin{quote}
 Any natural corpus will be skewed. Some sentences won't occur because
 they are obvious, others because they are false, still others because
 they are impolite. The corpus, if natural, will be so wildly skewed that
-the description would be no more than a mere list.
-
-\citep[Chomsky 1962, \emph{A transformational approach to syntax}
-in][]{togninibonelli2001}
+the description would be no more than a mere list. \citep[Chomsky 1962,
+\emph{A transformational approach to syntax} in][]{togninibonelli2001}
 \end{quote}
 
-On the other hand, John Fillmore recognizes a structural place to
-corpora usage into language reflection:
+On the other hand,
+\href{https://en.wikipedia.org/wiki/Charles_J._Fillmore}{Charles
+Fillmore} recognizes a structural place to corpora usage into language
+reflection:
 
 \begin{quote}
 I have two main observations to make. The first is that I don't think
@@ -541,19 +541,25 @@ all of the areas of English lexicon and grammar that I want to explore;
 all that I have seen are inadequate. The second observation is that
 every corpus that I've had a chance to examine, however small, has
 taught me facts that I couldn't imagine finding out about in any other
-way.
-
-\citep{fillmore1992}
+way. \citep{fillmore1992}
 \end{quote}
 
-As in the Fillmore's quotation, it appears that the distinction between
-deductive and inductive method can be entangled in some part of the
-research planning: a simple scan of the data can yields for a purpose of
-a general theory which needs to be refined on the actual data in a more
-circular manner.
+As in Fillmore's quotation, it appears that the distinction between
+deductive and inductive method cannot be really disentangled in some
+part of the research planning, moreover in the case when the one which
+is developing a corpus is the same that is going to write an analysis
+based on: a simple scan of the data can yields for a purpose of a
+general theory which needs to be refined on the actual data in a more
+euristic manner.
 
-\subsection{Learner-based corpora of Italian L2: an
-overview}\label{learner-based-corpora-of-italian-l2-an-overview}
+In this sense, while a \emph{corpus-based} approach aims to generalize a
+picture \emph{before} than an actual recognition of the data and the
+datasets, it can be possible to
+
+The purpose of this thesis aims to show how the
+
+\subsection{Learners corpora of Italian L2: an
+overview}\label{learners-corpora-of-italian-l2-an-overview}
 
 Here I summarize the most representative Italian L2 learner corpora
 available online:
@@ -592,11 +598,10 @@ available online:
   \textbf{\href{http://czech-it.github.io}{Czech-IT}} \citep{czech-it}\\
   The Czech-IT corpus contains chat messages, emails, coversations,
   surveys and assignments by more than 70 Czech and Slovak learners of
-  Italian language\footnote{I am co-founder of the project.}. Started in
-  2017, it is fully accessible online while the data acquisition
-  continues. The whole dataset is fully interrogable by an interactive
-  interface and released with a Creative Commons license; POS and
-  automatic tagging are in tune.
+  Italian language. Started in 2017, it is fully accessible online while
+  the data acquisition continues. The whole dataset is fully
+  interrogable by an interactive interface and released with a Creative
+  Commons license; POS and automatic tagging are in tune.
 \item
   \textbf{\href{http://www.parlaritaliano.it/index.php/it/corpora-di-parlato/662-corpus-italiano-scritto-l2}{Corpus
   Italiano scritto L2}} \citep{vogheraturco2010}\\
@@ -620,14 +625,13 @@ Corpus & L1 & Texts & Tokens & Lemma & Years\tabularnewline
 Corpus & L1 & Texts & Tokens & Lemma & Years\tabularnewline
 \midrule
 \endhead
-GranVALICO & Various & 4.778 & 784.217 & 13.057 &
-2002--2007\tabularnewline
-VALICO & Various & 2.502 & 382.098 & 6.935 &\tabularnewline
-LIPS & Various & 2.198 & \textgreater{}700.000 & &
+GranVALICO & Various & 4778 & 784217 & 13057 & 2002--2007\tabularnewline
+VALICO & Various & 2502 & 382098 & 6935 &\tabularnewline
+LIPS & Various & 2198 & \textgreater{} 700000 & &
 1993--2006\tabularnewline
 MERLIN & Various & 813 & & & 2012--?\tabularnewline
-Czech-IT & cs,sk & 298 & 15.518 & & 2017--present\tabularnewline
-Corpus Italiano Scritto L2 & Various & 227 & 22.931 & &
+Czech-IT & cs,sk & 316 & 17064 & & 2017--present\tabularnewline
+Corpus Italiano Scritto L2 & Various & 227 & 22931 & &
 2010?\tabularnewline
 \bottomrule
 \end{longtable}
@@ -665,6 +669,8 @@ by such aims, and involves highly specialized sectors for what concerns
 the planning, the mantaining, the design and the scalarity in time of
 the corpora.
 
+\textbf{Reproducible research}
+
 \subsection{Empirical objectives}\label{empirical-objectives}
 
 Amongst many scholar the role of the native language (L1) has been
@@ -680,8 +686,8 @@ Model} \citep{krashen1981}, a multi-focal perspective on language
 acquisition where different factors are described as involved in the
 process and where the L1 could not represent that conditionation.
 
-During the last 20 years, a considerable part of linguistic literature
-is involved in developing some sort of models to think how the faculty
+Since the last 20 years, a considerable part of linguistic activity is
+involved in developing some sort of models to describe how the faculty
 of language can work, in its biological \citep{hcf2002}, computational
 \citep{fodor2001} and cognitive components in a highly interdisciplinary
 environment. Studies on SLA is a fertile field, which relies on
@@ -690,7 +696,7 @@ both from an applied view \citep{ellis1994} than by theoretically
 grounded perspective focused on Generative framework (GenSLA)
 \citep{guasti2002, hawkins2001, rothmanslabakova2017, sorace2011}. In
 this sense appears that the adoption of a general picture in which
-analyze the variation in grammar into a \emph{parametric} model
+analysing the variation in grammar into a \emph{parametric} model
 \citep{chomsky1995} can be suitable for long-standing researches on SLA
 and interlanguage.
 
@@ -719,7 +725,6 @@ development it passes through a series of states in early childhood,
 reaching a relatively stable steady state that undergoes little
 subsequent change, apart from the lexicon. To a good first
 approximation, the initial state appears to be uniform for the species.
-
 \citep{chomsky1995}
 \end{quote}
 

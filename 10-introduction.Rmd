@@ -28,7 +28,6 @@ Corpus Linguistics is a field of approaches developed during the last decades in
 > * it utilizes a large and principled collection of natural texts, known as a “corpus”, as the basis for analysis;
 > * it makes extensive use of computers for analysis, using both automatic and interactive techniques;
 > * it depends on both quantitative and qualitative analytical techniques 
->
 > [@biber1998]
 
 
@@ -46,7 +45,7 @@ On the other, the *corpus-based* approach permits to ground the hypothesis on a 
 
 ### Corpus-based approach: motivations for the thesis
 
-While a strong opposition between the way to approach the corpora can be fairly molded during the actual analysis of the data in a softer manner, it can be useful to stand up and recognize those models to threat linguistic data as a two different standpoints to keep in mind for the different purposes they grown on:
+While a strong opposition between the way to approach the corpora can be fairly molded during the actual analysis of the data in a softer manner, it can be useful to stand up and recognize those models to threat linguistic data as a two different standpoints to keep in mind for the different purposes they grow on:
 
 * **Corpus-based**  
 When a general theory on some linguistic fact is tested against a corpus in order to verify the hypotheses. 
@@ -56,31 +55,30 @@ This kind of approach is more *deductive*, while it goes top-down, proceeding fr
 Corpus-driven approach tends to proceed from the analysis of the partial specific pieces (the corpus), in order to result into a general picture (the theory).
 This method is more *inductive*, going bottom-up.
 
-Different views were proposed to face or embrace the corpora in language studies  amongst the scholars. The first one is a well-known citation by Noam Chomsky, which substantially regrets any importance to corpora for a theory-oriented language modeling: 
+Different views were proposed to face or embrace the corpora in language studies  amongst the scholars. The first one is a well-known citation by [Noam Chomsky](https://en.wikipedia.org/wiki/Noam_Chomsky), which substantially regrets any importance to corpora for a theory-oriented language modeling: 
 
 
 
 >Any natural  corpus  will  be  skewed. 
 Some  sentences  won’t  occur because  they  are  obvious,  others  because they  are  false,  still  others because  they  are  impolite. 
 The  corpus,  if  natural,  will  be  so  wildly skewed that the description would be no more than a mere list.
->
 >[Chomsky 1962, *A transformational approach to syntax* in @togninibonelli2001]
 
 
-On the other hand, John Fillmore recognizes a structural place to corpora usage into language reflection:
+On the other hand, [Charles Fillmore](https://en.wikipedia.org/wiki/Charles_J._Fillmore) recognizes a structural place to corpora usage into language reflection:
 
 >I have two main observations to make. The first is that I don't think there can be any corpora, however large, that contain information about all of the areas of English lexicon and grammar that I want to explore; all that I have seen are inadequate. The second observation is that every corpus that I've had a chance to examine, however small, has taught me facts that I couldn't imagine finding out about in any other way. 
->
 >[@fillmore1992]
 
 
-As in the Fillmore's quotation, it appears that the distinction between deductive and inductive method can be entangled in some part of the research planning: a simple scan of the data can yields for a purpose of a general theory which needs to be refined on the actual data in a more circular manner.
+As in Fillmore's quotation, it appears that the distinction between deductive and inductive method cannot be really disentangled in some part of the research planning, moreover in the case when the one which is developing a corpus is the same that is going to write an analysis based on: a simple scan of the data can yields for a purpose of a general theory which needs to be refined on the actual data in a more euristic manner. 
+
+In this sense, while a *corpus-based* approach aims to generalize a picture *before* than an actual recognition of the data and the datasets, it can be possible to 
+
+The purpose of this thesis aims to show how the 
 
 
-
-
-
-### Learner-based corpora of Italian L2: an overview
+### Learners corpora of Italian L2: an overview
 
 
 Here I summarize the most representative Italian L2 learner corpora available online: 
@@ -98,7 +96,8 @@ The corpus contains the transcriptions of more than 2000 audio files by CILS - C
 With more than 700k of words divided in *monologues* and *dialogues* between the candidate and the examiner, it represents one of the biggest corpora of Italian L2. The corpus is POS annotated using the tool Treetagger [@schmid1994].  
 
 * **[Czech-IT](http://czech-it.github.io)** [@czech-it]  
-The Czech-IT corpus contains chat messages, emails, coversations, surveys and assignments by more than 70 Czech and Slovak learners of Italian language^[I am co-founder of the project.]. Started in 2017, it is fully accessible online while the data acquisition continues. The whole dataset is fully interrogable by an interactive interface and released with a Creative Commons license; POS and automatic tagging are in tune. 
+The Czech-IT corpus contains chat messages, emails, coversations, surveys and assignments by more than `r toString(round((as.integer(czechit_datasetCountLearners/10))*10))` Czech and Slovak learners of Italian language. 
+Started in 2017, it is fully accessible online while the data acquisition continues. The whole dataset is fully interrogable by an interactive interface and released with a Creative Commons license; POS and automatic tagging are in tune. 
 
 * **[Corpus Italiano scritto L2](http://www.parlaritaliano.it/index.php/it/corpora-di-parlato/662-corpus-italiano-scritto-l2)** [@vogheraturco2010]  
 The corpus retains 227 written texts by undergraduate students of different native languages, which study Italian as a foreign language for their courses at the University of Greenwich. 
@@ -109,12 +108,12 @@ The texts are syntactically annotated and the tagset is available in xml format.
 
 | Corpus     					| L1      | Texts 			| Tokens  	| Lemma  | Years        	|
 |-------------------------------|---------|----------------:|----------:|-------:|-----------------:|
-| GranVALICO 					| Various | 4.778	  		|  784.217 	| 13.057 | 2002--2007   	|
-| VALICO     					| Various | 2.502  			|  382.098 	|  6.935 |              	|
-| LIPS       					| Various | 2.198  			| >700.000	|        | 1993--2006   	|
-| MERLIN     					| Various |   813	        |         	|        | 2012--?      	|
-| Czech-IT   					| cs,sk   |   298    		|   15.518 	|        | 2017--present	|
-| Corpus Italiano Scritto L2   	| Various |   227    		|   22.931 	|        | 2010?			|
+| GranVALICO 					| Various | 4778	  		|  784217 	| 13057  | 2002--2007   	|
+| VALICO     					| Various | 2502  			|  382098 	|  6935  |              	|
+| LIPS       					| Various | 2198  			| > 700000	|        | 1993--2006   	|
+| MERLIN     					| Various |  813	        |         	|        | 2012--?      	|
+| Czech-IT   					| cs,sk   | `r toString(nrow(czechit_dataset))`|`r toString(sum(czechit_datasetCountTokens))`	|        | 2017--present	|
+| Corpus Italiano Scritto L2   	| Various |  227    		|   22931 	|        | 2010?			|
 
 Table: Statistics of Italian L2 Corpora
 
@@ -157,7 +156,7 @@ While usually seen as a sussidary tool for linguistic investigations, corpus lin
 
 
 
-
+**Reproducible research**
 
 
 
@@ -172,9 +171,9 @@ While usually seen as a sussidary tool for linguistic investigations, corpus lin
 
 Amongst many scholar the role of the native language (L1) has been raised as a factor of possible conditionation in the way which the target language (L2) is acquired during the learning path: an emblematic case is the *transfer* of the knowledge about the structures of the L1 to the target, revealing the intermediate steps of the acquisitional path defined with the term *interlanguage* [@selinker1972], that we can refer as to **Interlanguage Hypothesis** (IlH). Different from this hypothesis --which recognizes a central place to the native language in the acquisitional path-- is the **Monitor Model** [@krashen1981], a multi-focal perspective on language acquisition where different factors are described as involved in the process and where the L1 could not represent that conditionation.   
 
-During the last 20 years, a considerable part of linguistic literature is involved in developing some sort of models to think how the faculty of language can work, in its biological [@hcf2002], computational [@fodor2001] and cognitive components in a highly interdisciplinary environment.
+Since the last 20 years, a considerable part of linguistic activity is involved in developing some sort of models to describe how the faculty of language can work, in its biological [@hcf2002], computational [@fodor2001] and cognitive components in a highly interdisciplinary environment.
 Studies on SLA is a fertile field, which relies on comparative and contrastive analyses of linguistic phenomena, either both from an applied view [@ellis1994] than by theoretically grounded perspective focused on Generative framework (GenSLA) [@guasti2002; @hawkins2001; @rothmanslabakova2017; @sorace2011]. 
-In this sense appears that the adoption of a general picture in which analyze the variation in grammar into a *parametric* model [@chomsky1995] can be suitable for long-standing researches on SLA and interlanguage. 
+In this sense appears that the adoption of a general picture in which analysing the variation in grammar into a *parametric* model [@chomsky1995] can be suitable for long-standing researches on SLA and interlanguage. 
 
 The dataset used in this thesis aims to display either the different linguistic outcomes in a wide range of communicative situations by the same learner, both than a sociolinguistic grained analysis where the variety of educational or age range can show different linguistic behaviors in the range of learners' variety.  
 
@@ -200,7 +199,6 @@ The dataset used in this thesis aims to display either the different linguistic 
 From a theoretical viewpoint, the research is inserted in the current theories that rely on the hierarchical functioning of the language faculty, for which the variation among languages are reconducted to a parametrizing of choice amongst the languages [@adger2013; @chomsky1995; @chomsky1998; @chomsky2013; @chomsky2015; @rizzi2013], which are structurally constant, despite of the wideness of the linguistic variation: 
 
 >We are concerned, then, with states of the language faculty, which we understand to be some array of cognitive traits and capacities, a particular component of the human mind/brain. The language faculty has an initial state, genetically determined; in the normal course of development it passes through a series of states in early childhood, reaching a relatively stable steady state that undergoes little subsequent change, apart from the lexicon. To a good first approximation, the initial state appears to be uniform for the species. 
->
 >[@chomsky1995]
 
 This view permits on one side to compare the syntactic structures in a coherent and schematic way, while on the other it concentrates moreover on the hierarchical fashion of the language faculty than on the linear order displayed by the utterances [@kayne1994; @moro2000]. In this perspective is generally assumed that the hierarchical phrase structure plays a central role in syntactic computation, while the *flattering* of such structures into a mono-dimensional workspace is a matter of externalization constraints and interface conditions (e.g. the need to give an ordered array where every item of the sentence is present at one time in order to be spelled out). 
