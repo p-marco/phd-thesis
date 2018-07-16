@@ -34,6 +34,15 @@
 \usepackage{longtable,booktabs}
 % Fix footnotes in tables (requires footnote package)
 \IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{long table}}{}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
 \IfFileExists{parskip.sty}{%
 \usepackage{parskip}
 }{% else
@@ -300,7 +309,7 @@ footskip=11mm, vmarginratio=1:1]{geometry}
 \subtitle{From the development of a learner corpus towards a theoretical
 investigation}
 \author{Marco Petolicchio}
-\date{2018-07-15}
+\date{2018-07-16}
 
 \usepackage{amsthm}
 \newtheorem{theorem}{Theorem}[chapter]
@@ -403,19 +412,13 @@ both on computational models involved.
 \section*{Keywords}\label{keywords}
 \addcontentsline{toc}{section}{Keywords}
 
-\begin{itemize}
-\tightlist
-\item
-  Computational Linguistics
-\item
-  Syntax
-\item
-  Second Language Acquisition
-\item
-  Italian L2
-\item
-  Corpus Linguistics
-\end{itemize}
+Computational Linguistics; Syntax; Second Language Acquisition; Italian
+L2; Corpus Linguistics.
+
+\section*{Progress in the repository}\label{progress-in-the-repository}
+\addcontentsline{toc}{section}{Progress in the repository}
+
+\includegraphics{phdThesis_files/figure-latex/unnamed-chunk-1-1.pdf}
 
 \mainmatter
 
