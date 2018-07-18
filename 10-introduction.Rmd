@@ -71,11 +71,14 @@ On the other hand, [Charles Fillmore](https://en.wikipedia.org/wiki/Charles_J._F
 >[@fillmore1992]
 
 
-As in Fillmore's quotation, it appears that the distinction between deductive and inductive method cannot be really disentangled in some part of the research planning, moreover in the case when the one which is developing a corpus is the same that is going to write an analysis based on: a simple scan of the data can yields for a purpose of a general theory which needs to be refined on the actual data in a more euristic manner. 
+As in Fillmore's quotation, it appears that the distinction between deductive and inductive method cannot be really disentangled in some part of the research planning, moreover in the case when the one which is developing a corpus is the same that is going to write an analysis based on: a simple scan of the data can yields for a purpose of a general theory which needs to be refined on the real data in a more euristic manner. 
+In this sense, while a *corpus-based* approach aims to generalize a picture *before* than the actual recognition of the data and the dataset takes place, it can be possible to softener a bit this difference amongst these models keeping in mind the perspective of corpus-developing related issues.
 
-In this sense, while a *corpus-based* approach aims to generalize a picture *before* than an actual recognition of the data and the datasets, it can be possible to 
+In the subsequent parts of the thesis I will try to show how the way to develop a linguistic corpus has a certain degree of influence for the successive part of research activities, and how a purely *corpus-based* method could not be apply if the research is conducted by the same person which started to collect the data.  
 
-The purpose of this thesis aims to show how the 
+
+
+
 
 
 ### Learners corpora of Italian L2: an overview
@@ -115,7 +118,7 @@ The texts are syntactically annotated and the tagset is available in xml format.
 | Czech-IT   					| cs,sk   | `r toString(nrow(czechit_dataset))`|`r toString(sum(czechit_datasetCountTokens))`	|        | 2017--present	|
 | Corpus Italiano Scritto L2   	| Various |  227    		|   22931 	|        | 2010?			|
 
-Table: Statistics of Italian L2 Corpora
+Table: Size of Italian L2 Corpora
 
 
 
