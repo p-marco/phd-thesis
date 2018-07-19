@@ -79,12 +79,9 @@ In the subsequent parts of the thesis I will try to show how the way to develop 
 
 
 
-
-
 ### Learners corpora of Italian L2: an overview
 
-
-Here I summarize the most representative Italian L2 learner corpora available online: 
+In this section I am going to summarize the most representative Italian L2 learner corpora available online, including Czech-IT, which I have co-founded since July, 2017. I will present all the relevant information and discuss the central topics of the project in a dedicate part of the thesis, while for now I list the most evaluable corpora for studying Italian as 2nd language: 
 
 * **[GranVALICO](http://www.valico.org/valico_b_CORPUS.html)** and **[VALICO](http://www.valico.org/valico_CORPUS.html)** [@valico]  
 Learner corpora provided by Turin University. They represent the most valuable sources of Italian L2 corpora. They are composed by written texts composed by the students which have the assignment to describe the vignettes provided by the teachers. The corpora are accessible online with an advanced search that permits to filter the data by different parameters (e.g. learners' L1 and education, assignments etc.). 
@@ -155,11 +152,28 @@ To describe the features which are relevant for characterise the language variet
 
 
 
-While usually seen as a sussidary tool for linguistic investigations, corpus linguistics can be regarded with a certain degree of indipendence by such aims, and involves highly specialized sectors for what concerns the planning, the mantaining, the design and the scalarity in time of the corpora.
+While usually seen as a sussidary tool for linguistic investigations, corpus linguistics can be regarded with a certain degree of indipendence by such aims [@sinclair2005; @sinclairCarter2004], and involves highly specialized sectors for what concerns the planning, the mantaining, the design and the scalability of the corpora.
+
+[//]: # (Moreover, alongside the way to approach the design of the corpus in its fundamental directions, a focus is given to the methods raised in the data analysis activity and its role in terms of reproducibility.)   
 
 
 
-**Reproducible research**
+
+[//]: # (#### Planning the corpus)
+
+
+The Czech-IT corpus is composed by different kind of texts in order to exhibit the variation in language use across different communicative situations:
+
+* Email subcorpus for the (quasi-) bureaucratic and academic language;
+* SMS and other direct platforms for textual messaging for informal situations;
+* Spoken discourse analysis for spontaneous modality;
+* Online surveys created for obtaining auto-evaluation by learners about their acquisition: the tests are made by a certain amount of questions and tiny writing samples.
+
+
+`r toString(czechit_datasetCountLearners)` are the learners inserted in the corpus. Informations about the learners concern the education level, the age group, the level of their italian knowledge, and other known languages - while their real identities are preserved by the assignment of an alpha-numeric ID.
+
+
+[//]: # (#### Reproducible research)
 
 
 
@@ -210,7 +224,7 @@ I will summarize this in a representational way with the usual tree-diagram in F
 
 ```{r tree1, echo=FALSE, engine='tikz', out.width='70%', fig.ext=if (knitr:::is_latex_output()) 'pdf' else 'svg', fig.cap='Structural representation of a simple sentence', engine.opts = list(template = "latex/tikz2pdf.tex"), fig.align='center'}
 
-\begin{tikzpicture}[scale=0.6]
+\begin{tikzpicture}
 \tikzset{every tree node/.style={align=center,anchor=north}}
 \Tree 
 [ .CP \node(C){C};
