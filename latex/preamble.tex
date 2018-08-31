@@ -1,5 +1,5 @@
-\usepackage[a4paper,left=4.5cm, top=3.5cm, bottom=3.5cm, right=4.5cm, heightrounded, headsep=2em,
-footskip=11mm, vmarginratio=1:1]{geometry}
+%\usepackage[a4paper,left=4.5cm, top=3.5cm, bottom=3.5cm, right=4.5cm, heightrounded, headsep=2em, footskip=11mm, vmarginratio=1:1]{geometry}
+\usepackage[a4paper,margin=4cm, bindingoffset=1cm, heightrounded, headsep=2em, footskip=11mm, vmarginratio=1:1]{geometry}
 \makeatletter
 \DeclareOldFontCommand{\rm}{\normalfont\rmfamily}{\mathrm}
 \DeclareOldFontCommand{\sf}{\normalfont\sffamily}{\mathsf}
@@ -224,6 +224,9 @@ footskip=11mm, vmarginratio=1:1]{geometry}
 \usepackage{enumerate}
 
 
+\makeatletter
+\newcommand\HUGE{\@setfontsize\Huge{36}{48}} 
+\makeatother
 
 \usepackage{tikz}
 \usepackage{pgfplots}
@@ -231,5 +234,7 @@ footskip=11mm, vmarginratio=1:1]{geometry}
 
 \usepackage{gb4e,cgloss}
 \noautomath
+
+
 
 \frontmatter

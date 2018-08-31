@@ -1,18 +1,21 @@
 \backmatter
 
-# Backmatter {-}
-
-
-## Credits {-}
+# Backmatter 
 
 
 
-This project is constituted by files written in Markdown syntax and exported either as a standalone website both as printer-ready product.
+## Colophon 
+
+This document is typeset with LaTeX using a custom template based on KOMA-script SCRBOOK class. The layout is based on a standard A4 paper (210 x 297mm), with 40mm margins and 10mm of binding offset.
+
+The typesetting software used the XeTeX engine and the text is set in the open source IBM Plex font family -- in Serif, Sans Serif and Monospace variants.
+
+
+## Credits 
 
 
 
-
-This is due to the awesome work of the people behind different libraries:
+This project is constituted by files written in Markdown syntax and exported either as a standalone website both as printer-ready product. This is due to the awesome work of the people behind different libraries:
 
 * [Pandoc](https://bookdown.org)
 * [Bookdown](https://bookdown.org) 
@@ -22,12 +25,11 @@ As well, for the computational infrastructure, a lot of open source tools have b
 
 * [NLTK](https://bookdown.org)
 
-For the typographic setting, the print-ready file is composed on LaTeX with the usage of SCRBOOK class and some custom component. I am aware I can't thank everyone on the web about that. By the way, thank you!
 
 
 
 
-## About the author {-}
+## About the author 
 
 I am a Graduate Researcher involved in a Ph.D. Program in Italian Linguistics at the Department of Romance Studies in the Faculty of Philosophy at Palacky University in Olomouc, Czech Republic.
 
@@ -37,3 +39,48 @@ Feel free to write me at [marco.petolicchio@gmail.com](mailto:marco.petolicchio@
 
 
 
+
+## Progress in the repository 
+
+This graph represents the addition and deletion amount in the files of the project in function of time.
+
+```{r fig.width=7, fig.height=4, echo=FALSE, message=FALSE}
+
+library(ggplot2)
+library(knitr)
+
+options(kableExtra.latex.load_packages = FALSE)
+library(kableExtra)
+
+
+
+dat <- read.csv("gitstats.csv", header=FALSE)
+dat[is.na(dat)] <- 0
+mat <- as.matrix(dat)
+
+times <- mat[,3]
+fileChanged <- mat[,5]
+adds <- mat[,6]
+dels <- mat[,7]
+
+times <- as.Date(times)
+
+prova <- ggplot(dat, aes(x=times, y=cumsum(adds))) + geom_line()
+
+
+dels <- as.integer(dels) * -1
+diffs <- as.integer(adds) + as.integer(dels)
+prova2 <- ggplot(dat, aes(x=times, y=diffs)) + geom_line()
+
+
+
+
+out <- ggplot() + geom_point(data=dat, aes(x=times, y=cumsum(adds), color = "Additions")) + geom_point(data=dat, aes(x=times, y=cumsum(dels), color = "Deletions"))  + geom_line(data=dat, aes(x=times, y=cumsum(diffs), color = "Difference")) + geom_point(data=dat, aes(x=times, y=cumsum(fileChanged), color = "Files Changed")) 
+
+#+ xlab('Dates') + ylab('Edits')
+
+print(out)
+
+#kable(dat[,3:7])
+
+```

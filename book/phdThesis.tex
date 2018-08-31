@@ -68,8 +68,8 @@
 \def\fps@figure{htbp}
 \makeatother
 
-\usepackage[a4paper,left=4.5cm, top=3.5cm, bottom=3.5cm, right=4.5cm, heightrounded, headsep=2em,
-footskip=11mm, vmarginratio=1:1]{geometry}
+%\usepackage[a4paper,left=4.5cm, top=3.5cm, bottom=3.5cm, right=4.5cm, heightrounded, headsep=2em, footskip=11mm, vmarginratio=1:1]{geometry}
+\usepackage[a4paper,margin=4cm, bindingoffset=1cm, heightrounded, headsep=2em, footskip=11mm, vmarginratio=1:1]{geometry}
 \makeatletter
 \DeclareOldFontCommand{\rm}{\normalfont\rmfamily}{\mathrm}
 \DeclareOldFontCommand{\sf}{\normalfont\sffamily}{\mathsf}
@@ -294,6 +294,9 @@ footskip=11mm, vmarginratio=1:1]{geometry}
 \usepackage{enumerate}
 
 
+\makeatletter
+\newcommand\HUGE{\@setfontsize\Huge{36}{48}} 
+\makeatother
 
 \usepackage{tikz}
 \usepackage{pgfplots}
@@ -302,6 +305,8 @@ footskip=11mm, vmarginratio=1:1]{geometry}
 \usepackage{gb4e,cgloss}
 \noautomath
 
+
+
 \frontmatter
 
 \title{Italian as Second Language in native Czechs and Slovaks}
@@ -309,7 +314,7 @@ footskip=11mm, vmarginratio=1:1]{geometry}
 \subtitle{From the development of a learner corpus towards a theoretical
 investigation}
 \author{Marco Petolicchio}
-\date{2018-07-19}
+\date{2018-08-31}
 
 \usepackage{amsthm}
 \newtheorem{theorem}{Theorem}[chapter]
@@ -330,41 +335,46 @@ investigation}
 
 \makeatletter
 \begin{titlepage}
+\color{namecolor}
+
 \pagecolor{titlepagecolor}
 
 \noindent
-\color{white}
 \makebox[0pt][l]{\rule{1.4\textwidth}{1pt}}
 \par
-\begin{minipage}[t][.8\textheight][t]{.8\textwidth}
 
 \noindent
 \textbf{\sffamily{Palacký University}} \textcolor{namecolor}{\sffamily{ Olomouc}}\par \vskip\baselineskip 
+
 \noindent\sffamily{Ph.D. Thesis in Italian Linguistics} \\
 \noindent\sffamily{Dept. of Romance Languages, Faculty of Arts} \par\vskip\baselineskip
 
-\vfill
+\vspace{2em}
+
+\begin{flushleft}
 
 \noindent
-{\Huge \sffamily{\@title }} \par\vskip\baselineskip
+{\HUGE \sf \@title  \par}\vskip\baselineskip
 
 \noindent
-{\large \sffamily{\@subtitle}} \par\vskip\baselineskip
+{\Large \sf \@subtitle \par} \vskip\baselineskip
+\end{flushleft}
 
 \noindent
-\MakeTextUppercase{\large\sffamily{\@author}} \par \vskip\baselineskip
+{\large{\sffamily\MakeTextUppercase{\@author}}\par} 
+\vspace{4em}
+\par \vskip\baselineskip
 \noindent
-\vfill
+\noindent\sffamily{\textbf{Supervisors}}\par \vskip\baselineskip
 \noindent
-{\Large \sffamily{Supervisors}}\par \vskip\baselineskip
-\noindent
-\sffamily{\MakeTextUppercase{Dr. Lorem Ipsum} \\ Palacký University \\ \textcolor{namecolor}{Dept. of Romance Languages, Faculty of Arts} }\par \vskip\baselineskip
-\noindent
-\sffamily{\MakeTextUppercase{Prof. Dolorem Sit Amet} \\ University of Lorem\\ \textcolor{namecolor}{Dept. of Lorem Ipsum, Faculty of Humanities} }\par \vskip\baselineskip
-\vfill
+\sffamily{\MakeTextUppercase{Dr. Francesco Bianco, Ph.D.} \\ Palacký University · {Dept. of Romance Languages, Faculty of Arts} }\par \vskip\baselineskip
+
+\vspace{3em}
+
  {\footnotesize   \ttfamily{draft : : \today   : :  \currenttime} \par}
 
-\end{minipage}
+\color{black}
+
 \end{titlepage}
 \makeatother
 \nopagecolor% Use this to restore the color pages to white
@@ -414,11 +424,6 @@ both on computational models involved.
 
 Computational Linguistics; Syntax; Second Language Acquisition; Italian
 L2; Corpus Linguistics.
-
-\section*{Progress in the repository}\label{progress-in-the-repository}
-\addcontentsline{toc}{section}{Progress in the repository}
-
-\includegraphics{phdThesis_files/figure-latex/unnamed-chunk-1-1.pdf}
 
 \mainmatter
 
@@ -810,48 +815,24 @@ The theoretical outcome constitues the main topic of the research.
 
 \textbf{Chapter 5} introduces \ldots{}
 
-\chapter{Article 1 \textbar{} On DP acquisition: A case study on Italian
-L2 by Czech ad Slovak
-learners}\label{article-1-on-dp-acquisition-a-case-study-on-italian-l2-by-czech-ad-slovak-learners}
-
-\section*{Abstract}\label{abstract-1}
-\addcontentsline{toc}{section}{Abstract}
-
-Czech and Slovak are languages which don't exhibit a manifest position
-for the Determiner in the Noun Phrase. The aim of this paper is to show
-how a similar structure is accessed during the learning of Italian, a
-language which presents the Determiner as the standard behavior for noun
-phrases.
-
-\section*{Keywords}\label{keywords-1}
-\addcontentsline{toc}{section}{Keywords}
-
-\begin{itemize}
-\tightlist
-\item
-  Determiner Phrase
-\item
-  Second Language Acquisition
-\item
-  Syntax
-\end{itemize}
-
-\section*{Acknowledgement}\label{acknowledgement}
-\addcontentsline{toc}{section}{Acknowledgement}
-
-This work was supported by the funding grant XXX.
-
 \backmatter
 
-\chapter*{Backmatter}\label{backmatter}
-\addcontentsline{toc}{chapter}{Backmatter}
+\chapter{Backmatter}\label{backmatter}
 
-\section*{Credits}\label{credits}
-\addcontentsline{toc}{section}{Credits}
+\section{Colophon}\label{colophon}
+
+This document is typeset with LaTeX using a custom template based on
+KOMA-script SCRBOOK class. The layout is based on a standard A4 paper
+(210 x 297mm), with 40mm margins and 10mm of binding offset.
+
+The typesetting software used the XeTeX engine and the text is set in
+the open source IBM Plex font family -- in Serif, Sans Serif and
+Monospace variants.
+
+\section{Credits}\label{credits}
 
 This project is constituted by files written in Markdown syntax and
 exported either as a standalone website both as printer-ready product.
-
 This is due to the awesome work of the people behind different
 libraries:
 
@@ -875,12 +856,7 @@ tools have been used:
   \href{https://bookdown.org}{NLTK}
 \end{itemize}
 
-For the typographic setting, the print-ready file is composed on LaTeX
-with the usage of SCRBOOK class and some custom component. I am aware I
-can't thank everyone on the web about that. By the way, thank you!
-
-\section*{About the author}\label{about-the-author}
-\addcontentsline{toc}{section}{About the author}
+\section{About the author}\label{about-the-author}
 
 I am a Graduate Researcher involved in a Ph.D.~Program in Italian
 Linguistics at the Department of Romance Studies in the Faculty of
@@ -893,6 +869,13 @@ Feel free to write me at
 \href{mailto:marco.petolicchio@gmail.com}{\nolinkurl{marco.petolicchio@gmail.com}}
 or visit \href{http://marcopetolicchio.com}{marcopetolicchio.com} for
 the detailed contact list.
+
+\section{Progress in the repository}\label{progress-in-the-repository}
+
+This graph represents the addition and deletion amount in the files of
+the project in function of time.
+
+\includegraphics{phdThesis_files/figure-latex/unnamed-chunk-3-1.pdf}
 
 \bibliography{bibliography.bib}
 

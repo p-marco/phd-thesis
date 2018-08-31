@@ -1,40 +1,45 @@
 \makeatletter
 \begin{titlepage}
+\color{namecolor}
+
 \pagecolor{titlepagecolor}
 
 \noindent
-\color{white}
 \makebox[0pt][l]{\rule{1.4\textwidth}{1pt}}
 \par
-\begin{minipage}[t][.8\textheight][t]{.8\textwidth}
 
 \noindent
 \textbf{\sffamily{Palacký University}} \textcolor{namecolor}{\sffamily{ Olomouc}}\par \vskip\baselineskip 
+
 \noindent\sffamily{Ph.D. Thesis in Italian Linguistics} \\
 \noindent\sffamily{Dept. of Romance Languages, Faculty of Arts} \par\vskip\baselineskip
 
-\vfill
+\vspace{2em}
+
+\begin{flushleft}
 
 \noindent
-{\Huge \sffamily{\@title }} \par\vskip\baselineskip
+{\HUGE \sf \@title  \par}\vskip\baselineskip
 
 \noindent
-{\large \sffamily{\@subtitle}} \par\vskip\baselineskip
+{\Large \sf \@subtitle \par} \vskip\baselineskip
+\end{flushleft}
 
 \noindent
-\MakeTextUppercase{\large\sffamily{\@author}} \par \vskip\baselineskip
+{\large{\sffamily\MakeTextUppercase{\@author}}\par} 
+\vspace{4em}
+\par \vskip\baselineskip
 \noindent
-\vfill
+\noindent\sffamily{\textbf{Supervisors}}\par \vskip\baselineskip
 \noindent
-{\Large \sffamily{Supervisors}}\par \vskip\baselineskip
-\noindent
-\sffamily{\MakeTextUppercase{Dr. Lorem Ipsum} \\ Palacký University \\ \textcolor{namecolor}{Dept. of Romance Languages, Faculty of Arts} }\par \vskip\baselineskip
-\noindent
-\sffamily{\MakeTextUppercase{Prof. Dolorem Sit Amet} \\ University of Lorem\\ \textcolor{namecolor}{Dept. of Lorem Ipsum, Faculty of Humanities} }\par \vskip\baselineskip
-\vfill
+\sffamily{\MakeTextUppercase{Dr. Francesco Bianco, Ph.D.} \\ Palacký University · {Dept. of Romance Languages, Faculty of Arts} }\par \vskip\baselineskip
+
+\vspace{3em}
+
  {\footnotesize   \ttfamily{draft : : \today   : :  \currenttime} \par}
 
-\end{minipage}
+\color{black}
+
 \end{titlepage}
 \makeatother
 \nopagecolor% Use this to restore the color pages to white
