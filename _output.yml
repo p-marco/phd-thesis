@@ -1,7 +1,4 @@
 bookdown::gitbook:
-  pandoc_args:
-    - --filter
-    - pangloss
   split_by: chapter
   includes:
     in_header: html/hypothesis.html

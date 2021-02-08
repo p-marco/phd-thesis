@@ -21,9 +21,11 @@ This project is constituted by files written in Markdown syntax and exported eit
 * [Bookdown](https://bookdown.org) 
 * [RMarkdown](https://bookdown.org) and [R](https://bookdown.org) environment.
 
-As well, for the computational infrastructure, a lot of open source tools have been used:
+As well, for the computational infrastructure, some tools have been used:
 
 * [NLTK](https://bookdown.org)
+* UDPIPE
+* SciPY 
 
 
 
