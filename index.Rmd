@@ -1,5 +1,5 @@
 --- 
-title: "Italian as Second Language in native Czechs and Slovaks"
+title: "Italian as non-native Language in Czechs and Slovak learners"
 subtitle: "From the development of a learner corpus towards a theoretical investigation"
 author: "Marco Petolicchio"
 date: "`r Sys.Date()`"
