@@ -1,5 +1,21 @@
 # Evidences and theories in a linguistic research
 
-## The role of empyrical data 
+It seems that a certain grade of analysis, theories and empirical collect of data does not share the same path, while they strike one against the other: on one side the theoretical generalizations can involve or not a verification of the hypotheses on the actual data that the researcher can handle with, on the other the work around the data collection can still confined without a well-grounded theoretical approach.
+Nevertheless, while it does not imply *per sé* that a theoretical approach can be regarded as the primary goal for a scientific approach, also the opposite knows some problems. Defining a neutral way in which data should be collected is not an easy matter, and someone could certainly ask if there is at all some sort of *rawness* or *neutrality* in data itself^[Cfr. the *Observer Paradox*, in @labov1966 :  
+
+> To obtain data on the most systematic form of language (the vernacular), we must observe how people speak when they are not being observed [@labov1973, xvii].]. 
+
+
+## Inductivism and deductivism in linguistics
+
+The inductivist approach to research begins with observations in forms of singular events: they borrow a singular context of the place, the time, and the particular situation in which each observation is made.
+Alongside, the similarities between such events yields for generalizations: 
+
+
+> L'osservazione della somiglianza [...] è utile, poiché siamo convinti di suscitar l'universale attraverso l'induzione sui casi singoli, che risultano simili: non è invero facile indurre, quando non si conoscono le somiglianze degli oggetti. [...] quanto si applica eventualmente ad uno degli oggetti simili, si applicherà allo stesso modo anche ai rimanenti. Di conseguenza [...] quanto si applica eventualmente ad essi si applichi allo stesso modo anche all'oggetto della discussione. [@aristoteleOrganon 1.18.108b]
+
+
+
+## The role of empirical data 
 
 ## A theoretic framework to analyze the data

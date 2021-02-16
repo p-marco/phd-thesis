@@ -9,9 +9,12 @@ empirical-objectives
 theoretical-objectives
 outline-of-the-thesis
 evidences-and-theories-in-a-linguistic-research
-the-role-of-empyrical-data
+inductivism-and-deductivism-in-linguistics
+the-role-of-empirical-data
 a-theoretic-framework-to-analyze-the-data
 moving-the-research-into-the-digital-space
+defining-the-kind-of-data
+elaborating-a-corpus
 an-overview-of-the-second-language-acquisition
 case-study-i
 case-study-ii
