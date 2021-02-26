@@ -24,7 +24,7 @@
 \PassOptionsToPackage{hyphens}{url} % url is loaded by hyperref
 \usepackage[unicode=true]{hyperref}
 \hypersetup{
-            pdftitle={Italian as Second Language in native Czechs and Slovaks},
+            pdftitle={Italian as non-native Language in Czechs and Slovak learners},
             pdfauthor={Marco Petolicchio},
             pdfborder={0 0 0},
             breaklinks=true}
@@ -302,34 +302,20 @@
 \usepackage{pgfplots}
 
 
-\usepackage{gb4e,cgloss}
+\usepackage{gb4e}
 \noautomath
 
 
 
 \frontmatter
 
-\title{Italian as Second Language in native Czechs and Slovaks}
+\title{Italian as non-native Language in Czechs and Slovak learners}
 \providecommand{\subtitle}[1]{}
 \subtitle{From the development of a learner corpus towards a theoretical
 investigation}
 \author{Marco Petolicchio}
-\date{2018-08-31}
+\date{2021-02-25}
 
-\usepackage{amsthm}
-\newtheorem{theorem}{Theorem}[chapter]
-\newtheorem{lemma}{Lemma}[chapter]
-\theoremstyle{definition}
-\newtheorem{definition}{Definition}[chapter]
-\newtheorem{corollary}{Corollary}[chapter]
-\newtheorem{proposition}{Proposition}[chapter]
-\theoremstyle{definition}
-\newtheorem{example}{Example}[chapter]
-\theoremstyle{definition}
-\newtheorem{exercise}{Exercise}[chapter]
-\theoremstyle{remark}
-\newtheorem*{remark}{Remark}
-\newtheorem*{solution}{Solution}
 \begin{document}
 \maketitle
 
@@ -815,6 +801,88 @@ The theoretical outcome constitues the main topic of the research.
 
 \textbf{Chapter 5} introduces \ldots{}
 
+\chapter{Evidences and theories in a linguistic
+research}\label{evidences-and-theories-in-a-linguistic-research}
+
+It seems that a certain grade of analysis, theories and empirical
+collect of data do not follow the same path, while they strike one
+against the other: on one side the theoretical generalizations can
+involve or not a verification of the hypotheses on the actual data that
+the researcher can handle with, on the other the work around the data
+collection can still confined without a well-grounded theoretical
+approach. Nevertheless, while it does not imply \emph{per sé} that a
+theoretical approach can be regarded as the primary goal for a
+scientific approach, also the opposite knows some problems. Defining a
+neutral way in which data should be collected is not an easy matter, and
+someone could certainly ask if there is at all some sort of
+\emph{rawness} or \emph{neutrality} in data itself\footnote{Cfr. the
+  \emph{Observer Paradox} as stated by William Labov: \enquote{To obtain
+  data on the most systematic form of language (the vernacular), we must
+  observe how people speak when they are not being observed}
+  \citep[xvii]{labov1973}.}.
+
+\section{Inductivism and deductivism in
+linguistics}\label{inductivism-and-deductivism-in-linguistics}
+
+The inductivist approach to research begins with observations in forms
+of singular events: they borrow a singular context of the place, the
+time, and the particular situation in which each observation is made,
+while the analysis of the similarities between such events yields for
+generalizations.
+
+In order to attempt a logic basis for a research method, Aristotle
+distinguishes the \emph{induction} (\emph{epagōgē}) as the way which
+preceeds from the particular to the universal, and the \emph{deduction}
+(\emph{syllogismos}):
+
+\begin{quote}
+L'osservazione della somiglianza {[}\ldots{}{]} è utile, poiché siamo
+convinti di suscitar l'universale attraverso l'induzione sui casi
+singoli, che risultano simili: non è invero facile indurre, quando non
+si conoscono le somiglianze degli oggetti. {[}\ldots{}{]} quanto si
+applica eventualmente ad uno degli oggetti simili, si applicherà allo
+stesso modo anche ai rimanenti. Di conseguenza {[}\ldots{}{]} quanto si
+applica eventualmente ad essi si applichi allo stesso modo anche
+all'oggetto della discussione\textasciitilde{}\citep[
+1.18.108b]{aristoteleOrganon}.
+\end{quote}
+
+A well known example given by Bertrand Russell points out how the
+inductivism approach can be a fallacy, making an expectation over
+similar past events and applying these categories on the future:
+
+\begin{quote}
+Domestic animals expect food when they see the person who feeds them. We
+know that all these rather crude expectations of uniformity are liable
+to be misleading. The man who has fed the chicken every day throughout
+its life at last wrings its neck instead, showing that more refined
+views as to the uniformity of nature would have been useful to the
+chicken \citep{russellProblems}.
+\end{quote}
+
+\section{The role of empirical data}\label{the-role-of-empirical-data}
+
+\section{A theoretic framework to analyze the
+data}\label{a-theoretic-framework-to-analyze-the-data}
+
+\chapter{Moving the research into the digital
+space}\label{moving-the-research-into-the-digital-space}
+
+\section{Defining the kind of data}\label{defining-the-kind-of-data}
+
+\section{Elaborating a corpus}\label{elaborating-a-corpus}
+
+\chapter{An overview of the second language
+acquisition}\label{an-overview-of-the-second-language-acquisition}
+
+\chapter{Case study I}\label{case-study-i}
+
+\chapter{Case Study II}\label{case-study-ii}
+
+\chapter{Case study III}\label{case-study-iii}
+
+\chapter{Conclusive remarks}\label{conclusive-remarks}
+
 \backmatter
 
 \chapter{Backmatter}\label{backmatter}
@@ -847,13 +915,17 @@ libraries:
   \href{https://bookdown.org}{R} environment.
 \end{itemize}
 
-As well, for the computational infrastructure, a lot of open source
-tools have been used:
+As well, for the computational infrastructure, some tools have been
+used:
 
 \begin{itemize}
 \tightlist
 \item
   \href{https://bookdown.org}{NLTK}
+\item
+  UDPIPE
+\item
+  SciPY
 \end{itemize}
 
 \section{About the author}\label{about-the-author}
