@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.12.17)  25 FEB 2021 11:34
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.12.17)  4 MAR 2021 15:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2102,38 +2102,60 @@ texmf-dist/tex/latex/gb4e/cgloss4e.sty
 \c@rxnumiii=\count409
 \c@rxnumiv=\count410
 \lcommentsep=\skip113
+) (/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+Invalid UTF-8 byte or sequence at line 296 replaced by U+FFFD.
+\linenopenalty=\count411
+\output=\toks59
+\linenoprevgraf=\count412
+\linenumbersep=\dimen352
+\linenumberwidth=\dimen353
+\c@linenumber=\count413
+\c@pagewiselinenumber=\count414
+\c@LN@truepage=\count415
+\c@internallinenumber=\count416
+\c@internallinenumbers=\count417
+\quotelinenumbersep=\dimen354
+\bframerule=\dimen355
+\bframesep=\dimen356
+\bframebox=\box86
+
+LaTeX Warning: Command \@parboxrestore  has changed.
+               Check if current package is valid.
+
+LaTeX Info: Redefining \\ on input line 3056.
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 (./phdThesis.aux)
 \openout1 = `phdThesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 319.
-LaTeX Font Info:    ... okay on input line 319.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 319.
-LaTeX Font Info:    ... okay on input line 319.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 319.
-LaTeX Font Info:    ... okay on input line 319.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 319.
-LaTeX Font Info:    ... okay on input line 319.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 319.
-LaTeX Font Info:    ... okay on input line 319.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 319.
-LaTeX Font Info:    ... okay on input line 319.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 319.
-LaTeX Font Info:    ... okay on input line 319.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 319.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 319.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 335.
+LaTeX Font Info:    ... okay on input line 335.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 335.
+LaTeX Font Info:    ... okay on input line 335.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 335.
+LaTeX Font Info:    ... okay on input line 335.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 335.
+LaTeX Font Info:    ... okay on input line 335.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 335.
+LaTeX Font Info:    ... okay on input line 335.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 335.
+LaTeX Font Info:    ... okay on input line 335.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 335.
+LaTeX Font Info:    ... okay on input line 335.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 335.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 335.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 319.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 319.
-LaTeX Font Info:    ... okay on input line 319.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 319.
-LaTeX Font Info:    ... okay on input line 319.
-LaTeX Info: Redefining \microtypecontext on input line 319.
+LaTeX Font Info:    ... okay on input line 335.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 335.
+LaTeX Font Info:    ... okay on input line 335.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 335.
+LaTeX Font Info:    ... okay on input line 335.
+LaTeX Info: Redefining \microtypecontext on input line 335.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: No adjustment of tracking.
@@ -2143,18 +2165,18 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `IBMPlexSerif' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\AtBeginShipoutBox=\box86
-Package hyperref Info: Link coloring OFF on input line 319.
+\AtBeginShipoutBox=\box87
+Package hyperref Info: Link coloring OFF on input line 335.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count411
+\c@section@level=\count418
 )
-LaTeX Info: Redefining \ref on input line 319.
-LaTeX Info: Redefining \pageref on input line 319.
-LaTeX Info: Redefining \nameref on input line 319.
+LaTeX Info: Redefining \ref on input line 335.
+LaTeX Info: Redefining \pageref on input line 335.
+LaTeX Info: Redefining \nameref on input line 335.
 (./phdThesis.out) (./phdThesis.out)
 \@outlinefile=\write4
 \openout4 = `phdThesis.out'.
@@ -2202,9 +2224,9 @@ Package caption Info: End \AtBeginDocument code.
 (/usr/share/texlive/texmf-dist/tex/latex/floatrow/fr-longtable.sty
 Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
 
-\flrow@LT@lasthead=\box87
-\flrow@LT@prelastfoot=\box88
-\c@FBLTpage=\count412
+\flrow@LT@lasthead=\box88
+\flrow@LT@prelastfoot=\box89
+\c@FBLTpage=\count419
 )
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -2219,15 +2241,15 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 99.
 
 ) ABD: EveryShipout initializing macros
-\c@lstlisting=\count413
+\c@lstlisting=\count420
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.15} into 
 your preamble.
- on input line 319.
+ on input line 335.
 
-\c__siunitx_mathsf_int=\count414
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 319.
+\c__siunitx_mathsf_int=\count421
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 335.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -2235,82 +2257,90 @@ File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: mt-LatinModernRoman.cfg 2013/03/13 v1.0 microtype config. file: Latin Mod
 ern Roman (RS)
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 319.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 335.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 319
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 335
 .
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 319
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 335
 .
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 319.
+(Font)              <12> on input line 335.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 319.
+(Font)              <8> on input line 335.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 319.
-LaTeX Font Info:    Try loading font information for U+msa on input line 319.
+(Font)              <6> on input line 335.
+LaTeX Font Info:    Try loading font information for U+msa on input line 335.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 319.
+LaTeX Font Info:    Try loading font information for U+msb on input line 335.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 319
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 335
 .
 (/usr/share/texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-\c__siunitx_mathtt_int=\count415
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 319
+\c__siunitx_mathtt_int=\count422
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 335
 .
 (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Font shape `TU/IBMPlexSerif(0)/bx/n' will be
-(Font)              scaled to size 9.8703pt on input line 333.
-LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/bx/n' will be
-(Font)              scaled to size 9.85144pt on input line 333.
+LaTeX Font Info:    Font shape `TU/IBMPlexSerif(0)/m/n' will be
+(Font)              scaled to size 5.0116pt on input line 346.
 LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/n' will be
-(Font)              scaled to size 10.0232pt on input line 333.
+(Font)              scaled to size 5.0116pt on input line 346.
+LaTeX Font Info:    Font shape `TU/IBMPlexSerif(0)/bx/n' will be
+(Font)              scaled to size 9.8703pt on input line 349.
+LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/bx/n' will be
+(Font)              scaled to size 9.85144pt on input line 349.
+LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/n' will be
+(Font)              scaled to size 10.0232pt on input line 349.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `IBMPlexSans' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/n' will be
-(Font)              scaled to size 30.06958pt on input line 343.
+(Font)              scaled to size 30.06958pt on input line 359.
 LaTeX Font Info:    Font shape `TU/IBMPlexSerif(0)/m/n' will be
-(Font)              scaled to size 30.06958pt on input line 343.
+(Font)              scaled to size 30.06958pt on input line 359.
 LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/n' will be
-(Font)              scaled to size 14.4334pt on input line 346.
+(Font)              scaled to size 14.4334pt on input line 362.
 LaTeX Font Info:    Font shape `TU/IBMPlexSerif(0)/m/n' will be
-(Font)              scaled to size 14.4334pt on input line 346.
+(Font)              scaled to size 14.4334pt on input line 362.
 LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/n' will be
-(Font)              scaled to size 12.02782pt on input line 350.
+(Font)              scaled to size 12.02782pt on input line 366.
+LaTeX Font Info:    Font shape `TU/IBMPlexSerif(0)/m/n' will be
+(Font)              scaled to size 12.02782pt on input line 366.
 LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/n' will be
-(Font)              scaled to size 8.35266pt on input line 360.
+(Font)              scaled to size 8.35266pt on input line 376.
 LaTeX Font Info:    Font shape `TU/IBMPlexMono(0)/m/n' will be
-(Font)              scaled to size 8.35266pt on input line 360.
+(Font)              scaled to size 8.35266pt on input line 376.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 360.
+(Font)              <10> on input line 376.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 360.
+(Font)              <7> on input line 376.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 360.
+(Font)              <5> on input line 376.
 LaTeX Font Info:    Font shape `TU/IBMPlexMono(0)/m/n' will be
-(Font)              scaled to size 5.84686pt on input line 360.
+(Font)              scaled to size 5.84686pt on input line 376.
+LaTeX Font Info:    Font shape `TU/IBMPlexSerif(0)/m/n' will be
+(Font)              scaled to size 8.35266pt on input line 376.
 [1
 
 
@@ -2322,9 +2352,9 @@ LaTeX Font Info:    Font shape `TU/IBMPlexMono(0)/m/n' will be
 
 ]
 LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/bx/n' will be
-(Font)              scaled to size 14.18607pt on input line 371.
-Package tocbasic Info: character protrusion at toc deactivated on input line 37
-1.
+(Font)              scaled to size 14.18607pt on input line 387.
+Package tocbasic Info: character protrusion at toc deactivated on input line 38
+7.
 (./phdThesis.toc)
 \tf@toc=\write5
 \openout5 = `phdThesis.toc'.
@@ -2333,8 +2363,8 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 37
 
 
 ]
-Package tocbasic Info: character protrusion at lot deactivated on input line 37
-3.
+Package tocbasic Info: character protrusion at lot deactivated on input line 38
+9.
 Setting numwidth of `part' to 19.72565pt
 Setting indent of `part' to \z@
 Setting numwidth of `part' to 19.72565pt
@@ -2371,8 +2401,8 @@ Setting indent of `subparagraph' to \z@
 
 
 ]
-Package tocbasic Info: character protrusion at lof deactivated on input line 37
-4.
+Package tocbasic Info: character protrusion at lof deactivated on input line 39
+0.
 Setting numwidth of `part' to 19.72565pt
 Setting indent of `part' to \z@
 Setting numwidth of `part' to 19.72565pt
@@ -2415,10 +2445,10 @@ Class scrbook Warning: incompatible usage of \@ssect detected.
 (scrbook)              from within a non compatible caller, that does not
 (scrbook)              \scr@s@ct@@nn@m@ locally.
 (scrbook)              This could result in several error messages on input lin
-e 378.
+e 394.
 
 
-Package xcolor Warning: Incompatible color definition on input line 378.
+Package xcolor Warning: Incompatible color definition on input line 394.
 
 
 Class scrbook Warning: incompatible usage of \@ssect detected.
@@ -2426,15 +2456,15 @@ Class scrbook Warning: incompatible usage of \@ssect detected.
 (scrbook)              from within a non compatible caller, that does not
 (scrbook)              \scr@s@ct@@nn@m@ locally.
 (scrbook)              This could result in several error messages on input lin
-e 408.
+e 424.
 
 
-Package xcolor Warning: Incompatible color definition on input line 408.
-
-[9] [10
+Package xcolor Warning: Incompatible color definition on input line 424.
 
 
-]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[9] [10]
 chapter 1.
 
 Class scrbook Warning: \float@addtolists detected!
@@ -2452,266 +2482,264 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              deprecated \float@addtolist interface .
 
 LaTeX Font Info:    Font shape `TU/IBMPlexSerif(0)/m/n' will be
-(Font)              scaled to size 20.78142pt on input line 416.
+(Font)              scaled to size 20.78142pt on input line 432.
 LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/n' will be
-(Font)              scaled to size 20.78142pt on input line 416.
+(Font)              scaled to size 20.78142pt on input line 432.
 
-Package xcolor Warning: Incompatible color definition on input line 449.
-
-[1
-
-
-]
-LaTeX Font Info:    Font shape `TU/IBMPlexSerif(0)/m/it' will be
-(Font)              scaled to size 10.0232pt on input line 482.
-LaTeX Font Info:    Font shape `TU/IBMPlexSerif(0)/m/n' will be
-(Font)              scaled to size 12.02782pt on input line 488.
-LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/bx/n' will be
-(Font)              scaled to size 11.82172pt on input line 488.
-
-Package xcolor Warning: Incompatible color definition on input line 488.
-
-LaTeX Font Info:    Font shape `TU/IBMPlexSerif(0)/m/n' will be
-(Font)              scaled to size 8.35266pt on input line 517.
-[2]
-
-Package xcolor Warning: Incompatible color definition on input line 560.
+Package xcolor Warning: Incompatible color definition on input line 465.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[3] [4]
-
-Package xcolor Warning: Incompatible color definition on input line 621.
+[1
 
 
-Package xcolor Warning: Incompatible color definition on input line 621.
 
 
-Package xcolor Warning: Incompatible color definition on input line 621.
+]
+LaTeX Font Info:    Font shape `TU/IBMPlexSerif(0)/m/it' will be
+(Font)              scaled to size 10.0232pt on input line 498.
+LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/bx/n' will be
+(Font)              scaled to size 11.82172pt on input line 504.
+
+Package xcolor Warning: Incompatible color definition on input line 504.
 
 
-Package xcolor Warning: Incompatible color definition on input line 621.
+Underfull \vbox (badness 2221) has occurred while \output is active []
+
+[2]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[3]
+
+Package xcolor Warning: Incompatible color definition on input line 576.
+
+[4]
+
+Package xcolor Warning: Incompatible color definition on input line 637.
 
 
-Package xcolor Warning: Incompatible color definition on input line 621.
+Package xcolor Warning: Incompatible color definition on input line 637.
 
 
-Package xcolor Warning: Incompatible color definition on input line 621.
+Package xcolor Warning: Incompatible color definition on input line 637.
 
 
-Overfull \hbox (341.43309pt too wide) detected at line 621
+Package xcolor Warning: Incompatible color definition on input line 637.
+
+
+Package xcolor Warning: Incompatible color definition on input line 637.
+
+
+Package xcolor Warning: Incompatible color definition on input line 637.
+
+
+Overfull \hbox (341.43309pt too wide) detected at line 637
  [] 
  []
 
 
-Overfull \hbox (32.75397pt too wide) in alignment at lines 620--625
+Overfull \hbox (32.75397pt too wide) in alignment at lines 636--641
 [] [] [] [] [] []
  []
 
 
-Overfull \hbox (32.75397pt too wide) in alignment at lines 625--629
+Overfull \hbox (32.75397pt too wide) in alignment at lines 641--645
 [] [] [] [] [] []
  []
 
 
-Overfull \hbox (32.75397pt too wide) in alignment at lines 629--639
+Overfull \hbox (32.75397pt too wide) in alignment at lines 645--655
 [] [] [] [] [] []
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 641.
-
-
-Package xcolor Warning: Incompatible color definition on input line 666.
+Package xcolor Warning: Incompatible color definition on input line 657.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [5]
 
-Package xcolor Warning: Incompatible color definition on input line 698.
+Package xcolor Warning: Incompatible color definition on input line 682.
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 713--726
-[]\TU/IBMPlexSerif(0)/m/n/12 Since the last 20 years, a considerable part of li
-nguistic activity is
- []
-
-
-Underfull \hbox (badness 2027) in paragraph at lines 713--726
-\TU/IBMPlexSerif(0)/m/n/12 focused on Generative framework (GenSLA) ([]Guasti[]
-, []2002[]; []Hawkins[],
- []
-
-
-Underfull \hbox (badness 1983) in paragraph at lines 713--726
-[]\TU/IBMPlexSerif(0)/m/n/12 2001[]; []Rothman and Slabakova[], []2017[]; []Sor
-ace[], []2011[]). In this sense
- []
+Package xcolor Warning: Incompatible color definition on input line 714.
 
 [6]
 
-Package xcolor Warning: Incompatible color definition on input line 733.
+Package xcolor Warning: Incompatible color definition on input line 749.
 
 
-Underfull \hbox (badness 5667) in paragraph at lines 744--753
+Underfull \hbox (badness 5667) in paragraph at lines 760--769
 \TU/IBMPlexSerif(0)/m/n/12 and capacities, a particular component of the human
  []
 
 
-Underfull \hbox (badness 2818) in paragraph at lines 744--753
+Underfull \hbox (badness 2818) in paragraph at lines 760--769
 \TU/IBMPlexSerif(0)/m/n/12 it passes through a series of states in early childh
 ood,
  []
+
+
+Underfull \vbox (badness 5288) has occurred while \output is active []
 
 [7]
 File: phdThesis_files/figure-latex/tree1-1.pdf Graphic file (type pdf)
 <use phdThesis_files/figure-latex/tree1-1.pdf>
 
-Package xcolor Warning: Incompatible color definition on input line 774.
+Package xcolor Warning: Incompatible color definition on input line 790.
 
 
-Package xcolor Warning: Incompatible color definition on input line 774.
+Package xcolor Warning: Incompatible color definition on input line 790.
 
 
-Package xcolor Warning: Incompatible color definition on input line 774.
+Package xcolor Warning: Incompatible color definition on input line 790.
 
 
-Package xcolor Warning: Incompatible color definition on input line 774.
+Package xcolor Warning: Incompatible color definition on input line 790.
 
 
-Package xcolor Warning: Incompatible color definition on input line 774.
+Package xcolor Warning: Incompatible color definition on input line 790.
 
 
-Package xcolor Warning: Incompatible color definition on input line 774.
+Package xcolor Warning: Incompatible color definition on input line 790.
 
 
-Package xcolor Warning: Incompatible color definition on input line 784.
+Package xcolor Warning: Incompatible color definition on input line 800.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [8] [9] [10
 
 
 ]
 chapter 2.
+Missing character: There is no ḕ in font IBM Plex Serif Italic/OT:script=latn;l
+anguage=DFLT;mapping=tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 824--825
+
+ []
+
 LaTeX Font Info:    Font shape `TU/IBMPlexSerif(0)/m/n' will be
-(Font)              scaled to size 6.68213pt on input line 818.
+(Font)              scaled to size 6.68213pt on input line 839.
 LaTeX Font Info:    Font shape `TU/IBMPlexSerif(0)/m/n' will be
-(Font)              scaled to size 5.84686pt on input line 822.
+(Font)              scaled to size 5.84686pt on input line 843.
 LaTeX Font Info:    Font shape `TU/IBMPlexSerif(0)/m/it' will be
-(Font)              scaled to size 8.35266pt on input line 822.
+(Font)              scaled to size 8.35266pt on input line 843.
 
-Package xcolor Warning: Incompatible color definition on input line 825.
-
-
-Underfull \hbox (badness 5446) in paragraph at lines 839--848
-\TU/IBMPlexSerif(0)/m/n/12 quando non si conoscono le somiglianze degli oggetti
-.
- []
-
-
-Underfull \hbox (badness 1831) in paragraph at lines 839--848
-\TU/IBMPlexSerif(0)/m/n/12 Di conseguenza […] quanto si applica eventualmente a
-d
- []
-
-
-Underfull \hbox (badness 2050) in paragraph at lines 839--848
-\TU/IBMPlexSerif(0)/m/n/12 essi si applichi allo stesso modo anche all’oggetto 
-della
- []
+Package xcolor Warning: Incompatible color definition on input line 846.
 
 [11]
+Underfull \hbox (badness 2126) in paragraph at lines 860--869
+\TU/IBMPlexSerif(0)/m/n/12 si applicherà allo stesso modo anche ai rimanenti. D
+i
+ []
 
-Package xcolor Warning: Incompatible color definition on input line 863.
+
+Package xcolor Warning: Incompatible color definition on input line 884.
 
 
-Package xcolor Warning: Incompatible color definition on input line 866.
+Package xcolor Warning: Incompatible color definition on input line 901.
 
+LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/bx/n' will be
+(Font)              scaled to size 8.20953pt on input line 901.
 [12]
-chapter 3.
 
-Package xcolor Warning: Incompatible color definition on input line 871.
-
-
-Package xcolor Warning: Incompatible color definition on input line 873.
-
-[13
+Package xcolor Warning: Incompatible color definition on input line 904.
 
 
-] [14
+Package xcolor Warning: Incompatible color definition on input line 907.
+
+[13] [14
 
 
 ]
-chapter 4.
+chapter 3.
+
+Package xcolor Warning: Incompatible color definition on input line 912.
+
+
+Package xcolor Warning: Incompatible color definition on input line 914.
+
 [15] [16
 
 
 ]
-chapter 5.
+chapter 4.
 [17] [18
 
 
 ]
-chapter 6.
+chapter 5.
 [19] [20
 
 
 ]
-chapter 7.
+chapter 6.
 [21] [22
 
 
 ]
-chapter 8.
+chapter 7.
 [23] [24
 
 
 ]
-chapter without number
-
-Package xcolor Warning: Incompatible color definition on input line 890.
-
-
-Package xcolor Warning: Incompatible color definition on input line 900.
-
-
-Package xcolor Warning: Incompatible color definition on input line 931.
-
-[25
+chapter 8.
+[25] [26
 
 
 ]
-Underfull \hbox (badness 2173) in paragraph at lines 940--944
-[]\TU/IBMPlexSerif(0)/m/n/12 Feel free to write me at []$[][][][][] [] [][][][]
-[][][][][][][] [] [][][][][] [] [][][]$[] or visit []mar-
- []
+chapter without number
+
+Package xcolor Warning: Incompatible color definition on input line 931.
 
 
-Package xcolor Warning: Incompatible color definition on input line 945.
+Package xcolor Warning: Incompatible color definition on input line 941.
+
+
+Package xcolor Warning: Incompatible color definition on input line 972.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[27
+
+
+]
+
+Package xcolor Warning: Incompatible color definition on input line 986.
 
 File: phdThesis_files/figure-latex/unnamed-chunk-3-1.pdf Graphic file (type pdf
 )
 <use phdThesis_files/figure-latex/unnamed-chunk-3-1.pdf>
-(./phdThesis.bbl [26]
+
+Overfull \hbox (20.0569pt too wide) in paragraph at lines 991--992
+[][] 
+ []
+
+(./phdThesis.bbl [28]
 chapter without number
-[27
+[29
 
 
-] [28]) [29]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 954.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 954.
+] [30]) [31]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 995.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 995.
 (./phdThesis.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 954.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 954.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 995.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 995.
  ) 
 Here is how much of TeX's memory you used:
- 53620 strings out of 493007
- 1182967 string characters out of 6136718
- 1828899 words of memory out of 5000000
- 56743 multiletter control sequences out of 15000+600000
- 573672 words of font info for 107 fonts, out of 8000000 for 9000
+ 53841 strings out of 493007
+ 1186544 string characters out of 6136718
+ 1829899 words of memory out of 5000000
+ 56958 multiletter control sequences out of 15000+600000
+ 573696 words of font info for 110 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 64i,12n,116p,10450b,1019s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,11n,116p,10450b,1037s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on phdThesis.pdf (39 pages).
+Output written on phdThesis.pdf (41 pages).

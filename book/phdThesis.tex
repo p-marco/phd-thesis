@@ -305,7 +305,23 @@
 \usepackage{gb4e}
 \noautomath
 
+\setlength{\parskip}{1em}
+\setlength{\parindent}{2em}
 
+\usepackage[modulo]{lineno}
+
+\preto{\chapter}{\resetlinenumber}
+\linenumbers
+
+
+\makeatletter
+\newenvironment{chapquote}[2][2em]
+  {\setlength{\@tempdima}{#1}%
+   \def\chapquote@author{#2}%
+   \parshape 1 \@tempdima \dimexpr\textwidth-2\@tempdima\relax%
+   \itshape}
+  {\par\normalfont\hfill--\ \chapquote@author\hspace*{\@tempdima}\par\vspace{4em}}
+\makeatother
 
 \frontmatter
 
@@ -314,7 +330,7 @@
 \subtitle{From the development of a learner corpus towards a theoretical
 investigation}
 \author{Marco Petolicchio}
-\date{2021-02-25}
+\date{2021-03-04}
 
 \begin{document}
 \maketitle
@@ -804,9 +820,14 @@ The theoretical outcome constitues the main topic of the research.
 \chapter{Evidences and theories in a linguistic
 research}\label{evidences-and-theories-in-a-linguistic-research}
 
-It seems that a certain grade of analysis, theories and empirical
-collect of data do not follow the same path, while they strike one
-against the other: on one side the theoretical generalizations can
+\begin{chapquote}{Aristotle, \textit{Metaphysics, Book VIII, 1045a.8–10}}
+\par{Pántōn gàr hósa pleíō mérē ékhei kaì mḕ éstin hoĩon sōròs tò pãn.}\\ 
+\par{\noindent The totality is not, as it were, a mere heap, but the whole is something besides the parts.}
+\end{chapquote}
+
+\noindent It seems that a certain grade of analysis, theories and
+empirical collect of data do not follow the same path, while they strike
+one against the other: on one side the theoretical generalizations can
 involve or not a verification of the hypotheses on the actual data that
 the researcher can handle with, on the other the work around the data
 collection can still confined without a well-grounded theoretical
@@ -843,7 +864,7 @@ si conoscono le somiglianze degli oggetti. {[}\ldots{}{]} quanto si
 applica eventualmente ad uno degli oggetti simili, si applicherà allo
 stesso modo anche ai rimanenti. Di conseguenza {[}\ldots{}{]} quanto si
 applica eventualmente ad essi si applichi allo stesso modo anche
-all'oggetto della discussione\textasciitilde{}\citep[
+all'oggetto della discussione \citep[ \emph{Topici}
 1.18.108b]{aristoteleOrganon}.
 \end{quote}
 
@@ -860,7 +881,27 @@ views as to the uniformity of nature would have been useful to the
 chicken \citep{russellProblems}.
 \end{quote}
 
-\section{The role of empirical data}\label{the-role-of-empirical-data}
+\subsection{Induction and empiricism}\label{induction-and-empiricism}
+
+The inductive method proceeds bottom-up from a particular event to a
+generalization of similar events into an uniform class of items,
+commoned up by the property to display some analogies into their core
+components. In this sense, the inductive way focuses on single,
+individual phenomena as the starting point, collecting these into
+subsets of similarities in order to attempt a rationale hypothesis which
+can explain these similarities.
+
+Basing from evidences as the starting point for critical investigation,
+an inductive reasoning proceeds towards the elaboration of a general
+rule that can expain the behaviour of different events in a similar
+class. For achieving such kind of generalization, inductive hypotheses
+rely on the principle which falls under the definition
+\enquote{uniformity of nature}
+
+\subsection{Deduction}\label{deduction}
+
+\subsection{The role of empirical
+data}\label{the-role-of-empirical-data}
 
 \section{A theoretic framework to analyze the
 data}\label{a-theoretic-framework-to-analyze-the-data}

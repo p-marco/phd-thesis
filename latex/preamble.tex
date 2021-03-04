@@ -235,6 +235,22 @@
 \usepackage{gb4e}
 \noautomath
 
+\setlength{\parskip}{1em}
+\setlength{\parindent}{2em}
 
+\usepackage[modulo]{lineno}
+
+\preto{\chapter}{\resetlinenumber}
+\linenumbers
+
+
+\makeatletter
+\newenvironment{chapquote}[2][2em]
+  {\setlength{\@tempdima}{#1}%
+   \def\chapquote@author{#2}%
+   \parshape 1 \@tempdima \dimexpr\textwidth-2\@tempdima\relax%
+   \itshape}
+  {\par\normalfont\hfill--\ \chapquote@author\hspace*{\@tempdima}\par\vspace{4em}}
+\makeatother
 
 \frontmatter

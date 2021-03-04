@@ -1,6 +1,12 @@
+
 # Evidences and theories in a linguistic research
 
-It seems that a certain grade of analysis, theories and empirical collect of data do not follow the same path, while they strike one against the other: on one side the theoretical generalizations can involve or not a verification of the hypotheses on the actual data that the researcher can handle with, on the other the work around the data collection can still confined without a well-grounded theoretical approach.
+\begin{chapquote}{Aristotle, \textit{Metaphysics, Book VIII, 1045a.8–10}}
+\par{Pántōn gàr hósa pleíō mérē ékhei kaì mḕ éstin hoĩon sōròs tò pãn.}\\ 
+\par{\noindent The totality is not, as it were, a mere heap, but the whole is something besides the parts.}
+\end{chapquote}
+
+\noindent It seems that a certain grade of analysis, theories and empirical collect of data do not follow the same path, while they strike one against the other: on one side the theoretical generalizations can involve or not a verification of the hypotheses on the actual data that the researcher can handle with, on the other the work around the data collection can still confined without a well-grounded theoretical approach.
 Nevertheless, while it does not imply *per sé* that a theoretical approach can be regarded as the primary goal for a scientific approach, also the opposite knows some problems. Defining a neutral way in which data should be collected is not an easy matter, and someone could certainly ask if there is at all some sort of *rawness* or *neutrality* in data itself^[Cfr. the *Observer Paradox* as stated by William Labov:  "To obtain data on the most systematic form of language (the vernacular), we must observe how people speak when they are not being observed" [@labov1973, xvii].]. 
 
 
@@ -11,13 +17,27 @@ The inductivist approach to research begins with observations in forms of singul
 In order to attempt a logic basis for a research method, Aristotle distinguishes the *induction* (*epagōgē*) as the way which preceeds from the particular to the universal, and the *deduction* (*syllogismos*):
 
 
-> L'osservazione della somiglianza [...] è utile, poiché siamo convinti di suscitar l'universale attraverso l'induzione sui casi singoli, che risultano simili: non è invero facile indurre, quando non si conoscono le somiglianze degli oggetti. [...] quanto si applica eventualmente ad uno degli oggetti simili, si applicherà allo stesso modo anche ai rimanenti. Di conseguenza [...] quanto si applica eventualmente ad essi si applichi allo stesso modo anche all'oggetto della discussione~[@aristoteleOrganon 1.18.108b].
+> L'osservazione della somiglianza [...] è utile, poiché siamo convinti di suscitar l'universale attraverso l'induzione sui casi singoli, che risultano simili: non è invero facile indurre, quando non si conoscono le somiglianze degli oggetti. [...] quanto si applica eventualmente ad uno degli oggetti simili, si applicherà allo stesso modo anche ai rimanenti. Di conseguenza [...] quanto si applica eventualmente ad essi si applichi allo stesso modo anche all'oggetto della discussione  [@aristoteleOrganon *Topici* 1.18.108b].
 
 A well known example given by Bertrand Russell points out how the inductivism approach can be a fallacy, making an expectation over similar past events and applying these categories on the future:
 
 >Domestic animals expect food when they see the person who feeds them. We know that all these rather crude expectations of uniformity are liable to be misleading. The man who has fed the chicken every day throughout its life at last wrings its neck instead, showing that more refined views as to the uniformity of nature would have been useful to the chicken [@russellProblems].
 
 
-## The role of empirical data 
+### Induction and empiricism
+
+The inductive method proceeds bottom-up from a particular event to a generalization of similar events into an uniform class of items, commoned up by the property to display some analogies into their core components. In this sense, the inductive way focuses on single, individual phenomena as the starting point, collecting these into subsets of similarities in order to attempt a rationale hypothesis which can explain these similarities. 
+
+Basing from evidences as the starting point for critical investigation, an inductive reasoning proceeds towards the elaboration of a general rule that can expain the behaviour of different events in a similar class. For achieving such kind of generalization, inductive hypotheses rely on the principle which falls under the definition "uniformity of nature"
+
+
+
+### Deduction
+
+
+
+### The role of empirical data
+
+
 
 ## A theoretic framework to analyze the data
