@@ -23,7 +23,7 @@ read.csv = function(file, ...) {
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 
 # Load CSV data
-czechit_data <- read.csv('https://github.com/Czech-IT/Czech-IT.github.io/raw/master/_data/dataset.csv', header=TRUE, row.names=1) 
+czechit_data <- read.csv('https://github.com/Czech-IT/Czech-IT.github.io/raw/master/_data/dataset.csv', sep=',', header=TRUE, row.names=1) 
 
 # Create a dataframe
 czechit_dataset <- data.frame(x=czechit_data, check.names=TRUE)

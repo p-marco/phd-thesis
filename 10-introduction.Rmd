@@ -96,7 +96,7 @@ The corpus contains the transcriptions of more than 2000 audio files by CILS - C
 With more than 700k of words divided in *monologues* and *dialogues* between the candidate and the examiner, it represents one of the biggest corpora of Italian L2. The corpus is POS annotated using the tool Treetagger [@schmid1994].  
 
 * **[Czech-IT](http://czech-it.github.io)** [@czech-it]  
-The Czech-IT corpus contains chat messages, emails, coversations, surveys and assignments by more than `r toString(round((as.integer(czechit_datasetCountLearners/10))*10))` Czech and Slovak learners of Italian language. 
+The Czech-IT corpus contains chat messages, emails, coversations, surveys and assignments by more than **r toString(round((as.integer(czechit_datasetCountLearners/10))*10))** Czech and Slovak learners of Italian language. 
 Started in 2017, it is fully accessible online while the data acquisition continues. The whole dataset is fully interrogable by an interactive interface and released with a Creative Commons license; POS and automatic tagging are in tune. 
 
 * **[Corpus Italiano scritto L2](http://www.parlaritaliano.it/index.php/it/corpora-di-parlato/662-corpus-italiano-scritto-l2)** [@vogheraturco2010]  
@@ -112,7 +112,7 @@ The texts are syntactically annotated and the tagset is available in xml format.
 | VALICO     					| Various | 2502  			|  382098 	|  6935  |              	|
 | LIPS       					| Various | 2198  			| > 700000	|        | 1993--2006   	|
 | MERLIN     					| Various |  813	        |         	|        | 2012--?      	|
-| Czech-IT   					| cs,sk   | `r toString(nrow(czechit_dataset))`|`r toString(sum(czechit_datasetCountTokens))`	|        | 2017--present	|
+| Czech-IT   					| cs,sk   | **r toString(nrow(czechit_dataset))**|**r toString(sum(czechit_datasetCountTokens))**	|        | 2017--present	|
 | Corpus Italiano Scritto L2   	| Various |  227    		|   22931 	|        | 2010?			|
 
 Table: Size of Italian L2 Corpora
@@ -170,7 +170,7 @@ The Czech-IT corpus is composed by different kind of texts in order to exhibit t
 * Online surveys created for obtaining auto-evaluation by learners about their acquisition: the tests are made by a certain amount of questions and tiny writing samples.
 
 
-`r toString(czechit_datasetCountLearners)` are the learners inserted in the corpus. Informations about the learners concern the education level, the age group, the level of their italian knowledge, and other known languages - while their real identities are preserved by the assignment of an alpha-numeric ID.
+***r toString(czechit_datasetCountLearners)*** are the learners inserted in the corpus. Informations about the learners concern the education level, the age group, the level of their italian knowledge, and other known languages - while their real identities are preserved by the assignment of an alpha-numeric ID.
 
 
 [//]: # (#### Reproducible research)
