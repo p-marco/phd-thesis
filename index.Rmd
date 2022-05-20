@@ -25,6 +25,11 @@ options(tinytex.verbose = TRUE)
 \part{Outline}
 
 # Preface {-}
+
+## Declaration {-}
+
+\newpage
+
 ## Annotation {-}
 
 
@@ -43,9 +48,11 @@ This research aims to offer a way to investigate how second language acquisition
 **Keywords**
 Computational Linguistics; Syntax; Second Language Acquisition; Italian L2; Corpus Linguistics.
 
+\newpage
+
 ## Anotace {-}
 
-## Declaration {-}
+\newpage
 
 ## Acknowledgements {-}
 

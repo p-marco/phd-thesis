@@ -1,11 +1,25 @@
 # An overview of the second language acquisition
+## L1 vs. non-native language
+## Outline of different approaches about SLA
+### Contrastive approach 
+### Interlanguage Hypothesis
+### Generative SLA 
+
 
 
 
 # The generative framework and SLA
 ## Narrow syntax and interfaces
+### Nature and culture in language faculty
+### The modular architecture of the linguistic information
 ## Core operations in syntax
+### The computational ability of mind
+### Phrasehood and workspace
+### Two types of Merge
+### Agree, Labeling, Locality 
 ## Parameters and learnability
+### Language variation and uniformity
+### Acquisition and language change
 
 # The corpora
 ## A comparison across the corpora of Italian L2
