@@ -1,0 +1,20 @@
+# An overview of the second language acquisition
+
+
+
+# The generative framework and SLA
+## Narrow syntax and interfaces
+## Core operations in syntax
+## Parameters and learnability
+
+# The corpora
+## A comparison across the corpora of Italian L2
+### Description and size 
+### Accessibility
+## Mono-lingual corpora
+### Czech and Slovak corpora
+### Italian corpora
+## Limits and needs
+## The relevance of corpora
+### Corpora for the study of language
+### Corpora in machine-aided tasks 

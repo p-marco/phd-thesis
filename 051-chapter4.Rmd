@@ -1,0 +1,29 @@
+# Case study I: The syntax domain of DPs 
+
+## The theoretical status of DP and NP
+### The DP-over-NP and NP-over-DP debate
+#### The early-days view
+#### Abney's proposal 
+### Consequencies for the theory
+#### Parameters and locality effects
+
+## Determiners in Ces/Slk and Ita 
+### Typological differences
+### Theoretical consequencies 
+### Learning consequencies
+
+## The acquisition of Determiners
+### Patterns and regularities 
+#### Errors
+#### Choices
+### The acquisitional path 
+#### Language level and acquisition 
+#### Other important facts 
+### Determiners with PPs
+#### Asimmetries in learning
+#### Useful strategies for teaching
+### Determiners with kinship nouns
+#### 2-gram clusters with POSS
+#### N-gram clusters with Adjectives
+
+

@@ -1,5 +1,5 @@
 --- 
-title: "Italian as non-native Language in Czechs and Slovak learners"
+title: "Italian as non-native language in Czech and Slovak learners"
 subtitle: "From the development of a learner corpus towards a theoretical investigation"
 author: "Marco Petolicchio"
 date: "`r Sys.Date()`"
@@ -17,8 +17,15 @@ description: "My PhD thesis"
 always_allow_html: yes
 ---
 
+
+```{r, include=FALSE}
+options(tinytex.verbose = TRUE)
+```
+
+\part{Outline}
+
 # Preface {-}
-## Abstract {-}
+## Annotation {-}
 
 
 The main topic of this doctoral dissertation is on the analysis of syntactic structures in language acquisition,  specifically in the domain of Czech and Slovak learners which acquire the Italian language. In particular, I will focus on the complex noun phrase subdomain, showing the compositionality of the phrase structure and the hierarchical fashion of this component. 
@@ -33,6 +40,13 @@ This research aims to offer a way to investigate how second language acquisition
 
 
 
-## Keywords {-}
+**Keywords**
 Computational Linguistics; Syntax; Second Language Acquisition; Italian L2; Corpus Linguistics.
+
+## Anotace {-}
+
+## Declaration {-}
+
+## Acknowledgements {-}
+
 

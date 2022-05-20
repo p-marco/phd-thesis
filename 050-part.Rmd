@@ -1,0 +1,22 @@
+\part{Application}
+
+# The dataset(s)
+
+## The corpus "Czech-IT"
+
+### Description and size 
+
+### Planning the corpus
+#### Type of texts and data
+#### Why a learner-based corpus?
+#### Data-retrieving
+
+### Interacting with the corpus
+#### The user interface
+#### The computational tools
+#### NLP tasks and examples
+
+## Additional materials
+### Online surveys and questionaires
+### Auto-corrective forms
+

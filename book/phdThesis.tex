@@ -41,7 +41,7 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \hypersetup{
-  pdftitle={Italian as non-native Language in Czechs and Slovak learners},
+  pdftitle={Italian as non-native language in Czech and Slovak learners},
   pdfauthor={Marco Petolicchio},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
@@ -56,19 +56,6 @@
 % Allow footnotes in longtable head/foot
 \IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
 \makesavenoteenv{longtable}
-\usepackage{graphicx}
-\makeatletter
-\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
-\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
-\makeatother
-% Scale images if necessary, so that they will not overflow the page
-% margins by default, and it is still possible to overwrite the defaults
-% using explicit options in \includegraphics[width, height, ...]{}
-\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-% Set default figure placement to htbp
-\makeatletter
-\def\fps@figure{htbp}
-\makeatother
 \setlength{\emergencystretch}{3em} % prevent overfull lines
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
@@ -96,9 +83,9 @@
 
 
 
-%\setmainfont[Numbers=Lowercase]{IBMPlexSerif}
-%\setsansfont[Numbers=Lowercase]{IBMPlexSans}
-%\setmonofont[Numbers=Lowercase]{IBMPlexMono}
+\setmainfont[Numbers=Lowercase]{Cormorant}
+\setsansfont[Numbers=Lowercase]{Sora}
+\setmonofont[Numbers=Lowercase]{Space Mono}
 
 
 \usepackage[english]{babel}
@@ -122,13 +109,6 @@
 
 \makeatletter\let\Title\@title\makeatother
 %\makeatletter\let\Author\@author\makeatother
-
-
-
-\usepackage{sectsty}
-\allsectionsfont{\color{upol-dGrey}\sffamily}
-\chapterfont{\color{upol-dGrey}\raggedleft\thispagestyle{empty}}
-
 
 
 
@@ -187,13 +167,6 @@
 
 
 
-
-
-%\setcounter{secnumdepth}{5}
-%\setsecnumdepth{subsubsection}
-%\maxtocdepth{subsubsection}
-
-
 \setlength{\skip\footins}{3em}
 \renewcommand\footnoterule{{\hrule height 0pt}} % a long blue line
 
@@ -216,52 +189,6 @@
 
 
 
-
-%Options: Sonny, Lenny, Glenn, Conny, Rejne, Bjarne, Bjornstrup
-\usepackage[Bjornstrup]{fncychap}
-%\renewcommand{\CNoV}{\raggedleft\sffamily\selectfont\HUGE}
-  \ChNumVar{\Huge\sffamily\selectfont}
-\renewcommand{\DOCH}{%
-   \settowidth{\py}{\CNoV\thechapter}
-  \addtolength{\py}{1em}      % Amount of space by which the
-%                                % number is shifted right
-   \fboxsep=0pt%
-   \colorbox[gray]{.85}{\rule{0pt}{50pt}\parbox[b]{\textwidth}{\hfill}}%
-   \kern-\py\raise20pt%
-   \hbox{\color{gray}\CNoV\thechapter}\\%
-}
-
-\makeatletter
-\renewcommand*{\@makechapterhead}[1]{%
-  \vspace*{0\p@}%
-  {\parindent \z@ \raggedright \normalfont
-    \ifnum \c@secnumdepth >\m@ne
-      \if@mainmatter%%%%% Fix for frontmatter, mainmatter, and backmatter 040920
-        \DOCH
-      \fi
-    \fi
-    \interlinepenalty\@M
-    \if@mainmatter%%%%% Fix for frontmatter, mainmatter, and backmatter 060424
-      \DOTI{#1}%
-    \else%
-      \DOTIS{#1}%
-    \fi
-  }}
-% For the case \chapter*:
-\renewcommand*{\@makeschapterhead}[1]{%
-  \vspace*{10\p@}%
-  {\parindent \z@ \raggedright
-    \normalfont
-    \interlinepenalty\@M
-    \DOTIS{#1}
-    \vskip 0\p@
-  }}
-\makeatother
-
-
-
-
-\renewcommand*\chapterpagestyle{empty}
 
 
 
@@ -328,6 +255,8 @@
   {\par\normalfont\hfill--\ \chapquote@author\hspace*{\@tempdima}\par\vspace{4em}}
 \makeatother
 
+
+
 \frontmatter
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
@@ -335,7 +264,7 @@
 \usepackage[]{natbib}
 \bibliographystyle{apa}
 
-\title{Italian as non-native Language in Czechs and Slovak learners}
+\title{Italian as non-native language in Czech and Slovak learners}
 \usepackage{etoolbox}
 \makeatletter
 \providecommand{\subtitle}[1]{% add subtitle to \maketitle
@@ -344,7 +273,7 @@
 \makeatother
 \subtitle{From the development of a learner corpus towards a theoretical investigation}
 \author{Marco Petolicchio}
-\date{2022-05-18}
+\date{2022-05-20}
 
 \begin{document}
 \maketitle
@@ -363,29 +292,39 @@
 \textbf{\sffamily{Palacký University}} \textcolor{namecolor}{\sffamily{ Olomouc}}\par \vskip\baselineskip 
 
 \noindent\sffamily{Ph.D. Thesis in Italian Linguistics} \\
-\noindent\sffamily{Dept. of Romance Languages, Faculty of Arts} \par\vskip\baselineskip
+\noindent\sffamily{Department of Romance Languages, Faculty of Arts} \par\vskip\baselineskip
 
-\vspace{2em}
+\vspace{1em}
 
 \begin{flushleft}
 
 \noindent
-{\HUGE \sf \@title  \par}\vskip\baselineskip
+{\LARGE \sf \@title  \par}\vskip\baselineskip
 
 \noindent
-{\Large \sf \@subtitle \par} \vskip\baselineskip
+ \sf \@subtitle \par \vskip\baselineskip
 \end{flushleft}
 
 \noindent
-{\large{\sffamily\MakeTextUppercase{\@author}}\par} 
-\vspace{4em}
+{\sffamily\MakeTextUppercase{\@author}\par} 
 \par \vskip\baselineskip
 \noindent
+\vspace{1em}
+
 \noindent\sffamily{\textbf{Supervisors}}\par \vskip\baselineskip
 \noindent
-\sffamily{\MakeTextUppercase{Dr. Francesco Bianco, Ph.D.} \\ Palacký University · {Dept. of Romance Languages, Faculty of Arts} }\par \vskip\baselineskip
+\sffamily{\MakeTextUppercase{Dr. Francesco Bianco, Ph.D.} \\ 
+\small{\textbf{Palacký University} Olomouc \\
+Department of Romance Languages}} \par \vskip\baselineskip
+\par \vskip\baselineskip
 
-\vspace{3em}
+\noindent
+\sffamily{\MakeTextUppercase{Prof. Antonio Fábregas} \\ 
+\small{\textbf{UiT The Artic University of Norway} Tromsø \\
+Department of Language and Culture}} \par \vskip\baselineskip
+\par \vskip\baselineskip
+
+\vspace{2em}
 
  {\footnotesize   \ttfamily{draft : : \today   : :  \currenttime} \par}
 
@@ -397,18 +336,20 @@
 \pagecolor{white}
 
 {
-\setcounter{tocdepth}{1}
+\setcounter{tocdepth}{4}
 \tableofcontents
 }
 \listoftables
 \listoffigures
+\part{Outline}
+
 \hypertarget{preface}{%
 \chapter*{Preface}\label{preface}}
 \addcontentsline{toc}{chapter}{Preface}
 
-\hypertarget{abstract}{%
-\section*{Abstract}\label{abstract}}
-\addcontentsline{toc}{section}{Abstract}
+\hypertarget{annotation}{%
+\section*{Annotation}\label{annotation}}
+\addcontentsline{toc}{section}{Annotation}
 
 The main topic of this doctoral dissertation is on the analysis of syntactic structures in language acquisition, specifically in the domain of Czech and Slovak learners which acquire the Italian language. In particular, I will focus on the complex noun phrase subdomain, showing the compositionality of the phrase structure and the hierarchical fashion of this component.
 The analysis is casted in the Minimalist-oriented framework of the Generative Grammar \citep{chomsky1995, chomsky1998, chomsky2013, hcf2002} and its application in the field of the second language acquisition \citep{rothmanslabakova2017, slabakovalealliskin2014}.
@@ -418,11 +359,20 @@ The annotation schema of the data is standardized in order to adhere to the majo
 
 This research aims to offer a way to investigate how second language acquisition can be seen grounding on a coherent set of data in terms of annotation schema: it does insist either on the speculative questions both on computational models involved.
 
-\hypertarget{keywords}{%
-\section*{Keywords}\label{keywords}}
-\addcontentsline{toc}{section}{Keywords}
-
+\textbf{Keywords}
 Computational Linguistics; Syntax; Second Language Acquisition; Italian L2; Corpus Linguistics.
+
+\hypertarget{anotace}{%
+\section*{Anotace}\label{anotace}}
+\addcontentsline{toc}{section}{Anotace}
+
+\hypertarget{declaration}{%
+\section*{Declaration}\label{declaration}}
+\addcontentsline{toc}{section}{Declaration}
+
+\hypertarget{acknowledgements}{%
+\section*{Acknowledgements}\label{acknowledgements}}
+\addcontentsline{toc}{section}{Acknowledgements}
 
 \mainmatter
 
@@ -644,6 +594,8 @@ Third and fourth year will be spent in developing the theoretical analyses and r
 
 \textbf{Chapter 5} introduces \ldots{}
 
+\part{Background}\label{part-bg}
+
 \hypertarget{evidences-and-theories-in-a-linguistic-research}{%
 \chapter{Evidences and theories in a linguistic research}\label{evidences-and-theories-in-a-linguistic-research}}
 
@@ -700,8 +652,160 @@ Basing from evidences as the starting point for critical investigation, an induc
 \hypertarget{an-overview-of-the-second-language-acquisition}{%
 \chapter{An overview of the second language acquisition}\label{an-overview-of-the-second-language-acquisition}}
 
-\hypertarget{case-study-i}{%
-\chapter{Case study I}\label{case-study-i}}
+\hypertarget{the-generative-framework-and-sla}{%
+\chapter{The generative framework and SLA}\label{the-generative-framework-and-sla}}
+
+\hypertarget{narrow-syntax-and-interfaces}{%
+\section{Narrow syntax and interfaces}\label{narrow-syntax-and-interfaces}}
+
+\hypertarget{core-operations-in-syntax}{%
+\section{Core operations in syntax}\label{core-operations-in-syntax}}
+
+\hypertarget{parameters-and-learnability}{%
+\section{Parameters and learnability}\label{parameters-and-learnability}}
+
+\hypertarget{the-corpora}{%
+\chapter{The corpora}\label{the-corpora}}
+
+\hypertarget{a-comparison-across-the-corpora-of-italian-l2}{%
+\section{A comparison across the corpora of Italian L2}\label{a-comparison-across-the-corpora-of-italian-l2}}
+
+\hypertarget{description-and-size}{%
+\subsection{Description and size}\label{description-and-size}}
+
+\hypertarget{accessibility}{%
+\subsection{Accessibility}\label{accessibility}}
+
+\hypertarget{mono-lingual-corpora}{%
+\section{Mono-lingual corpora}\label{mono-lingual-corpora}}
+
+\hypertarget{czech-and-slovak-corpora}{%
+\subsection{Czech and Slovak corpora}\label{czech-and-slovak-corpora}}
+
+\hypertarget{italian-corpora}{%
+\subsection{Italian corpora}\label{italian-corpora}}
+
+\hypertarget{limits-and-needs}{%
+\section{Limits and needs}\label{limits-and-needs}}
+
+\part{Application}
+
+\hypertarget{the-datasets}{%
+\chapter{The dataset(s)}\label{the-datasets}}
+
+\hypertarget{the-corpus-czech-it}{%
+\section{The corpus ``Czech-IT''}\label{the-corpus-czech-it}}
+
+\hypertarget{description-and-size-1}{%
+\subsection{Description and size}\label{description-and-size-1}}
+
+\hypertarget{planning-the-corpus}{%
+\subsection{Planning the corpus}\label{planning-the-corpus}}
+
+\hypertarget{type-of-texts-and-data}{%
+\subsubsection{Type of texts and data}\label{type-of-texts-and-data}}
+
+\hypertarget{why-a-learner-based-corpus}{%
+\subsubsection{Why a learner-based corpus?}\label{why-a-learner-based-corpus}}
+
+\hypertarget{data-retrieving}{%
+\subsubsection{Data-retrieving}\label{data-retrieving}}
+
+\hypertarget{interacting-with-the-corpus}{%
+\subsection{Interacting with the corpus}\label{interacting-with-the-corpus}}
+
+\hypertarget{the-user-interface}{%
+\subsubsection{The user interface}\label{the-user-interface}}
+
+\hypertarget{the-computational-tools}{%
+\subsubsection{The computational tools}\label{the-computational-tools}}
+
+\hypertarget{nlp-tasks-and-examples}{%
+\subsubsection{NLP tasks and examples}\label{nlp-tasks-and-examples}}
+
+\hypertarget{additional-materials}{%
+\section{Additional materials}\label{additional-materials}}
+
+\hypertarget{online-surveys-and-questionaires}{%
+\subsection{Online surveys and questionaires}\label{online-surveys-and-questionaires}}
+
+\hypertarget{auto-corrective-forms}{%
+\subsection{Auto-corrective forms}\label{auto-corrective-forms}}
+
+\hypertarget{case-study-i-the-syntax-domain-of-dps}{%
+\chapter{Case study I: The syntax domain of DPs}\label{case-study-i-the-syntax-domain-of-dps}}
+
+\hypertarget{the-theoretical-status-of-dp-and-np}{%
+\section{The theoretical status of DP and NP}\label{the-theoretical-status-of-dp-and-np}}
+
+\hypertarget{the-dp-over-np-and-np-over-dp-debate}{%
+\subsection{The DP-over-NP and NP-over-DP debate}\label{the-dp-over-np-and-np-over-dp-debate}}
+
+\hypertarget{the-early-days-view}{%
+\subsubsection{The early-days view}\label{the-early-days-view}}
+
+\hypertarget{abneys-proposal}{%
+\subsubsection{Abney's proposal}\label{abneys-proposal}}
+
+\hypertarget{consequencies-for-the-theory}{%
+\subsection{Consequencies for the theory}\label{consequencies-for-the-theory}}
+
+\hypertarget{parameters-and-locality-effects}{%
+\subsubsection{Parameters and locality effects}\label{parameters-and-locality-effects}}
+
+\hypertarget{determiners-in-cesslk-and-ita}{%
+\section{Determiners in Ces/Slk and Ita}\label{determiners-in-cesslk-and-ita}}
+
+\hypertarget{typological-differences}{%
+\subsection{Typological differences}\label{typological-differences}}
+
+\hypertarget{theoretical-consequencies}{%
+\subsection{Theoretical consequencies}\label{theoretical-consequencies}}
+
+\hypertarget{learning-consequencies}{%
+\subsection{Learning consequencies}\label{learning-consequencies}}
+
+\hypertarget{the-acquisition-of-determiners}{%
+\section{The acquisition of Determiners}\label{the-acquisition-of-determiners}}
+
+\hypertarget{patterns-and-regularities}{%
+\subsection{Patterns and regularities}\label{patterns-and-regularities}}
+
+\hypertarget{errors}{%
+\subsubsection{Errors}\label{errors}}
+
+\hypertarget{choices}{%
+\subsubsection{Choices}\label{choices}}
+
+\hypertarget{the-acquisitional-path}{%
+\subsection{The acquisitional path}\label{the-acquisitional-path}}
+
+\hypertarget{language-level-and-acquisition}{%
+\subsubsection{Language level and acquisition}\label{language-level-and-acquisition}}
+
+\hypertarget{other-important-facts}{%
+\subsubsection{Other important facts}\label{other-important-facts}}
+
+\hypertarget{determiners-with-pps}{%
+\subsection{Determiners with PPs}\label{determiners-with-pps}}
+
+\hypertarget{asimmetries-in-learning}{%
+\subsubsection{Asimmetries in learning}\label{asimmetries-in-learning}}
+
+\hypertarget{useful-strategies-for-teaching}{%
+\subsubsection{Useful strategies for teaching}\label{useful-strategies-for-teaching}}
+
+\hypertarget{determiners-with-kinship-nouns}{%
+\subsection{Determiners with kinship nouns}\label{determiners-with-kinship-nouns}}
+
+\hypertarget{gram-clusters-with-poss}{%
+\subsubsection{2-gram clusters with POSS}\label{gram-clusters-with-poss}}
+
+\hypertarget{n-gram-clusters-with-adjectives}{%
+\subsubsection{N-gram clusters with Adjectives}\label{n-gram-clusters-with-adjectives}}
+
+\hypertarget{determiners-adjectives-quantifiers}{%
+\section{Determiners, Adjectives, Quantifiers}\label{determiners-adjectives-quantifiers}}
 
 \hypertarget{case-study-ii}{%
 \chapter{Case Study II}\label{case-study-ii}}
@@ -709,63 +813,10 @@ Basing from evidences as the starting point for critical investigation, an induc
 \hypertarget{case-study-iii}{%
 \chapter{Case study III}\label{case-study-iii}}
 
+\part{Conclusion}
+
 \hypertarget{conclusive-remarks}{%
 \chapter{Conclusive remarks}\label{conclusive-remarks}}
-
-\backmatter
-
-\hypertarget{backmatter}{%
-\chapter{Backmatter}\label{backmatter}}
-
-\hypertarget{colophon}{%
-\section{Colophon}\label{colophon}}
-
-This document is typeset with LaTeX using a custom template based on KOMA-script SCRBOOK class. The layout is based on a standard A4 paper (210 x 297mm), with 40mm margins and 10mm of binding offset.
-
-The typesetting software used the XeTeX engine and the text is set in the open source IBM Plex font family -- in Serif, Sans Serif and Monospace variants.
-
-\hypertarget{credits}{%
-\section{Credits}\label{credits}}
-
-This project is constituted by files written in Markdown syntax and exported either as a standalone website both as printer-ready product. This is due to the awesome work of the people behind different libraries:
-
-\begin{itemize}
-\tightlist
-\item
-  \href{https://bookdown.org}{Pandoc}
-\item
-  \href{https://bookdown.org}{Bookdown}
-\item
-  \href{https://bookdown.org}{RMarkdown} and \href{https://bookdown.org}{R} environment.
-\end{itemize}
-
-As well, for the computational infrastructure, some tools have been used:
-
-\begin{itemize}
-\tightlist
-\item
-  \href{https://bookdown.org}{NLTK}
-\item
-  UDPIPE
-\item
-  SciPY
-\end{itemize}
-
-\hypertarget{about-the-author}{%
-\section{About the author}\label{about-the-author}}
-
-I am a Graduate Researcher involved in a Ph.D.~Program in Italian Linguistics at the Department of Romance Studies in the Faculty of Philosophy at Palacky University in Olomouc, Czech Republic.
-
-My interests span across digital humanities, syntax theories and computational linguistics.
-
-Feel free to write me at \href{mailto:marco.petolicchio@gmail.com}{\nolinkurl{marco.petolicchio@gmail.com}} or visit \href{http://marcopetolicchio.com}{marcopetolicchio.com} for the detailed contact list.
-
-\hypertarget{progress-in-the-repository}{%
-\section{Progress in the repository}\label{progress-in-the-repository}}
-
-This graph represents the addition and deletion amount in the files of the project in function of time.
-
-\includegraphics{phdThesis_files/figure-latex/unnamed-chunk-1-1.pdf}
 
   \bibliography{bibliography.bib}
 

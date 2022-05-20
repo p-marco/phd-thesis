@@ -15,6 +15,7 @@ bookdown::gitbook:
     edit: https://github.com/p-marco/phd-thesis/edit/master/%s
     download: ["pdf", "docx", "epub", "tex" ]
 bookdown::pdf_book:
+  toc_depth: 5
   template: null
   includes: 
     in_header: latex/preamble.tex

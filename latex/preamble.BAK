@@ -21,9 +21,9 @@
 
 
 
-\setmainfont[Numbers=Lowercase]{Cormorant}
-\setsansfont[Numbers=Lowercase]{Sora}
-\setmonofont[Numbers=Lowercase]{Space Mono}
+\setmainfont[Numbers=Lowercase]{IBM Plex Serif}
+\setsansfont[Numbers=Lowercase]{IBM Plex Sans}
+\setmonofont[Numbers=Lowercase]{IBM Plex Mono}
 
 
 \usepackage[english]{babel}
@@ -47,6 +47,13 @@
 
 \makeatletter\let\Title\@title\makeatother
 %\makeatletter\let\Author\@author\makeatother
+
+
+
+\usepackage{sectsty}
+\allsectionsfont{\color{upol-dGrey}\sffamily}
+\chapterfont{\color{upol-dGrey}\raggedleft\thispagestyle{empty}}
+
 
 
 
@@ -105,6 +112,13 @@
 
 
 
+
+
+%\setcounter{secnumdepth}{5}
+%\setsecnumdepth{subsubsection}
+%\maxtocdepth{subsubsection}
+
+
 \setlength{\skip\footins}{3em}
 \renewcommand\footnoterule{{\hrule height 0pt}} % a long blue line
 
@@ -127,6 +141,52 @@
 
 
 
+
+%Options: Sonny, Lenny, Glenn, Conny, Rejne, Bjarne, Bjornstrup
+\usepackage[Bjornstrup]{fncychap}
+%\renewcommand{\CNoV}{\raggedleft\sffamily\selectfont\HUGE}
+  \ChNumVar{\Huge\sffamily\selectfont}
+\renewcommand{\DOCH}{%
+   \settowidth{\py}{\CNoV\thechapter}
+  \addtolength{\py}{1em}      % Amount of space by which the
+%                                % number is shifted right
+   \fboxsep=0pt%
+   \colorbox[gray]{.85}{\rule{0pt}{50pt}\parbox[b]{\textwidth}{\hfill}}%
+   \kern-\py\raise20pt%
+   \hbox{\color{gray}\CNoV\thechapter}\\%
+}
+
+\makeatletter
+\renewcommand*{\@makechapterhead}[1]{%
+  \vspace*{0\p@}%
+  {\parindent \z@ \raggedright \normalfont
+    \ifnum \c@secnumdepth >\m@ne
+      \if@mainmatter%%%%% Fix for frontmatter, mainmatter, and backmatter 040920
+        \DOCH
+      \fi
+    \fi
+    \interlinepenalty\@M
+    \if@mainmatter%%%%% Fix for frontmatter, mainmatter, and backmatter 060424
+      \DOTI{#1}%
+    \else%
+      \DOTIS{#1}%
+    \fi
+  }}
+% For the case \chapter*:
+\renewcommand*{\@makeschapterhead}[1]{%
+  \vspace*{10\p@}%
+  {\parindent \z@ \raggedright
+    \normalfont
+    \interlinepenalty\@M
+    \DOTIS{#1}
+    \vskip 0\p@
+  }}
+\makeatother
+
+
+
+
+\renewcommand*\chapterpagestyle{empty}
 
 
 
@@ -192,6 +252,18 @@
    \itshape}
   {\par\normalfont\hfill--\ \chapquote@author\hspace*{\@tempdima}\par\vspace{4em}}
 \makeatother
+
+
+\def\mypart#1#2{%
+  \par\break % Page break
+  \vskip .3\vsize % Vertical shift
+  \refstepcounter{part}% Next part
+  {\centering\Large Part \thepart.\par}% 
+  \vskip .1\vsize % Vertical shift 
+  % Some text
+  #2
+  \vfill\break % Fill the end of page and page break
+}
 
 
 

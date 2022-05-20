@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1652890243 "/home/marco/Projects/repos/phd-thesis/phdThesis.tex" "/home/marco/Projects/repos/phd-thesis/phdThesis.pdf" "phdThesis" 1652890243
+["pdflatex"] 1652947057 "/home/marco/Projects/repos/phd-thesis/phdThesis.tex" "/home/marco/Projects/repos/phd-thesis/phdThesis.pdf" "phdThesis" 1652947057
   "/etc/texmf/web2c/texmf.cnf" 1628663861 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/marco/Projects/repos/phd-thesis/phdThesis.aux" 1652890243 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/home/marco/Projects/repos/phd-thesis/phdThesis.tex" 1652890243 38521 dbd0069f881508cbdc3f059a65d38b98 ""
+  "/home/marco/Projects/repos/phd-thesis/phdThesis.aux" 1652947057 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/home/marco/Projects/repos/phd-thesis/phdThesis.tex" 1652947057 37249 cefb010e9fc434983c7f637479a26350 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
   "/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -79,8 +79,8 @@
   "/usr/share/texmf/tex/latex/lm/t1lmr.fd" 1256929440 1865 afbfccbe7fda9c2dc5078ad7c486bbed ""
   "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1628663905 8256561 cabd2c577d770744abf7fb9d486df12c ""
-  "phdThesis.tex" 1652890243 38521 dbd0069f881508cbdc3f059a65d38b98 ""
+  "phdThesis.tex" 1652947057 37249 cefb010e9fc434983c7f637479a26350 ""
   (generated)
+  "phdThesis.log"
   "/home/marco/Projects/repos/phd-thesis/phdThesis.log"
   "/home/marco/Projects/repos/phd-thesis/phdThesis.pdf"
-  "phdThesis.log"
