@@ -2,14 +2,14 @@
 
 # Introduction
 
-
+The main question of this thesis yields a twofold mindset that is not a corollary of the research but represents the process in which the work was conducted: how could I investigate a particular area of the language faculty as language acquisition in a way which can gain from the usage of the digital instruments in order to ground the theoretical analysis on actual data?
 
 The idea under this research moves across the motivation to investigate over an empirically-grounded path the strategies shown by the learners during the acquisition of second languages, using an established coherent digital architecture. 
 My task is twofold: on one side this provides for the developing of a  theoretically-grounded framework to research in the fields of Second Language Acquisition (SLA), while on the other this necessitates to develop a linguistic corpus which collects into a coherent fashion a set of data that represent some spotted linguistic fact in order to give a transparent documentation of the learning path.
 The usage of the modern tools in developing a linguistic corpus yields for a fully documentable research path, in which is possible to reconstruct the steps and the choices which underlie its development, the methods used in the analysis, the correctness of the outcomes.
 This kind of research is intimately multidisciplinar in nature, embracing different approaches and areas of interest: digital humanities, corpus and computational linguistics for the development of the linguistic corpus, general and theoretical linguistics, studies on SLA and interlanguage for the theoretical analysis. 
 
-This introductive chapter collects a preliminary way to represent the main areas of the research, the methods involved in the analysis and their possible outcomes.
+This introductive chapter collects a preliminary way to represent the main areas of the research, the methods involved in the analysis and the possible outcomes of such a way to conduct the work.
 
 
 
@@ -18,7 +18,7 @@ This introductive chapter collects a preliminary way to represent the main areas
 
 
 
-## Corpus-based approach: motivations for the thesis
+## Background for the thesis
 
 Corpus Linguistics is a field of approaches developed during the last decades in order to give an empirical support to the investigations on language use and variation. It can offer strong support for analyzing the systematics which underlies the variations among the language use, yielding for empirical and quantitative methods.
 
@@ -43,6 +43,7 @@ On the other, the *corpus-based* approach permits to ground the hypothesis on a 
 
 
 
+### Corpus-based approach: motivations for the thesis
 
 While a strong opposition between the way to approach the corpora can be fairly molded during the actual analysis of the data in a softer manner, it can be useful to stand up and recognize those models to threat linguistic data as a two different standpoints to keep in mind for the different purposes they grow on:
 
@@ -74,6 +75,48 @@ As in Fillmore's quotation, it appears that the distinction between deductive an
 In this sense, while a *corpus-based* approach aims to generalize a picture *before* than the actual recognition of the data and the dataset takes place, it can be possible to softener a bit this difference amongst these models keeping in mind the perspective of corpus-developing related issues.
 
 In the subsequent parts of the thesis I will try to show how the way to develop a linguistic corpus has a certain degree of influence for the successive part of research activities, and how a purely *corpus-based* method could not be apply if the research is conducted by the same person which started to collect the data.  
+
+
+
+
+### Learners corpora of Italian L2: an overview
+
+In this section I am going to summarize the most representative Italian L2 learner corpora available online, including Czech-IT, which I have co-founded since July, 2017. I will present all the relevant information and discuss the central topics of the project in a dedicate part of the thesis, while for now I list the most evaluable corpora for studying Italian as 2nd language: 
+
+* **[GranVALICO](http://www.valico.org/valico_b_CORPUS.html)** and **[VALICO](http://www.valico.org/valico_CORPUS.html)** [@valico]  
+Learner corpora provided by Turin University. They represent the most valuable sources of Italian L2 corpora. They are composed by written texts composed by the students which have the assignment to describe the vignettes provided by the teachers. The corpora are accessible online with an advanced search that permits to filter the data by different parameters (e.g. learners' L1 and education, assignments etc.). 
+
+* **[MERLIN](http://merlin-platform.eu)** [@merlin]  
+The MERLIN Corpus represents a wide-range multilingual documented resource which collects 2.286 texts written by learners of Czech, Italian and German. 
+Started in 2012, the main objective is to show the different levels of acquiring languages by the usage of written texts, relying on the CEFR level schema on L2 acquisition.
+The Italian-L2 subcorpus contains 813 texts.
+
+* **[LIPS](http://parlaritaliano.it/index.php/en/data/653-corpus-lips)** [@lips]    
+The corpus contains the transcriptions of more than 2000 audio files by CILS - Certificazione di Italiano come Lingua Straniera (CILS) at the Università per Stranieri of Siena between the years 1993--2006.
+With more than 700k of words divided in *monologues* and *dialogues* between the candidate and the examiner, it represents one of the biggest corpora of Italian L2. The corpus is POS annotated using the tool Treetagger [@schmid1994].  
+
+* **[Czech-IT](http://czech-it.github.io)** [@czech-it]  
+The Czech-IT corpus contains chat messages, emails, coversations, surveys and assignments by more than **r toString(round((as.integer(czechit_datasetCountLearners/10))*10))** Czech and Slovak learners of Italian language. 
+Started in 2017, it is fully accessible online while the data acquisition continues. The whole dataset is fully interrogable by an interactive interface and released with a Creative Commons license; POS and automatic tagging are in tune. 
+
+* **[Corpus Italiano scritto L2](http://www.parlaritaliano.it/index.php/it/corpora-di-parlato/662-corpus-italiano-scritto-l2)** [@vogheraturco2010]  
+The corpus retains 227 written texts by undergraduate students of different native languages, which study Italian as a foreign language for their courses at the University of Greenwich. 
+Learners' L1 are: albanian, bosniac, chinese, french, greek, english, norwegian, portuguese, spanish, tigrinya.  
+The type of texts are: *descriptive*, *narrative* and *argumental*.
+The texts are syntactically annotated and the tagset is available in xml format.  
+
+
+| Corpus     					| L1      | Texts 			| Tokens  	| Lemma  | Years        	|
+|-------------------------------|---------|----------------:|----------:|-------:|-----------------:|
+| GranVALICO 					| Various | 4778	  		|  784217 	| 13057  | 2002--2007   	|
+| VALICO     					| Various | 2502  			|  382098 	|  6935  |              	|
+| LIPS       					| Various | 2198  			| > 700000	|        | 1993--2006   	|
+| MERLIN     					| Various |  813	        |         	|        | 2012--?      	|
+| Czech-IT   					| cs,sk   | **r toString(nrow(czechit_dataset))**|**r toString(sum(czechit_datasetCountTokens))**	|        | 2017--present	|
+| Corpus Italiano Scritto L2   	| Various |  227    		|   22931 	|        | 2010?			|
+
+Table: Size of Italian L2 Corpora
+
 
 
 
